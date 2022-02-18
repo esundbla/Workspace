@@ -1,0 +1,114 @@
+----------------------------------------------------------
+Vecmath Lite
+Version 1.0
+Release Notes:
+----------------------------------------------------------
+This is a new float only implementation of javax.vecmath.* excluding infrequently used methods.  See details below.
+----------------------------------------------------------
+General design choices:
+----------------------------------------------------------
+No Hashcode - 
+	Hashcode implementations can vary widely.  The javax.vecmath hashcodes are quite expensive in execution and depending on the use this can be a significiant problem.  Hashcode override implementation is left to the user if desired.
+
+No Clamping Methods
+
+Only support floating point versions
+	There are no double, int or byte classes, therefore there are no double convience methods in the remaining float classes.
+
+No Point Classes
+	Several point type methods have been added to the Vector classes to support the Point operations in the Vector classes.  It is the intention of this implementaion that the Vector*f classes be used for vectors AND/OR point representation as needed.  There are many pro and cons to this design choice as dicussed on the www.javagaming.org forums and elsewhere outside of the Java space.  This implementaion will not have seperate Point classes.
+
+No Tuple Classes
+	There is no need for Tuple parent types since there would only be one child class for each type.  Here each class is fully implemented.
+
+No Color Classes
+	All color types are dropped/unimplemented.  However, the Color3f convience methods have been added to Vector3f.
+
+Added one method in Matrix4, orthonormalInvert(). See Javadocs for details.
+
+Package name may change in future releases.
+
+----------------------------------------------------------
+javax.vecmath Classes partially supported:
+----------------------------------------------------------
+Matrix3f
+Matrix4f
+	No set/get column/row convience methods
+	No getScale()
+	No mulNomalzied
+	No transform(Tuple4f)
+	No transform(Point3f)
+	No normalizeCP(Matrix3f)
+	No methods that need the Single Value Decomposition to calculate there output.i.e from the vecmath javadocs "SVD normalization".  Mostly these are normalization related methods, but also include the set/getQuat and get/Set((Matrix3f matrix3f, Vector3f vector3f)
+	No mulTransposes
+
+---------
+Quat4d
+Quat4f
+	Added interpolationLinear which computes simple linear interpolation as if the Quat as a 4D Vector.	True quat interpolation (slerp) not implemented yet. (priority 1)
+	No mulInverse(Quat4f)
+
+---------
+Vector2f
+Vector3f
+	General, toString output format is the same as original vecmath.
+
+-----------------------------
+javax.vecmath Classes not implemented or supported 
+
+No AxisAngle types in current release but possible in future release.
+AxisAngle4d
+AxisAngle4f
+
+All color types dropped/unimplemented.
+However, the Color3f convience methods have been added to Vector3f
+Color3b
+Color3f
+Color4b
+Color4f
+
+Not supported:
+GMatrix
+GVector
+Matrix3d
+Matrix4d
+
+No direct support for point classes.  The few different Point methods were added to Vector*f
+Point2d
+Point2f
+Point3d
+Point3f
+Point3i
+Point4d
+Point4f
+Point4i
+
+Not supported, use Vector*f
+TexCoord2f
+TexCoord3f
+TexCoord4f
+
+Not supported
+Tuple2d
+Tuple2f
+Tuple3b
+Tuple3d
+Tuple3f
+Tuple3i
+Tuple4b
+Tuple4d
+Tuple4f
+Tuple4i
+
+
+Not supported:
+Vector2d
+Vector3d
+Vector4d
+
+Not implemented but likely in future release
+Vector4f
+
+Not implemented but possible in future release. 
+MismatchedSizeException
+SingularMatrixException

@@ -1,0 +1,487 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" id="3DBOXXR1AdministratorJOGLProjects2309" metadata="nsuml-1.4" initialized="true" showWireOptions="7" zoom="0.12867647058823528">
+  <children xsi:type="editmodel:ClassEditModel" location="1244,2099" size="125,85" targetConnections="//@children.10/@sourceConnections.10" id="3DBOXXR1AdministratorJOGLProjects441" runTimeClassModel="3DBOXXR1AdministratorJOGLProjects442;3DBOXXR1AdministratorJOGLProjects446">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="73,36">
+      <children xsi:type="editmodel:MethodEditModel" id="3DBOXXR1AdministratorJOGLProjects442"/>
+      <children xsi:type="editmodel:MethodEditModel" id="3DBOXXR1AdministratorJOGLProjects446"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="3DBOXXR1AdministratorJOGLProjects452" connectionRouterKind="Manhattan" source="//@children.0" target="//@children.2" targetEnd="//@children.0/@sourceConnections.0/@children.1" sourceEnd="//@children.0/@sourceConnections.0/@children.0">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="-1,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showPublicMethods="true" showPackageMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" location="3279,1884" size="139,157" targetConnections="//@children.1/@sourceConnections.1" id="3DBOXXR1AdministratorJOGLProjects707" runTimeClassModel="3DBOXXR1AdministratorJOGLProjects711;3DBOXXR1AdministratorJOGLProjects708;3DBOXXR1AdministratorJOGLProjects733;3DBOXXR1AdministratorJOGLProjects722;3DBOXXR1AdministratorJOGLProjects736;3DBOXXR1AdministratorJOGLProjects725;3DBOXXR1AdministratorJOGLProjects760;3DBOXXR1AdministratorJOGLProjects714;3DBOXXR1AdministratorJOGLProjects710;3DBOXXR1AdministratorJOGLProjects713;3DBOXXR1AdministratorJOGLProjects764;3DBOXXR1AdministratorJOGLProjects719;3DBOXXR1AdministratorJOGLProjects738;3DBOXXR1AdministratorJOGLProjects742;3DBOXXR1AdministratorJOGLProjects716;3DBOXXR1AdministratorJOGLProjects756;3DBOXXR1AdministratorJOGLProjects728;3DBOXXR1AdministratorJOGLProjects745">
+    <children xsi:type="editmodel:CompartmentEditModel" size="99,36">
+      <children xsi:type="editmodel:AttributeEditModel" id="3DBOXXR1AdministratorJOGLProjects716"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="3DBOXXR1AdministratorJOGLProjects714"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="101,72">
+      <children xsi:type="editmodel:MethodEditModel" id="3DBOXXR1AdministratorJOGLProjects742"/>
+      <children xsi:type="editmodel:MethodEditModel" id="3DBOXXR1AdministratorJOGLProjects756"/>
+      <children xsi:type="editmodel:MethodEditModel" id="3DBOXXR1AdministratorJOGLProjects745"/>
+      <children xsi:type="editmodel:MethodEditModel" id="3DBOXXR1AdministratorJOGLProjects764"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="3DBOXXR1AdministratorJOGLProjects821" connectionRouterKind="Manhattan" source="//@children.1" target="//@children.3" targetEnd="//@children.1/@sourceConnections.0/@children.1" sourceEnd="//@children.1/@sourceConnections.0/@children.0">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,-1" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" id="3DBOXXR1AdministratorJOGLProjects708" connectionRouterKind="Manhattan" source="//@children.1" target="//@children.1" targetEnd="//@children.1/@sourceConnections.1/@children.0" sourceEnd="//@children.1/@sourceConnections.1/@children.1">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,20" id="3DBOXXR1AdministratorJOGLProjects708" anchorKind="FixedAtEdge" navigable="true" flags="2" multiplicityLabel="//@children.1/@sourceConnections.1/@children.0/@children.1" roleLabel="//@children.1/@sourceConnections.1/@children.0/@children.0">
+        <children xsi:type="editmodel:LabelEditModel" size="42,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" size="19,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="20,0" anchorKind="FixedAtEdge" attachSource="true"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="3DBOXXR1AdministratorJOGLProjects857" connectionRouterKind="Manhattan" source="//@children.1" target="//@children.6" targetEnd="//@children.1/@sourceConnections.2/@children.1" sourceEnd="//@children.1/@sourceConnections.2/@children.0">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,-1" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showPublicMethods="true" showPackageMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" location="1875,2424" size="216,463" targetConnections="//@children.11/@sourceConnections.1 //@children.13/@sourceConnections.0 //@children.10/@sourceConnections.5 //@children.10/@sourceConnections.8 //@children.0/@sourceConnections.0" id="3DBOXXR1AdministratorJOGLProjects450" runTimeClassModel="3DBOXXR1AdministratorJOGLProjects1311;3DBOXXR1AdministratorJOGLProjects1323;3DBOXXR1AdministratorJOGLProjects1315;3DBOXXR1AdministratorJOGLProjects1289;3DBOXXR1AdministratorJOGLProjects1319;3DBOXXR1AdministratorJOGLProjects1298;3DBOXXR1AdministratorJOGLProjects1337;3DBOXXR1AdministratorJOGLProjects1303;3DBOXXR1AdministratorJOGLProjects1325;3DBOXXR1AdministratorJOGLProjects1341;3DBOXXR1AdministratorJOGLProjects1301;3DBOXXR1AdministratorJOGLProjects1329;3DBOXXR1AdministratorJOGLProjects1343;3DBOXXR1AdministratorJOGLProjects1339;3DBOXXR1AdministratorJOGLProjects1293;3DBOXXR1AdministratorJOGLProjects1317;3DBOXXR1AdministratorJOGLProjects1333;3DBOXXR1AdministratorJOGLProjects1305;3DBOXXR1AdministratorJOGLProjects1327;3DBOXXR1AdministratorJOGLProjects1295;3DBOXXR1AdministratorJOGLProjects1313;3DBOXXR1AdministratorJOGLProjects1335;3DBOXXR1AdministratorJOGLProjects1309">
+    <children xsi:type="editmodel:CompartmentEditModel" size="193,378">
+      <children xsi:type="editmodel:AttributeEditModel" id="3DBOXXR1AdministratorJOGLProjects1339"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="3DBOXXR1AdministratorJOGLProjects1309"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="3DBOXXR1AdministratorJOGLProjects1293"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="3DBOXXR1AdministratorJOGLProjects1301"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="3DBOXXR1AdministratorJOGLProjects1315"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="3DBOXXR1AdministratorJOGLProjects1327"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="3DBOXXR1AdministratorJOGLProjects1298"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="3DBOXXR1AdministratorJOGLProjects1313"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="3DBOXXR1AdministratorJOGLProjects1323"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="3DBOXXR1AdministratorJOGLProjects1335"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="3DBOXXR1AdministratorJOGLProjects1333"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="3DBOXXR1AdministratorJOGLProjects1289"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="3DBOXXR1AdministratorJOGLProjects1329"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="3DBOXXR1AdministratorJOGLProjects1303"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="3DBOXXR1AdministratorJOGLProjects1317"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="3DBOXXR1AdministratorJOGLProjects1337"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="3DBOXXR1AdministratorJOGLProjects1305"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="3DBOXXR1AdministratorJOGLProjects1319"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="3DBOXXR1AdministratorJOGLProjects1325"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="3DBOXXR1AdministratorJOGLProjects1295"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="3DBOXXR1AdministratorJOGLProjects1311"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="97,36">
+      <children xsi:type="editmodel:MethodEditModel" id="3DBOXXR1AdministratorJOGLProjects1341"/>
+      <children xsi:type="editmodel:MethodEditModel" id="3DBOXXR1AdministratorJOGLProjects1343"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="3DBOXXR1AdministratorJOGLProjects1346" connectionRouterKind="Manhattan" source="//@children.2" target="//@children.9" targetEnd="//@children.2/@sourceConnections.0/@children.1" sourceEnd="//@children.2/@sourceConnections.0/@children.0">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,-1" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="3DBOXXR1AdministratorJOGLProjects1351" connectionRouterKind="Manhattan" source="//@children.2" target="//@children.3" targetEnd="//@children.2/@sourceConnections.1/@children.1" sourceEnd="//@children.2/@sourceConnections.1/@children.0">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,-1" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" id="3DBOXXR1AdministratorJOGLProjects1329" connectionRouterKind="Manhattan" source="//@children.2" target="//@children.3" targetEnd="//@children.2/@sourceConnections.2/@children.0" sourceEnd="//@children.2/@sourceConnections.2/@children.1">
+      <children xsi:type="editmodel:AssociationEndEditModel" id="3DBOXXR1AdministratorJOGLProjects1329" navigable="true" flags="1" multiplicityLabel="//@children.2/@sourceConnections.2/@children.0/@children.1" roleLabel="//@children.2/@sourceConnections.2/@children.0/@children.0">
+        <children xsi:type="editmodel:LabelEditModel" size="58,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" size="17,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,-1" attachSource="true"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" id="3DBOXXR1AdministratorJOGLProjects1339" connectionRouterKind="Manhattan" source="//@children.2" target="//@children.9" targetEnd="//@children.2/@sourceConnections.3/@children.0" sourceEnd="//@children.2/@sourceConnections.3/@children.1">
+      <children xsi:type="editmodel:AssociationEndEditModel" id="3DBOXXR1AdministratorJOGLProjects1339" navigable="true" flags="1" multiplicityLabel="//@children.2/@sourceConnections.3/@children.0/@children.1" roleLabel="//@children.2/@sourceConnections.3/@children.0/@children.0">
+        <children xsi:type="editmodel:LabelEditModel" size="59,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" size="19,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,-1" attachSource="true"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showPublicMethods="true" showPackageMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" location="2761,1786" size="141,517" targetConnections="//@children.7/@sourceConnections.0 //@children.1/@sourceConnections.0 //@children.2/@sourceConnections.1 //@children.8/@sourceConnections.0 //@children.2/@sourceConnections.2 //@children.8/@sourceConnections.1" id="3DBOXXR1AdministratorJOGLProjects64" runTimeClassModel="3DBOXXR1AdministratorJOGLProjects687;3DBOXXR1AdministratorJOGLProjects672;3DBOXXR1AdministratorJOGLProjects640;3DBOXXR1AdministratorJOGLProjects621;3DBOXXR1AdministratorJOGLProjects617;3DBOXXR1AdministratorJOGLProjects606;3DBOXXR1AdministratorJOGLProjects677;3DBOXXR1AdministratorJOGLProjects657;3DBOXXR1AdministratorJOGLProjects667;3DBOXXR1AdministratorJOGLProjects682;3DBOXXR1AdministratorJOGLProjects645;3DBOXXR1AdministratorJOGLProjects620;3DBOXXR1AdministratorJOGLProjects642;3DBOXXR1AdministratorJOGLProjects604;3DBOXXR1AdministratorJOGLProjects692;3DBOXXR1AdministratorJOGLProjects670;3DBOXXR1AdministratorJOGLProjects623;3DBOXXR1AdministratorJOGLProjects660;3DBOXXR1AdministratorJOGLProjects647;3DBOXXR1AdministratorJOGLProjects619;3DBOXXR1AdministratorJOGLProjects695;3DBOXXR1AdministratorJOGLProjects680;3DBOXXR1AdministratorJOGLProjects611;3DBOXXR1AdministratorJOGLProjects650;3DBOXXR1AdministratorJOGLProjects625;3DBOXXR1AdministratorJOGLProjects610;3DBOXXR1AdministratorJOGLProjects662;3DBOXXR1AdministratorJOGLProjects690;3DBOXXR1AdministratorJOGLProjects635;3DBOXXR1AdministratorJOGLProjects675;3DBOXXR1AdministratorJOGLProjects652;3DBOXXR1AdministratorJOGLProjects637;3DBOXXR1AdministratorJOGLProjects607;3DBOXXR1AdministratorJOGLProjects685;3DBOXXR1AdministratorJOGLProjects618;3DBOXXR1AdministratorJOGLProjects616;3DBOXXR1AdministratorJOGLProjects615;3DBOXXR1AdministratorJOGLProjects655;3DBOXXR1AdministratorJOGLProjects608;3DBOXXR1AdministratorJOGLProjects665">
+    <children xsi:type="editmodel:CompartmentEditModel" size="110,18">
+      <children xsi:type="editmodel:AttributeEditModel" id="3DBOXXR1AdministratorJOGLProjects623"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="118,450">
+      <children xsi:type="editmodel:MethodEditModel" id="3DBOXXR1AdministratorJOGLProjects625"/>
+      <children xsi:type="editmodel:MethodEditModel" id="3DBOXXR1AdministratorJOGLProjects640"/>
+      <children xsi:type="editmodel:MethodEditModel" id="3DBOXXR1AdministratorJOGLProjects670"/>
+      <children xsi:type="editmodel:MethodEditModel" id="3DBOXXR1AdministratorJOGLProjects650"/>
+      <children xsi:type="editmodel:MethodEditModel" id="3DBOXXR1AdministratorJOGLProjects680"/>
+      <children xsi:type="editmodel:MethodEditModel" id="3DBOXXR1AdministratorJOGLProjects675"/>
+      <children xsi:type="editmodel:MethodEditModel" id="3DBOXXR1AdministratorJOGLProjects635"/>
+      <children xsi:type="editmodel:MethodEditModel" id="3DBOXXR1AdministratorJOGLProjects665"/>
+      <children xsi:type="editmodel:MethodEditModel" id="3DBOXXR1AdministratorJOGLProjects660"/>
+      <children xsi:type="editmodel:MethodEditModel" id="3DBOXXR1AdministratorJOGLProjects655"/>
+      <children xsi:type="editmodel:MethodEditModel" id="3DBOXXR1AdministratorJOGLProjects645"/>
+      <children xsi:type="editmodel:MethodEditModel" id="3DBOXXR1AdministratorJOGLProjects690"/>
+      <children xsi:type="editmodel:MethodEditModel" id="3DBOXXR1AdministratorJOGLProjects685"/>
+      <children xsi:type="editmodel:MethodEditModel" id="3DBOXXR1AdministratorJOGLProjects642"/>
+      <children xsi:type="editmodel:MethodEditModel" id="3DBOXXR1AdministratorJOGLProjects672"/>
+      <children xsi:type="editmodel:MethodEditModel" id="3DBOXXR1AdministratorJOGLProjects652"/>
+      <children xsi:type="editmodel:MethodEditModel" id="3DBOXXR1AdministratorJOGLProjects682"/>
+      <children xsi:type="editmodel:MethodEditModel" id="3DBOXXR1AdministratorJOGLProjects677"/>
+      <children xsi:type="editmodel:MethodEditModel" id="3DBOXXR1AdministratorJOGLProjects692"/>
+      <children xsi:type="editmodel:MethodEditModel" id="3DBOXXR1AdministratorJOGLProjects637"/>
+      <children xsi:type="editmodel:MethodEditModel" id="3DBOXXR1AdministratorJOGLProjects667"/>
+      <children xsi:type="editmodel:MethodEditModel" id="3DBOXXR1AdministratorJOGLProjects662"/>
+      <children xsi:type="editmodel:MethodEditModel" id="3DBOXXR1AdministratorJOGLProjects657"/>
+      <children xsi:type="editmodel:MethodEditModel" id="3DBOXXR1AdministratorJOGLProjects647"/>
+      <children xsi:type="editmodel:MethodEditModel" id="3DBOXXR1AdministratorJOGLProjects687"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showPublicMethods="true" showPackageMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" location="2827,3402" size="226,409" targetConnections="//@children.11/@sourceConnections.0 //@children.10/@sourceConnections.1 //@children.10/@sourceConnections.6" id="3DBOXXR1AdministratorJOGLProjects485" runTimeClassModel="3DBOXXR1AdministratorJOGLProjects1172;3DBOXXR1AdministratorJOGLProjects1177;3DBOXXR1AdministratorJOGLProjects1131;3DBOXXR1AdministratorJOGLProjects1175;3DBOXXR1AdministratorJOGLProjects1153;3DBOXXR1AdministratorJOGLProjects1162;3DBOXXR1AdministratorJOGLProjects1155;3DBOXXR1AdministratorJOGLProjects1149;3DBOXXR1AdministratorJOGLProjects1125;3DBOXXR1AdministratorJOGLProjects1151;3DBOXXR1AdministratorJOGLProjects1127;3DBOXXR1AdministratorJOGLProjects1159;3DBOXXR1AdministratorJOGLProjects1180;3DBOXXR1AdministratorJOGLProjects1170;3DBOXXR1AdministratorJOGLProjects1139;3DBOXXR1AdministratorJOGLProjects1157;3DBOXXR1AdministratorJOGLProjects1135;3DBOXXR1AdministratorJOGLProjects1147;3DBOXXR1AdministratorJOGLProjects1165;3DBOXXR1AdministratorJOGLProjects1167;3DBOXXR1AdministratorJOGLProjects1143">
+    <children xsi:type="editmodel:CompartmentEditModel" size="203,198">
+      <children xsi:type="editmodel:AttributeEditModel" id="3DBOXXR1AdministratorJOGLProjects1155"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="3DBOXXR1AdministratorJOGLProjects1153"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="3DBOXXR1AdministratorJOGLProjects1151"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="3DBOXXR1AdministratorJOGLProjects1147"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="3DBOXXR1AdministratorJOGLProjects1139"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="3DBOXXR1AdministratorJOGLProjects1143"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="3DBOXXR1AdministratorJOGLProjects1135"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="3DBOXXR1AdministratorJOGLProjects1149"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="3DBOXXR1AdministratorJOGLProjects1131"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="3DBOXXR1AdministratorJOGLProjects1127"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="3DBOXXR1AdministratorJOGLProjects1157"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="94,162">
+      <children xsi:type="editmodel:MethodEditModel" id="3DBOXXR1AdministratorJOGLProjects1165"/>
+      <children xsi:type="editmodel:MethodEditModel" id="3DBOXXR1AdministratorJOGLProjects1170"/>
+      <children xsi:type="editmodel:MethodEditModel" id="3DBOXXR1AdministratorJOGLProjects1180"/>
+      <children xsi:type="editmodel:MethodEditModel" id="3DBOXXR1AdministratorJOGLProjects1175"/>
+      <children xsi:type="editmodel:MethodEditModel" id="3DBOXXR1AdministratorJOGLProjects1159"/>
+      <children xsi:type="editmodel:MethodEditModel" id="3DBOXXR1AdministratorJOGLProjects1162"/>
+      <children xsi:type="editmodel:MethodEditModel" id="3DBOXXR1AdministratorJOGLProjects1167"/>
+      <children xsi:type="editmodel:MethodEditModel" id="3DBOXXR1AdministratorJOGLProjects1172"/>
+      <children xsi:type="editmodel:MethodEditModel" id="3DBOXXR1AdministratorJOGLProjects1177"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="3DBOXXR1AdministratorJOGLProjects1183" connectionRouterKind="Manhattan" source="//@children.4" target="//@children.5" targetEnd="//@children.4/@sourceConnections.0/@children.1" sourceEnd="//@children.4/@sourceConnections.0/@children.0">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,-1" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" id="3DBOXXR1AdministratorJOGLProjects1155" connectionRouterKind="Manhattan" source="//@children.4" target="//@children.12" targetEnd="//@children.4/@sourceConnections.1/@children.0" sourceEnd="//@children.4/@sourceConnections.1/@children.1">
+      <children xsi:type="editmodel:AssociationEndEditModel" id="3DBOXXR1AdministratorJOGLProjects1155" navigable="true" multiplicityLabel="//@children.4/@sourceConnections.1/@children.0/@children.1" roleLabel="//@children.4/@sourceConnections.1/@children.0/@children.0">
+        <children xsi:type="editmodel:LabelEditModel" size="37,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" size="19,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,-1" attachSource="true"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" id="3DBOXXR1AdministratorJOGLProjects1157" connectionRouterKind="Manhattan" source="//@children.4" target="//@children.8" targetEnd="//@children.4/@sourceConnections.2/@children.0" sourceEnd="//@children.4/@sourceConnections.2/@children.1">
+      <children xsi:type="editmodel:AssociationEndEditModel" id="3DBOXXR1AdministratorJOGLProjects1157" navigable="true" multiplicityLabel="//@children.4/@sourceConnections.2/@children.0/@children.1" roleLabel="//@children.4/@sourceConnections.2/@children.0/@children.0">
+        <children xsi:type="editmodel:LabelEditModel" size="37,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" size="19,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,-1" attachSource="true"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" id="3DBOXXR1AdministratorJOGLProjects1153" connectionRouterKind="Manhattan" source="//@children.4" target="//@children.5" targetEnd="//@children.4/@sourceConnections.3/@children.0" sourceEnd="//@children.4/@sourceConnections.3/@children.1">
+      <children xsi:type="editmodel:AssociationEndEditModel" id="3DBOXXR1AdministratorJOGLProjects1153" navigable="true" multiplicityLabel="//@children.4/@sourceConnections.3/@children.0/@children.1" roleLabel="//@children.4/@sourceConnections.3/@children.0/@children.0">
+        <children xsi:type="editmodel:LabelEditModel" size="20,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" size="19,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,-1" attachSource="true"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="3DBOXXR1AdministratorJOGLProjects1186" connectionRouterKind="Manhattan" source="//@children.4" target="//@children.12" targetEnd="//@children.4/@sourceConnections.4/@children.1" sourceEnd="//@children.4/@sourceConnections.4/@children.0">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,-1" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="3DBOXXR1AdministratorJOGLProjects1192" connectionRouterKind="Manhattan" source="//@children.4" target="//@children.8" targetEnd="//@children.4/@sourceConnections.5/@children.1" sourceEnd="//@children.4/@sourceConnections.5/@children.0">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,-1" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showPublicMethods="true" showPackageMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" location="3440,4098" size="159,193" targetConnections="//@children.4/@sourceConnections.0 //@children.4/@sourceConnections.3" id="3DBOXXR1AdministratorJOGLProjects872" runTimeClassModel="3DBOXXR1AdministratorJOGLProjects887;3DBOXXR1AdministratorJOGLProjects873;3DBOXXR1AdministratorJOGLProjects877;3DBOXXR1AdministratorJOGLProjects2058;3DBOXXR1AdministratorJOGLProjects2053;3DBOXXR1AdministratorJOGLProjects883;3DBOXXR1AdministratorJOGLProjects2050;3DBOXXR1AdministratorJOGLProjects879">
+    <children xsi:type="editmodel:CompartmentEditModel" size="136,90">
+      <children xsi:type="editmodel:AttributeEditModel" id="3DBOXXR1AdministratorJOGLProjects877"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="3DBOXXR1AdministratorJOGLProjects879"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="3DBOXXR1AdministratorJOGLProjects883"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="3DBOXXR1AdministratorJOGLProjects873"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="3DBOXXR1AdministratorJOGLProjects887"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="102,54">
+      <children xsi:type="editmodel:MethodEditModel" id="3DBOXXR1AdministratorJOGLProjects2050"/>
+      <children xsi:type="editmodel:MethodEditModel" id="3DBOXXR1AdministratorJOGLProjects2058"/>
+      <children xsi:type="editmodel:MethodEditModel" id="3DBOXXR1AdministratorJOGLProjects2053"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showPublicMethods="true" showPackageMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" location="3743,1834" size="200,85" targetConnections="//@children.1/@sourceConnections.2" id="3DBOXXR1AdministratorJOGLProjects855" runTimeClassModel="3DBOXXR1AdministratorJOGLProjects1199;3DBOXXR1AdministratorJOGLProjects1197">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="148,36">
+      <children xsi:type="editmodel:MethodEditModel" id="3DBOXXR1AdministratorJOGLProjects1199"/>
+      <children xsi:type="editmodel:MethodEditModel" id="3DBOXXR1AdministratorJOGLProjects1197"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showPublicMethods="true" showPackageMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" location="2051,1838" size="209,175" targetConnections="//@children.7/@sourceConnections.1 //@children.10/@sourceConnections.3 //@children.10/@sourceConnections.4" id="3DBOXXR1AdministratorJOGLProjects36" runTimeClassModel="3DBOXXR1AdministratorJOGLProjects42;3DBOXXR1AdministratorJOGLProjects37;3DBOXXR1AdministratorJOGLProjects45;3DBOXXR1AdministratorJOGLProjects56;3DBOXXR1AdministratorJOGLProjects97;3DBOXXR1AdministratorJOGLProjects91;3DBOXXR1AdministratorJOGLProjects47;3DBOXXR1AdministratorJOGLProjects67;3DBOXXR1AdministratorJOGLProjects43;3DBOXXR1AdministratorJOGLProjects79;3DBOXXR1AdministratorJOGLProjects63">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="186,126">
+      <children xsi:type="editmodel:MethodEditModel" id="3DBOXXR1AdministratorJOGLProjects47"/>
+      <children xsi:type="editmodel:MethodEditModel" id="3DBOXXR1AdministratorJOGLProjects91"/>
+      <children xsi:type="editmodel:MethodEditModel" id="3DBOXXR1AdministratorJOGLProjects79"/>
+      <children xsi:type="editmodel:MethodEditModel" id="3DBOXXR1AdministratorJOGLProjects97"/>
+      <children xsi:type="editmodel:MethodEditModel" id="3DBOXXR1AdministratorJOGLProjects67"/>
+      <children xsi:type="editmodel:MethodEditModel" id="3DBOXXR1AdministratorJOGLProjects63"/>
+      <children xsi:type="editmodel:MethodEditModel" id="3DBOXXR1AdministratorJOGLProjects56"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="3DBOXXR1AdministratorJOGLProjects116" connectionRouterKind="Manhattan" source="//@children.7" target="//@children.3" targetEnd="//@children.7/@sourceConnections.0/@children.1" sourceEnd="//@children.7/@sourceConnections.0/@children.0">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="-1,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" id="3DBOXXR1AdministratorJOGLProjects42" connectionRouterKind="Manhattan" source="//@children.7" target="//@children.7" targetEnd="//@children.7/@sourceConnections.1/@children.0" sourceEnd="//@children.7/@sourceConnections.1/@children.1">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,20" id="3DBOXXR1AdministratorJOGLProjects42" anchorKind="FixedAtEdge" navigable="true" flags="2" multiplicityLabel="//@children.7/@sourceConnections.1/@children.0/@children.1" roleLabel="//@children.7/@sourceConnections.1/@children.0/@children.0">
+        <children xsi:type="editmodel:LabelEditModel" size="42,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" size="19,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="20,0" anchorKind="FixedAtEdge" attachSource="true"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showPublicMethods="true" showPackageMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" location="3480,2531" size="165,157" targetConnections="//@children.4/@sourceConnections.2 //@children.4/@sourceConnections.5" id="3DBOXXR1AdministratorJOGLProjects454" runTimeClassModel="3DBOXXR1AdministratorJOGLProjects469;3DBOXXR1AdministratorJOGLProjects464;3DBOXXR1AdministratorJOGLProjects455;3DBOXXR1AdministratorJOGLProjects461;3DBOXXR1AdministratorJOGLProjects471;3DBOXXR1AdministratorJOGLProjects459">
+    <children xsi:type="editmodel:CompartmentEditModel" size="142,36">
+      <children xsi:type="editmodel:AttributeEditModel" id="3DBOXXR1AdministratorJOGLProjects459"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="3DBOXXR1AdministratorJOGLProjects455"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="93,72">
+      <children xsi:type="editmodel:MethodEditModel" id="3DBOXXR1AdministratorJOGLProjects464"/>
+      <children xsi:type="editmodel:MethodEditModel" id="3DBOXXR1AdministratorJOGLProjects461"/>
+      <children xsi:type="editmodel:MethodEditModel" id="3DBOXXR1AdministratorJOGLProjects469"/>
+      <children xsi:type="editmodel:MethodEditModel" id="3DBOXXR1AdministratorJOGLProjects471"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="3DBOXXR1AdministratorJOGLProjects477" connectionRouterKind="Manhattan" source="//@children.8" target="//@children.3" targetEnd="//@children.8/@sourceConnections.0/@children.1" sourceEnd="//@children.8/@sourceConnections.0/@children.0">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="-1,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" id="3DBOXXR1AdministratorJOGLProjects455" connectionRouterKind="Manhattan" source="//@children.8" target="//@children.3" targetEnd="//@children.8/@sourceConnections.1/@children.0" sourceEnd="//@children.8/@sourceConnections.1/@children.1">
+      <children xsi:type="editmodel:AssociationEndEditModel" id="3DBOXXR1AdministratorJOGLProjects455" navigable="true" multiplicityLabel="//@children.8/@sourceConnections.1/@children.0/@children.1" roleLabel="//@children.8/@sourceConnections.1/@children.0/@children.0">
+        <children xsi:type="editmodel:LabelEditModel" size="58,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" size="17,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="-1,0" attachSource="true"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showPublicMethods="true" showPackageMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" location="979,2771" size="153,211" targetConnections="//@children.10/@sourceConnections.0 //@children.2/@sourceConnections.0 //@children.10/@sourceConnections.7 //@children.2/@sourceConnections.3" id="3DBOXXR1AdministratorJOGLProjects220" runTimeClassModel="3DBOXXR1AdministratorJOGLProjects253;3DBOXXR1AdministratorJOGLProjects235;3DBOXXR1AdministratorJOGLProjects229;3DBOXXR1AdministratorJOGLProjects225;3DBOXXR1AdministratorJOGLProjects231;3DBOXXR1AdministratorJOGLProjects245;3DBOXXR1AdministratorJOGLProjects237;3DBOXXR1AdministratorJOGLProjects247;3DBOXXR1AdministratorJOGLProjects241;3DBOXXR1AdministratorJOGLProjects223;3DBOXXR1AdministratorJOGLProjects233;3DBOXXR1AdministratorJOGLProjects251;3DBOXXR1AdministratorJOGLProjects227;3DBOXXR1AdministratorJOGLProjects243;3DBOXXR1AdministratorJOGLProjects239;3DBOXXR1AdministratorJOGLProjects249;3DBOXXR1AdministratorJOGLProjects221">
+    <children xsi:type="editmodel:CompartmentEditModel" size="130,126">
+      <children xsi:type="editmodel:AttributeEditModel" id="3DBOXXR1AdministratorJOGLProjects245"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="3DBOXXR1AdministratorJOGLProjects247"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="3DBOXXR1AdministratorJOGLProjects237"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="3DBOXXR1AdministratorJOGLProjects235"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="3DBOXXR1AdministratorJOGLProjects243"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="3DBOXXR1AdministratorJOGLProjects221"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="3DBOXXR1AdministratorJOGLProjects249"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="105,36">
+      <children xsi:type="editmodel:MethodEditModel" id="3DBOXXR1AdministratorJOGLProjects251"/>
+      <children xsi:type="editmodel:MethodEditModel" id="3DBOXXR1AdministratorJOGLProjects253"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" id="3DBOXXR1AdministratorJOGLProjects235" connectionRouterKind="Manhattan" source="//@children.9" target="//@children.14" targetEnd="//@children.9/@sourceConnections.0/@children.0" sourceEnd="//@children.9/@sourceConnections.0/@children.1">
+      <children xsi:type="editmodel:AssociationEndEditModel" id="3DBOXXR1AdministratorJOGLProjects235" navigable="true" flags="1" multiplicityLabel="//@children.9/@sourceConnections.0/@children.0/@children.1" roleLabel="//@children.9/@sourceConnections.0/@children.0/@children.0">
+        <children xsi:type="editmodel:LabelEditModel" size="38,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" size="19,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,-1" attachSource="true"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="3DBOXXR1AdministratorJOGLProjects257" connectionRouterKind="Manhattan" source="//@children.9" target="//@children.14" targetEnd="//@children.9/@sourceConnections.1/@children.1" sourceEnd="//@children.9/@sourceConnections.1/@children.0">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,-1" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showPublicMethods="true" showPackageMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" location="1862,2977" size="204,1057" id="3DBOXXR1AdministratorJOGLProjects270" runTimeClassModel="3DBOXXR1AdministratorJOGLProjects966;3DBOXXR1AdministratorJOGLProjects935;3DBOXXR1AdministratorJOGLProjects951;3DBOXXR1AdministratorJOGLProjects1004;3DBOXXR1AdministratorJOGLProjects1026;3DBOXXR1AdministratorJOGLProjects972;3DBOXXR1AdministratorJOGLProjects995;3DBOXXR1AdministratorJOGLProjects1061;3DBOXXR1AdministratorJOGLProjects945;3DBOXXR1AdministratorJOGLProjects906;3DBOXXR1AdministratorJOGLProjects979;3DBOXXR1AdministratorJOGLProjects901;3DBOXXR1AdministratorJOGLProjects912;3DBOXXR1AdministratorJOGLProjects997;3DBOXXR1AdministratorJOGLProjects1002;3DBOXXR1AdministratorJOGLProjects947;3DBOXXR1AdministratorJOGLProjects969;3DBOXXR1AdministratorJOGLProjects976;3DBOXXR1AdministratorJOGLProjects937;3DBOXXR1AdministratorJOGLProjects1038;3DBOXXR1AdministratorJOGLProjects910;3DBOXXR1AdministratorJOGLProjects916;3DBOXXR1AdministratorJOGLProjects927;3DBOXXR1AdministratorJOGLProjects1011;3DBOXXR1AdministratorJOGLProjects1000;3DBOXXR1AdministratorJOGLProjects955;3DBOXXR1AdministratorJOGLProjects902;3DBOXXR1AdministratorJOGLProjects1024;3DBOXXR1AdministratorJOGLProjects993;3DBOXXR1AdministratorJOGLProjects939;3DBOXXR1AdministratorJOGLProjects1068;3DBOXXR1AdministratorJOGLProjects1057;3DBOXXR1AdministratorJOGLProjects1045;3DBOXXR1AdministratorJOGLProjects933;3DBOXXR1AdministratorJOGLProjects943;3DBOXXR1AdministratorJOGLProjects970;3DBOXXR1AdministratorJOGLProjects929;3DBOXXR1AdministratorJOGLProjects1006;3DBOXXR1AdministratorJOGLProjects1063;3DBOXXR1AdministratorJOGLProjects1028;3DBOXXR1AdministratorJOGLProjects983;3DBOXXR1AdministratorJOGLProjects961;3DBOXXR1AdministratorJOGLProjects920;3DBOXXR1AdministratorJOGLProjects960;3DBOXXR1AdministratorJOGLProjects923;3DBOXXR1AdministratorJOGLProjects959;3DBOXXR1AdministratorJOGLProjects896;3DBOXXR1AdministratorJOGLProjects981;3DBOXXR1AdministratorJOGLProjects964;3DBOXXR1AdministratorJOGLProjects1051;3DBOXXR1AdministratorJOGLProjects904;3DBOXXR1AdministratorJOGLProjects894;3DBOXXR1AdministratorJOGLProjects1017;3DBOXXR1AdministratorJOGLProjects1033;3DBOXXR1AdministratorJOGLProjects941;3DBOXXR1AdministratorJOGLProjects931;3DBOXXR1AdministratorJOGLProjects990;3DBOXXR1AdministratorJOGLProjects898;3DBOXXR1AdministratorJOGLProjects917;3DBOXXR1AdministratorJOGLProjects971;3DBOXXR1AdministratorJOGLProjects892;3DBOXXR1AdministratorJOGLProjects974;3DBOXXR1AdministratorJOGLProjects963;3DBOXXR1AdministratorJOGLProjects968;3DBOXXR1AdministratorJOGLProjects1009;3DBOXXR1AdministratorJOGLProjects1040;3DBOXXR1AdministratorJOGLProjects1042;3DBOXXR1AdministratorJOGLProjects914;3DBOXXR1AdministratorJOGLProjects1066;3DBOXXR1AdministratorJOGLProjects908">
+    <children xsi:type="editmodel:CompartmentEditModel" size="181,468">
+      <children xsi:type="editmodel:AttributeEditModel" id="3DBOXXR1AdministratorJOGLProjects945"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="3DBOXXR1AdministratorJOGLProjects941"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="3DBOXXR1AdministratorJOGLProjects939"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="3DBOXXR1AdministratorJOGLProjects966"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="3DBOXXR1AdministratorJOGLProjects898"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="3DBOXXR1AdministratorJOGLProjects910"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="3DBOXXR1AdministratorJOGLProjects933"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="3DBOXXR1AdministratorJOGLProjects914"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="3DBOXXR1AdministratorJOGLProjects923"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="3DBOXXR1AdministratorJOGLProjects947"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="3DBOXXR1AdministratorJOGLProjects896"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="3DBOXXR1AdministratorJOGLProjects894"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="3DBOXXR1AdministratorJOGLProjects927"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="3DBOXXR1AdministratorJOGLProjects961"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="3DBOXXR1AdministratorJOGLProjects964"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="3DBOXXR1AdministratorJOGLProjects892"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="3DBOXXR1AdministratorJOGLProjects968"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="3DBOXXR1AdministratorJOGLProjects937"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="3DBOXXR1AdministratorJOGLProjects935"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="3DBOXXR1AdministratorJOGLProjects901"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="3DBOXXR1AdministratorJOGLProjects951"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="3DBOXXR1AdministratorJOGLProjects963"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="3DBOXXR1AdministratorJOGLProjects960"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="3DBOXXR1AdministratorJOGLProjects959"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="3DBOXXR1AdministratorJOGLProjects912"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="3DBOXXR1AdministratorJOGLProjects955"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="176,540">
+      <children xsi:type="editmodel:MethodEditModel" id="3DBOXXR1AdministratorJOGLProjects972"/>
+      <children xsi:type="editmodel:MethodEditModel" id="3DBOXXR1AdministratorJOGLProjects997"/>
+      <children xsi:type="editmodel:MethodEditModel" id="3DBOXXR1AdministratorJOGLProjects1006"/>
+      <children xsi:type="editmodel:MethodEditModel" id="3DBOXXR1AdministratorJOGLProjects1028"/>
+      <children xsi:type="editmodel:MethodEditModel" id="3DBOXXR1AdministratorJOGLProjects1024"/>
+      <children xsi:type="editmodel:MethodEditModel" id="3DBOXXR1AdministratorJOGLProjects1011"/>
+      <children xsi:type="editmodel:MethodEditModel" id="3DBOXXR1AdministratorJOGLProjects979"/>
+      <children xsi:type="editmodel:MethodEditModel" id="3DBOXXR1AdministratorJOGLProjects1004"/>
+      <children xsi:type="editmodel:MethodEditModel" id="3DBOXXR1AdministratorJOGLProjects1000"/>
+      <children xsi:type="editmodel:MethodEditModel" id="3DBOXXR1AdministratorJOGLProjects974"/>
+      <children xsi:type="editmodel:MethodEditModel" id="3DBOXXR1AdministratorJOGLProjects1061"/>
+      <children xsi:type="editmodel:MethodEditModel" id="3DBOXXR1AdministratorJOGLProjects993"/>
+      <children xsi:type="editmodel:MethodEditModel" id="3DBOXXR1AdministratorJOGLProjects995"/>
+      <children xsi:type="editmodel:MethodEditModel" id="3DBOXXR1AdministratorJOGLProjects976"/>
+      <children xsi:type="editmodel:MethodEditModel" id="3DBOXXR1AdministratorJOGLProjects1066"/>
+      <children xsi:type="editmodel:MethodEditModel" id="3DBOXXR1AdministratorJOGLProjects1033"/>
+      <children xsi:type="editmodel:MethodEditModel" id="3DBOXXR1AdministratorJOGLProjects1057"/>
+      <children xsi:type="editmodel:MethodEditModel" id="3DBOXXR1AdministratorJOGLProjects1051"/>
+      <children xsi:type="editmodel:MethodEditModel" id="3DBOXXR1AdministratorJOGLProjects1002"/>
+      <children xsi:type="editmodel:MethodEditModel" id="3DBOXXR1AdministratorJOGLProjects1017"/>
+      <children xsi:type="editmodel:MethodEditModel" id="3DBOXXR1AdministratorJOGLProjects1009"/>
+      <children xsi:type="editmodel:MethodEditModel" id="3DBOXXR1AdministratorJOGLProjects981"/>
+      <children xsi:type="editmodel:MethodEditModel" id="3DBOXXR1AdministratorJOGLProjects983"/>
+      <children xsi:type="editmodel:MethodEditModel" id="3DBOXXR1AdministratorJOGLProjects1045"/>
+      <children xsi:type="editmodel:MethodEditModel" id="3DBOXXR1AdministratorJOGLProjects1042"/>
+      <children xsi:type="editmodel:MethodEditModel" id="3DBOXXR1AdministratorJOGLProjects1063"/>
+      <children xsi:type="editmodel:MethodEditModel" id="3DBOXXR1AdministratorJOGLProjects990"/>
+      <children xsi:type="editmodel:MethodEditModel" id="3DBOXXR1AdministratorJOGLProjects1068"/>
+      <children xsi:type="editmodel:MethodEditModel" id="3DBOXXR1AdministratorJOGLProjects1038"/>
+      <children xsi:type="editmodel:MethodEditModel" id="3DBOXXR1AdministratorJOGLProjects1040"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="3DBOXXR1AdministratorJOGLProjects1076" connectionRouterKind="Manhattan" source="//@children.10" target="//@children.9" targetEnd="//@children.10/@sourceConnections.0/@children.1" sourceEnd="//@children.10/@sourceConnections.0/@children.0">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,-1" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="3DBOXXR1AdministratorJOGLProjects1122" connectionRouterKind="Manhattan" source="//@children.10" target="//@children.4" targetEnd="//@children.10/@sourceConnections.1/@children.1" sourceEnd="//@children.10/@sourceConnections.1/@children.0">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,-1" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="3DBOXXR1AdministratorJOGLProjects1079" connectionRouterKind="Manhattan" source="//@children.10" target="//@children.13" targetEnd="//@children.10/@sourceConnections.2/@children.1" sourceEnd="//@children.10/@sourceConnections.2/@children.0">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,-1" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="3DBOXXR1AdministratorJOGLProjects1082" connectionRouterKind="Manhattan" source="//@children.10" target="//@children.7" targetEnd="//@children.10/@sourceConnections.3/@children.1" sourceEnd="//@children.10/@sourceConnections.3/@children.0">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,-1" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" id="3DBOXXR1AdministratorJOGLProjects901" connectionRouterKind="Manhattan" source="//@children.10" target="//@children.7" targetEnd="//@children.10/@sourceConnections.4/@children.0" sourceEnd="//@children.10/@sourceConnections.4/@children.1">
+      <children xsi:type="editmodel:AssociationEndEditModel" id="3DBOXXR1AdministratorJOGLProjects901" navigable="true" multiplicityLabel="//@children.10/@sourceConnections.4/@children.0/@children.1" roleLabel="//@children.10/@sourceConnections.4/@children.0/@children.0">
+        <children xsi:type="editmodel:LabelEditModel" size="77,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" size="19,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,-1" attachSource="true"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" id="3DBOXXR1AdministratorJOGLProjects894" connectionRouterKind="Manhattan" source="//@children.10" target="//@children.2" targetEnd="//@children.10/@sourceConnections.5/@children.0" sourceEnd="//@children.10/@sourceConnections.5/@children.1">
+      <children xsi:type="editmodel:AssociationEndEditModel" id="3DBOXXR1AdministratorJOGLProjects894" navigable="true" multiplicityLabel="//@children.10/@sourceConnections.5/@children.0/@children.1" roleLabel="//@children.10/@sourceConnections.5/@children.0/@children.0">
+        <children xsi:type="editmodel:LabelEditModel" size="84,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" size="19,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,-1" attachSource="true"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" id="3DBOXXR1AdministratorJOGLProjects892" connectionRouterKind="Manhattan" source="//@children.10" target="//@children.4" targetEnd="//@children.10/@sourceConnections.6/@children.0" sourceEnd="//@children.10/@sourceConnections.6/@children.1">
+      <children xsi:type="editmodel:AssociationEndEditModel" id="3DBOXXR1AdministratorJOGLProjects892" navigable="true" multiplicityLabel="//@children.10/@sourceConnections.6/@children.0/@children.1" roleLabel="//@children.10/@sourceConnections.6/@children.0/@children.0">
+        <children xsi:type="editmodel:LabelEditModel" size="31,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" size="19,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,-1" attachSource="true"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" id="3DBOXXR1AdministratorJOGLProjects896" connectionRouterKind="Manhattan" source="//@children.10" target="//@children.9" targetEnd="//@children.10/@sourceConnections.7/@children.0" sourceEnd="//@children.10/@sourceConnections.7/@children.1">
+      <children xsi:type="editmodel:AssociationEndEditModel" id="3DBOXXR1AdministratorJOGLProjects896" navigable="true" multiplicityLabel="//@children.10/@sourceConnections.7/@children.0/@children.1" roleLabel="//@children.10/@sourceConnections.7/@children.0/@children.0">
+        <children xsi:type="editmodel:LabelEditModel" size="78,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" size="19,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,-1" attachSource="true"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="3DBOXXR1AdministratorJOGLProjects1096" connectionRouterKind="Manhattan" source="//@children.10" target="//@children.2" targetEnd="//@children.10/@sourceConnections.8/@children.1" sourceEnd="//@children.10/@sourceConnections.8/@children.0">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,-1" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="3DBOXXR1AdministratorJOGLProjects1072" connectionRouterKind="Manhattan" source="//@children.10" target="//@children.12" targetEnd="//@children.10/@sourceConnections.9/@children.1" sourceEnd="//@children.10/@sourceConnections.9/@children.0">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,-1" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="3DBOXXR1AdministratorJOGLProjects1117" connectionRouterKind="Manhattan" source="//@children.10" target="//@children.0" targetEnd="//@children.10/@sourceConnections.10/@children.1" sourceEnd="//@children.10/@sourceConnections.10/@children.0">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,-1" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showPublicMethods="true" showPackageMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" location="2722,2801" size="129,29" id="3DBOXXR1AdministratorJOGLProjects479" runTimeClassModel="3DBOXXR1AdministratorJOGLProjects504;3DBOXXR1AdministratorJOGLProjects497;3DBOXXR1AdministratorJOGLProjects511;3DBOXXR1AdministratorJOGLProjects489;3DBOXXR1AdministratorJOGLProjects493;3DBOXXR1AdministratorJOGLProjects480;3DBOXXR1AdministratorJOGLProjects515;3DBOXXR1AdministratorJOGLProjects484">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="3DBOXXR1AdministratorJOGLProjects533" connectionRouterKind="Manhattan" source="//@children.11" target="//@children.4" targetEnd="//@children.11/@sourceConnections.0/@children.1" sourceEnd="//@children.11/@sourceConnections.0/@children.0">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="-1,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="3DBOXXR1AdministratorJOGLProjects524" connectionRouterKind="Manhattan" source="//@children.11" target="//@children.2" targetEnd="//@children.11/@sourceConnections.1/@children.1" sourceEnd="//@children.11/@sourceConnections.1/@children.0">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="-1,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showPublicMethods="true" showPackageMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" location="2145,3902" size="228,445" targetConnections="//@children.4/@sourceConnections.1 //@children.4/@sourceConnections.4 //@children.10/@sourceConnections.9" id="3DBOXXR1AdministratorJOGLProjects1035" runTimeClassModel="3DBOXXR1AdministratorJOGLProjects1213;3DBOXXR1AdministratorJOGLProjects1221;3DBOXXR1AdministratorJOGLProjects1245;3DBOXXR1AdministratorJOGLProjects1229;3DBOXXR1AdministratorJOGLProjects1248;3DBOXXR1AdministratorJOGLProjects1243;3DBOXXR1AdministratorJOGLProjects1254;3DBOXXR1AdministratorJOGLProjects1239;3DBOXXR1AdministratorJOGLProjects1225;3DBOXXR1AdministratorJOGLProjects1236;3DBOXXR1AdministratorJOGLProjects1217;3DBOXXR1AdministratorJOGLProjects1260;3DBOXXR1AdministratorJOGLProjects1258;3DBOXXR1AdministratorJOGLProjects1227;3DBOXXR1AdministratorJOGLProjects1231;3DBOXXR1AdministratorJOGLProjects1209;3DBOXXR1AdministratorJOGLProjects1241;3DBOXXR1AdministratorJOGLProjects1205;3DBOXXR1AdministratorJOGLProjects1234;3DBOXXR1AdministratorJOGLProjects1223;3DBOXXR1AdministratorJOGLProjects1251;3DBOXXR1AdministratorJOGLProjects1219">
+    <children xsi:type="editmodel:CompartmentEditModel" size="205,162">
+      <children xsi:type="editmodel:AttributeEditModel" id="3DBOXXR1AdministratorJOGLProjects1227"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="3DBOXXR1AdministratorJOGLProjects1225"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="3DBOXXR1AdministratorJOGLProjects1223"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="3DBOXXR1AdministratorJOGLProjects1213"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="3DBOXXR1AdministratorJOGLProjects1205"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="3DBOXXR1AdministratorJOGLProjects1221"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="3DBOXXR1AdministratorJOGLProjects1217"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="3DBOXXR1AdministratorJOGLProjects1209"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="3DBOXXR1AdministratorJOGLProjects1219"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="189,234">
+      <children xsi:type="editmodel:MethodEditModel" id="3DBOXXR1AdministratorJOGLProjects1239"/>
+      <children xsi:type="editmodel:MethodEditModel" id="3DBOXXR1AdministratorJOGLProjects1251"/>
+      <children xsi:type="editmodel:MethodEditModel" id="3DBOXXR1AdministratorJOGLProjects1241"/>
+      <children xsi:type="editmodel:MethodEditModel" id="3DBOXXR1AdministratorJOGLProjects1234"/>
+      <children xsi:type="editmodel:MethodEditModel" id="3DBOXXR1AdministratorJOGLProjects1243"/>
+      <children xsi:type="editmodel:MethodEditModel" id="3DBOXXR1AdministratorJOGLProjects1258"/>
+      <children xsi:type="editmodel:MethodEditModel" id="3DBOXXR1AdministratorJOGLProjects1229"/>
+      <children xsi:type="editmodel:MethodEditModel" id="3DBOXXR1AdministratorJOGLProjects1236"/>
+      <children xsi:type="editmodel:MethodEditModel" id="3DBOXXR1AdministratorJOGLProjects1260"/>
+      <children xsi:type="editmodel:MethodEditModel" id="3DBOXXR1AdministratorJOGLProjects1254"/>
+      <children xsi:type="editmodel:MethodEditModel" id="3DBOXXR1AdministratorJOGLProjects1245"/>
+      <children xsi:type="editmodel:MethodEditModel" id="3DBOXXR1AdministratorJOGLProjects1231"/>
+      <children xsi:type="editmodel:MethodEditModel" id="3DBOXXR1AdministratorJOGLProjects1248"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showPublicMethods="true" showPackageMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" location="1370,3408" size="195,85" targetConnections="//@children.10/@sourceConnections.2" id="3DBOXXR1AdministratorJOGLProjects535" runTimeClassModel="3DBOXXR1AdministratorJOGLProjects536;3DBOXXR1AdministratorJOGLProjects540">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="73,36">
+      <children xsi:type="editmodel:MethodEditModel" id="3DBOXXR1AdministratorJOGLProjects536"/>
+      <children xsi:type="editmodel:MethodEditModel" id="3DBOXXR1AdministratorJOGLProjects540"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="3DBOXXR1AdministratorJOGLProjects544" connectionRouterKind="Manhattan" source="//@children.13" target="//@children.2" targetEnd="//@children.13/@sourceConnections.0/@children.1" sourceEnd="//@children.13/@sourceConnections.0/@children.0">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="-1,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showPublicMethods="true" showPackageMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" location="50,2829" size="159,147" targetConnections="//@children.9/@sourceConnections.0 //@children.9/@sourceConnections.1" id="3DBOXXR1AdministratorJOGLProjects2" runTimeClassModel="3DBOXXR1AdministratorJOGLProjects3;3DBOXXR1AdministratorJOGLProjects19;3DBOXXR1AdministratorJOGLProjects21;3DBOXXR1AdministratorJOGLProjects33;3DBOXXR1AdministratorJOGLProjects25;3DBOXXR1AdministratorJOGLProjects29;3DBOXXR1AdministratorJOGLProjects7;3DBOXXR1AdministratorJOGLProjects11;3DBOXXR1AdministratorJOGLProjects15;3DBOXXR1AdministratorJOGLProjects27;3DBOXXR1AdministratorJOGLProjects23;3DBOXXR1AdministratorJOGLProjects20;3DBOXXR1AdministratorJOGLProjects31">
+    <children xsi:type="editmodel:CompartmentEditModel" size="136,108">
+      <children xsi:type="editmodel:AttributeEditModel" id="3DBOXXR1AdministratorJOGLProjects3"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="3DBOXXR1AdministratorJOGLProjects20"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="3DBOXXR1AdministratorJOGLProjects11"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="3DBOXXR1AdministratorJOGLProjects7"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="3DBOXXR1AdministratorJOGLProjects19"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="3DBOXXR1AdministratorJOGLProjects15"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showPublicMethods="true" showPackageMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true"/>
+  </children>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showPublicMethods="true" showPackageMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showInterfaceStereotype="true" showClassStereotype="true" showPackageStereotype="true"/>
+</editmodel:ClassDiagramEditModel>

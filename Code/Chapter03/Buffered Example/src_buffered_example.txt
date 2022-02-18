@@ -1,0 +1,4 @@
+"D:\\Documents and Settings\\Dustin Clingman\\Desktop\\Java Game Book\\Milestone 3\\Chapters\\Chapter_3__2D Graphics Programming\\code\\Chapter 3\\FullScreen3\\FullScreenFrame1.java"
+"D:\\Documents and Settings\\Dustin Clingman\\Desktop\\Java Game Book\\Milestone 3\\Chapters\\Chapter_3__2D Graphics Programming\\code\\Chapter 3\\FullScreen3\\FullScreenFrame2.java"
+"D:\\Documents and Settings\\Dustin Clingman\\Desktop\\Java Game Book\\Milestone 3\\Chapters\\Chapter_3__2D Graphics Programming\\code\\Chapter 3\\FullScreen3\\FullScreenFrame3.java"
+"D:\\Documents and Settings\\Dustin Clingman\\Desktop\\Java Game Book\\Milestone 3\\Chapters\\Chapter_3__2D Graphics Programming\\code\\Chapter 3\\Buffered Example\\BufferedExample.java"

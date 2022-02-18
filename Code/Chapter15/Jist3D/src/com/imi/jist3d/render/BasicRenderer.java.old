@@ -1,0 +1,1235 @@
+package com.imi.jist3d.render;
+
+import java.util.*;
+import java.nio.*;
+import net.java.games.jogl.*;
+import net.java.games.jogl.util.*;
+
+public class BasicRenderer implements GLEventListener
+{
+    public static boolean supportedVBO = false;
+	Scene scene = new Scene();
+	VertexArraySet lastVertexArraySet = new VertexArraySet();
+	Appearance lastAppearance = new Appearance();
+	TextureStageState[] lastTextureStageState = null;
+	int textureShareCount = 0;
+	boolean lastTextureEnable = true;
+	
+	float[] currentMat = null;
+
+	GLCanvas canvas = null;
+
+	//public static ArrayList drawListOpaque = new ArrayList();
+	public static RenderBinNode drawListOpaque = new RenderBinNode();
+
+	public static ArrayList drawListTransparent = new ArrayList();
+	
+	public static AppearanceComparator aComparator = new AppearanceComparator();
+	public static ZComparator zComparator = new ZComparator();
+	public int drawMode = 0;
+	boolean globalWireFrameState = false;
+	boolean globalTextureState = true;
+	boolean forceStaticRender = false;
+
+	private GL gl;
+	private GLU glu;
+	private GLDrawable gldrawable;
+	GLUT glut = new GLUT();
+
+	boolean noException = false;
+
+	public static boolean once = true;
+	public static int stateChanges = 0;
+	boolean dumpStats = false;
+	public int stateSwitchCount = 0;
+	public int stateShareCount = 0;
+	public int alphaStateSwitchCount = 0;
+	public int alphaStateShareCount = 0;
+	int debugLevel = 0;
+
+	// needed for Vertex Buffer Object offsets
+	static ByteBuffer zeroOffsetBuffer = null;
+	// can not be set here BufferUtils.bufferOffset(0);
+
+	int DL_SPHERE = 1;
+
+	float[] grayMaterial = { 0.7f, 0.7f, 0.7f, 1.0f };
+	float[] whiteMaterial = { 1.0f, 1.0f, 1.0f, 1.0f };
+
+	float zero[] = { 0.0f, 0.0f, 0.0f, 1.0f };
+
+	int winWidth;
+	int winHeight;
+
+	GLUquadric q;
+	float winAspectRatio;
+	//boolean resetGraph = false;
+	net.java.games.jogl.Animator animator;
+
+	public BasicRenderer()
+	{
+		canvas =
+			GLDrawableFactory.getFactory().createGLCanvas(new GLCapabilities());
+
+		// Use debug pipeline
+		canvas.setGL(new DebugGL(canvas.getGL()));
+		System.err.println(
+			"CANVAS GL IS: " + canvas.getGL().getClass().getName());
+		System.err.println(
+			"CANVAS GLU IS: " + canvas.getGLU().getClass().getName());
+
+		canvas.addGLEventListener(this);
+		zeroOffsetBuffer = BufferUtils.bufferOffset(0);
+		animator = new net.java.games.jogl.Animator(gldrawable);
+		
+
+	}
+
+	public GLCanvas getCanvas()
+	{
+		return canvas;
+	}
+
+	public void init(GLDrawable drawable)
+	{
+		gl = drawable.getGL();
+		glu = drawable.getGLU();
+		this.gldrawable = drawable;
+		System.err.println("INIT GL IS: " + gl.getClass().getName());
+		
+        supportedVBO = gl.isExtensionAvailable("GL_ARB_vertex_buffer_object");
+        if ( supportedVBO )
+            System.out.println("Vertex Buffer Objects Supported");
+        else
+        {
+            System.out.println("Vertex Buffer Objects NOT Supported - part of this example will not execute");
+        }
+        //supportedVBO = false;
+
+		gl.glLightModelfv(gl.GL_LIGHT_MODEL_AMBIENT, scene.light.ambientColor);
+
+		//gl.glEnable(gl.GL_LIGHTING);
+		gl.glEnable(gl.GL_LIGHT0);
+		gl.glLightfv(gl.GL_LIGHT0, gl.GL_AMBIENT, zero);
+		gl.glLightfv(gl.GL_LIGHT0, gl.GL_SPECULAR, scene.light.specularColor);
+		gl.glLightfv(gl.GL_LIGHT0, gl.GL_DIFFUSE, scene.light.diffuseColor);
+
+		//gl.glLineStipple(1, 0xf0f0);
+
+		gl.glMaterialf(gl.GL_FRONT, gl.GL_SHININESS, 30.0f);
+
+		gl.glEnable(gl.GL_CULL_FACE);
+		//gl.glLightModeli(gl.GL_LIGHT_MODEL_LOCAL_VIEWER, 1);
+		gl.glLightModeli(
+			GL.GL_LIGHT_MODEL_COLOR_CONTROL,
+			GL.GL_SEPARATE_SPECULAR_COLOR);
+
+		//  #if 000
+		//	/* This would work too. */
+		gl.glEnable(GL.GL_RESCALE_NORMAL_EXT);
+		//  #else
+
+		//gl.glEnable(gl.GL_NORMALIZE);
+
+		q = glu.gluNewQuadric();
+		gl.glNewList(DL_SPHERE, gl.GL_COMPILE);
+		glu.gluSphere(q, 0.55, 16, 16);
+		gl.glEndList();
+		gl.glEnable(GL.GL_DEPTH_TEST);
+
+		gl.glDepthMask(true);
+
+		gl.glEnable(GL.GL_CULL_FACE);
+
+		scene.init(gl, glu);
+	}
+
+	public void dumpStats()
+	{
+		dumpStats = true;
+	}
+
+	/*
+	public void resetGraph()
+	{
+		scene.rebind(gl);
+		resetGraph = false;
+	}
+	*/
+
+	public void reshape(
+		GLDrawable drawable,
+		int x,
+		int y,
+		int width,
+		int height)
+	{
+		winWidth = width;
+		winHeight = height;
+
+		//gl.glMatrixMode(GL.GL_PROJECTION);
+
+		System.err.println("GL_VENDOR: " + gl.glGetString(GL.GL_VENDOR));
+		System.err.println("GL_RENDERER: " + gl.glGetString(GL.GL_RENDERER));
+		System.err.println("GL_VERSION: " + gl.glGetString(GL.GL_VERSION));
+		System.err.println();
+		System.err.println(
+			"glLoadTransposeMatrixfARB() supported: "
+				+ gl.isFunctionAvailable("glLoadTransposeMatrixfARB"));
+
+		gl.glViewport(0, 0, width, height);
+		winAspectRatio = (float)winHeight / (float)winWidth;
+		scene.camera.setAspectRatio(winAspectRatio);
+	}
+	public void setStatic(boolean b)
+	{
+		forceStaticRender = b;
+	}
+
+	public boolean getStatic()
+	{
+		return forceStaticRender;
+	}
+	public void init()
+	{
+		// Workaround for NVidia driver bug 80174
+		//if (gldrawable instanceof GLCanvas) {
+		//((GLCanvas) gldrawable).willSetRenderingThread();
+		//}
+		//animator.start();
+		//animator.stop();
+
+		// Try to get OpenGL context optimization since we know we
+		// will be rendering this one drawable continually from
+		// this thread; make the context current once instead of
+		// making it current and freeing it each frame.
+		gldrawable.setRenderingThread(Thread.currentThread());
+
+		// Since setRenderingThread is currently advisory (because
+		// of the poor JAWT implementation in the Motif AWT, which
+		// performs excessive locking) we also prevent repaint(),
+		// which is called from the AWT thread, from having an
+		// effect for better multithreading behavior. This call is
+		// not strictly necessary, but if end users write their
+		// own animation loops which update multiple drawables per
+		// tick then it may be necessary to enforce the order of
+		// updates.
+		gldrawable.setNoAutoRedrawMode(true);
+
+	}
+
+	public void render()
+	{
+		noException = false;
+		gldrawable.display();
+		noException = true;
+	}
+
+	public void exit()
+	{
+		gldrawable.setNoAutoRedrawMode(false);
+		// The surface is already unlocked and rendering
+		// thread is already null if an exception occurred
+		// during display(), so don't disable the rendering
+		// thread again.
+		if (noException)
+		{
+			gldrawable.setRenderingThread(null);
+		}
+	}
+
+	void drawLight()
+	{
+
+		gl.glPushMatrix();
+		gl.glTranslatef(
+			scene.light.lightVector[0],
+			scene.light.lightVector[1],
+			scene.light.lightVector[2]);
+		gl.glDisable(GL.GL_LIGHTING);
+		gl.glColor3f(1.0f, 1.0f, 0.0f);
+		glu.gluSphere(q, 0.1f, 10, 10);
+		gl.glEnable(GL.GL_LIGHTING);
+		gl.glPopMatrix();
+
+	}
+
+	private void setupLightView()
+	{
+		gl.glMatrixMode(gl.GL_PROJECTION);
+		//	if (square) {
+		//gl.glMatrixMode(G)
+		gl.glLoadMatrixd(scene.lightFrustumMatrix);
+		//	gl.glOrtho(-2.0,2.0,-2.0,2.0,lightNear,lightFar);
+		//	} else {
+		//	gl.glLoadIdentity();
+		//	gl.glScalef(winAspectRatio, 1, 1);
+		//	gl.glMultMatrixd(lightFrustumMatrix);
+		//	}
+
+		gl.glMatrixMode(gl.GL_MODELVIEW);
+		gl.glLoadMatrixd(scene.lightViewMatrix);
+	}
+
+	public void displayChanged(
+		GLDrawable drawable,
+		boolean modeChanged,
+		boolean deviceChanged)
+	{
+	}
+
+	void loadProjectionThenModelView(GL gl, Camera camera)
+	{
+		if (camera.dirty && camera.autoUpdatePerspectiveMatrix)
+		{
+			camera.rebuildPerspectiveMatrix();
+			camera.dirty = false;
+		}
+		gl.glMatrixMode(GL.GL_PROJECTION);
+		gl.glLoadMatrixd(camera.eyeFrustumMatrix);
+
+		gl.glMatrixMode(GL.GL_MODELVIEW);
+		gl.glLoadMatrixd(camera.eyeViewMatrix);
+	}
+
+/*
+	public void sortDrawListOpaqueByState()
+	{
+		for (ListIterator e = drawListOpaque.listIterator(); e.hasNext();)
+		{
+			RenderShape renderShape = ((RenderShape)e.next());
+			setRenderStateMask(renderShape);
+		}
+		Collections.sort(drawListOpaque, aComparator);
+	}
+*/
+
+	public void sortDrawListTransparentByDepth()
+	{
+		Collections.sort(drawListTransparent, zComparator);
+	}
+
+	public void display(GLDrawable drawable)
+	{
+		if (dumpStats)
+		{
+			once = true;
+			stateChanges = 0;
+			dumpStats = false;
+		}
+		gl.glClear(GL.GL_COLOR_BUFFER_BIT | GL.GL_DEPTH_BUFFER_BIT);
+		//gl.glClear(GL.GL_DEPTH_BUFFER_BIT );
+
+		if (globalWireFrameState)
+		{
+			gl.glPolygonMode(GL.GL_FRONT_AND_BACK, GL.GL_LINE);
+			//gl.glEnable(GL.GL_LINE_SMOOTH);
+		}
+		else
+		{
+			gl.glPolygonMode(GL.GL_FRONT_AND_BACK, GL.GL_FILL);
+		}
+
+		switch (drawMode)
+		{
+			case 0 : // DM_EYE_VIEW
+				loadProjectionThenModelView(gl, scene.camera);
+				scene.skyBox.drawSkybox(gl, scene.camera.eyeViewMatrix);
+				renderSimple();
+				break;
+			case 1 : //DM_LIGHT_VIEW:
+				setupLightView();
+				scene.skyBox.drawSkybox(gl, scene.lightViewMatrix);
+				renderSimple();
+				//gl.glLightfv(gl.GL_LIGHT0, gl.GL_POSITION, scene.lightVector);
+				//drawScene(true, 0, false, 0);
+				break;
+			case 2 : //DM_DEPTH_MAP:
+				/* Wire frame does not apply. */
+				break;
+			case 3 : //DM_EYE_VIEW_DEPTH_TEXTURED:
+				/* Wire frame handled internal to this routine. */
+				break;
+			case 4 : //DM_EYE_VIEW_SHADOWED:
+				/* Wire frame handled internal to this routine. */
+				break;
+			default :
+				loadProjectionThenModelView(gl, scene.camera);
+				scene.skyBox.drawSkybox(gl, scene.camera.eyeViewMatrix);
+				renderSimple();
+				break;
+		}
+		//gl.glDisable(GL.GL_BLEND);
+		//gl.glEnd(); // DELIBERATE ERROR!
+		print_fps(gl, glu);
+		once = false;
+	}
+
+	void renderSimple()
+	{
+		drawLight();
+		//gl.glLightModeli(
+		//	GL.GL_LIGHT_MODEL_COLOR_CONTROL,
+		//	GL.GL_SEPARATE_SPECULAR_COLOR);
+		//gl.glLightModelfv(GL.GL_LIGHT_MODEL_AMBIENT, zero);
+		gl.glActiveTextureARB(GL.GL_TEXTURE0_ARB);
+		//disableCombiners();
+		//disableTexgen();
+		gl.glTexEnvi(GL.GL_TEXTURE_ENV, GL.GL_TEXTURE_ENV_MODE, GL.GL_MODULATE);
+
+		gl.glLightfv(GL.GL_LIGHT0, GL.GL_AMBIENT, scene.light.ambientColor);
+		gl.glLightfv(GL.GL_LIGHT0, GL.GL_DIFFUSE, scene.light.diffuseColor);
+		gl.glLightfv(GL.GL_LIGHT0, GL.GL_SPECULAR, scene.light.specularColor);
+		//gl.glColor3f(0.0f, 0.0f, 0.0f);
+		scene.light.lightVector[3] = 0.0f;
+		//gl.glEnable(gl.GL_LIGHTING);
+		gl.glEnable(gl.GL_LIGHT0);
+		gl.glLightfv(GL.GL_LIGHT0, GL.GL_POSITION, scene.light.lightVector);
+		gl.glMaterialfv(GL.GL_FRONT, GL.GL_AMBIENT, scene.light.ambientColor);
+		gl.glMaterialfv(GL.GL_FRONT, GL.GL_DIFFUSE, whiteMaterial);
+
+		gl.glPushMatrix();
+		gl.glMultMatrixf(scene.sceneMatrix);
+
+		renderList(drawListOpaque, true && globalTextureState, false, 0);
+
+		gl.glDepthMask(false);
+		//gl.glDepthFunc(GL.GL_DEPTH_WRITEMASK);
+		//gl.glEnable(GL.GL_BLEND);
+		//System.out.println("Drawing alpha...");
+		//debugLevel = 1;
+
+		renderList(drawListTransparent, true && globalTextureState, false, 0);
+		///debugLevel = 0;
+		//System.out.println("Drawing alpha...complete");
+		gl.glPopMatrix();
+		//gl.glDisable(GL.GL_BLEND);
+		//gl.glEnable(GL.GL_DEPTH_TEST);
+		gl.glDepthMask(true);
+	}
+
+	void renderList(
+		RenderBinNode node,
+		boolean textured,
+		boolean combiner,
+		int textureShift)
+	{
+		// mode 2 = texture combiners enabled if texturing is on
+
+		//stateSwitchCount = 0;
+		//stateShareCount = 0;
+		currentMat = null;
+		lastVertexArraySet.clear();
+
+		//lastAppearance = null;
+		gl.glPushMatrix();
+		Object object = node.getBin();
+		if ( object instanceof RenderShape)
+		{
+			//RenderShape renderShape = ((RenderShape)list.get(i));
+			// enable combiner if mode set
+			/*
+			if (textured)
+			{
+				int textureCount = 0;
+				if (renderShape.appearance.myTextures != null && combiner)
+				{
+					textureCount = renderShape.appearance.myTextures.length;
+					//configCombinersForHardwareShadowPass(textureCount);
+				}
+			}
+			*/
+			render((RenderShape)object, gl, textured, textureShift);
+		}
+		else if ( object instanceof ArrayList)
+		{
+			ArrayList list = (ArrayList)object;
+			for( int i = 0; i<list.size(); i++)
+			{
+				Object object2 = list.get(i);
+				//if ( object2 instanceof RenderBinNode)
+				{
+					gl.glPopMatrix();
+					renderList((RenderBinNode)object2,textured,combiner,textureShift);
+					gl.glPushMatrix();
+				}
+			}
+		}
+		gl.glPopMatrix();
+	}
+
+	void renderList(
+		ArrayList list,
+		boolean textured,
+		boolean combiner,
+		int textureShift)
+	{
+		// mode 2 = texture combiners enabled if texturing is on
+
+		//stateSwitchCount = 0;
+		//stateShareCount = 0;
+		currentMat = null;
+		lastVertexArraySet.clear();
+
+		//lastAppearance = null;
+		gl.glPushMatrix();
+		for (int i = 0; i < list.size(); i++)
+		{
+			Object object = list.get(i);
+			if ( object instanceof RenderShape)
+			{
+				//RenderShape renderShape = ((RenderShape)list.get(i));
+				// enable combiner if mode set
+				/*
+				if (textured)
+				{
+					int textureCount = 0;
+					if (renderShape.appearance.myTextures != null && combiner)
+					{
+						textureCount = renderShape.appearance.myTextures.length;
+						//configCombinersForHardwareShadowPass(textureCount);
+					}
+				}
+				*/
+				render(((RenderShape)object), gl, textured, textureShift);
+			}
+			/*
+			else if ( object instanceof ArrayList)
+			{
+				gl.glPopMatrix();
+				renderList(list,textured,combiner,textureShift);
+				gl.glPushMatrix();
+			}
+			*/
+		}
+		gl.glPopMatrix();
+	}
+
+	public void render(
+		RenderShape shape,
+		GL gl,
+		boolean textured,
+		int textureSwift)
+	{
+		setRenderState(shape, gl, textured, textureSwift);
+		// TODO remove this hack
+		VertexArraySet shapeVAS = shape.vertexArraySet;
+		Appearance shapeApp = shape.appearance;
+		//		if (shapeVAS.staticGeometry && !shapeVAS.bound)
+		//			RendererUtils.bindArrays(shape, gl);
+		//if (shapeVAS.staticGeometry)
+		RendererUtils.bindArrays(shape, gl, glu);
+
+        //if ( false )
+        //if (true)
+        if (shapeVAS.staticGeometry || forceStaticRender)
+		{
+
+        if ( !supportedVBO )
+        {
+            if ( shapeVAS.displayListID == -1 )
+            {
+                shapeVAS.displayListID = gl.glGenLists(1);
+                gl.glNewList(shapeVAS.displayListID, GL.GL_COMPILE);
+                System.out.println("Building display list - " +  shapeVAS.displayListID);
+                renderVertexArrays(shapeVAS,shapeApp,gl,textured,textureSwift);
+                gl.glEndList();
+            }
+            else
+            {
+                gl.glCallList(shapeVAS.displayListID);
+            }
+        }
+        else
+        {
+            //System.out.println("should see this");
+			//if (lastVertexArraySet.vertexArrayID != shapeVAS.vertexArrayID)
+			{
+				gl.glBindBufferARB(
+					GL.GL_ARRAY_BUFFER_ARB,
+					shapeVAS.vertexArrayID);
+				gl.glVertexPointer(3, GL.GL_FLOAT, 0, zeroOffsetBuffer);
+				gl.glEnableClientState(GL.GL_VERTEX_ARRAY);
+				//System.out.println("Not shared " + lastVertexArraySet.vertexArrayID + " " + shape.vertexArrayID);
+			}
+			lastVertexArraySet.vertexArrayID = shapeVAS.vertexArrayID;
+
+			//if (lastVertexArraySet.colorArrayID != shapeVAS.colorArrayID)
+			{
+				if (shapeVAS.colorArray != null)
+				{
+					gl.glBindBufferARB(
+						GL.GL_ARRAY_BUFFER_ARB,
+						shapeVAS.colorArrayID);
+					gl.glColorPointer(3, GL.GL_FLOAT, 0, zeroOffsetBuffer);
+					gl.glEnableClientState(GL.GL_COLOR_ARRAY);
+				}
+			}
+			lastVertexArraySet.colorArrayID = shapeVAS.colorArrayID;
+
+			//if (lastVertexArraySet.normalArrayID != shapeVAS.normalArrayID)
+			if (shapeVAS.normalArray != null)
+			{
+				gl.glBindBufferARB(
+					GL.GL_ARRAY_BUFFER_ARB,
+					shapeVAS.normalArrayID);
+				gl.glNormalPointer(GL.GL_FLOAT, 0, zeroOffsetBuffer);
+				gl.glEnableClientState(GL.GL_NORMAL_ARRAY);
+				//gl.glEnable(GL.GL_LIGHTING);
+			}
+			else
+			{
+				gl.glDisableClientState(GL.GL_NORMAL_ARRAY);
+				//gl.glDisable(GL.GL_LIGHTING);
+				//gl.glColor3f(1.0f, 1.0f, 1.0f);
+			}
+			lastVertexArraySet.normalArrayID = shapeVAS.normalArrayID;
+
+			//textured = false;
+			if ((shapeVAS.textureCoordArray != null)
+				&& (shapeApp.textureStageState != null)
+				&& textured)
+			{
+				gl.glClientActiveTextureARB(
+					GL.GL_TEXTURE0_ARB + textureSwift);
+				gl.glBindBufferARB(
+					GL.GL_ARRAY_BUFFER_ARB,
+					shapeVAS.textureCoordArrayID[0]);
+				gl.glTexCoordPointer(2, GL.GL_FLOAT, 0, zeroOffsetBuffer);
+				gl.glEnableClientState(GL.GL_TEXTURE_COORD_ARRAY);
+
+				if (shapeApp.textureStageState.length > 1)
+				//if (false)
+				{
+					if (true)
+					{
+						gl.glClientActiveTextureARB(
+							GL.GL_TEXTURE1_ARB + textureSwift);
+						gl.glBindBufferARB(
+							GL.GL_ARRAY_BUFFER_ARB,
+							shapeVAS.textureCoordArrayID[1]);
+						gl.glTexCoordPointer(
+							2,
+							GL.GL_FLOAT,
+							0,
+							zeroOffsetBuffer);
+						gl.glEnableClientState(GL.GL_TEXTURE_COORD_ARRAY);
+					}
+				}			
+				
+			}
+			else
+			{
+				//System.out.println("shapeVAS.textureCoordArray " + shapeVAS.textureCoordArray);
+				//System.out.println("shapeApp.myTextures " + shapeApp.myTextures);
+				//System.out.println("textured " + textured);
+				//if ((shapeVAS.textureCoordArray != null)
+				//	&& (shapeApp.myTextures != null)
+				//	&& textured)
+
+				//gl.glActiveTextureARB(GL.GL_TEXTURE0_ARB);
+				//gl.glDisable(GL.GL_TEXTURE_2D);
+				//gl.glActiveTextureARB(GL.GL_TEXTURE1_ARB);
+				//gl.glDisable(GL.GL_TEXTURE_2D);
+			if (textureSwift == 0)
+				{
+					//gl.glActiveTextureARB(GL.GL_TEXTURE0_ARB);
+					//gl.glDisable(GL.GL_TEXTURE_2D);
+					//gl.glActiveTextureARB(GL.GL_TEXTURE1_ARB);
+					//gl.glDisable(GL.GL_TEXTURE_2D);
+					//gl.glActiveTextureARB(GL.GL_TEXTURE2_ARB);
+					//gl.glDisable(GL.GL_TEXTURE_2D);
+					//System.out.println("Here");
+				}
+			}
+
+			//if (lastVertexArraySet.faceIndicesID != shapeVAS.faceIndicesID)
+			gl.glBindBufferARB(
+				GL.GL_ELEMENT_ARRAY_BUFFER_ARB,
+				shapeVAS.faceIndicesID);
+			lastVertexArraySet.faceIndicesID = shapeVAS.faceIndicesID;
+
+			try
+			{
+			gl.glDrawElements(
+				GL.GL_TRIANGLES,
+				shapeVAS.faceIndices.capacity(),
+				GL.GL_UNSIGNED_INT,
+				zeroOffsetBuffer);
+			}
+			catch (Exception e)
+			{
+				e.printStackTrace();
+			}
+		}
+	}
+		else // Dynamic geometry
+		{
+          renderVertexArrays(shapeVAS,shapeApp,gl,textured,textureSwift);
+        }   
+		//gl.glDisableClientState(GL.GL_VERTEX_ARRAY);
+		//gl.glDisableClientState(GL.GL_NORMAL_ARRAY);
+		//gl.glDisableClientState(GL.GL_TEXTURE_COORD_ARRAY);
+		//gl.glDisableClientState(GL.GL_COLOR_ARRAY);
+		//gl.glDisableClientState(GL.GL_INDEX_ARRAY);
+
+		//gl.glDisableClientState(GL.GL_INDEX_ARRAY);
+		//gl.glClientActiveTextureARB(GL.GL_TEXTURE1_ARB);
+
+		//gl.glDisableClientState(GL.GL_ARRAY_BUFFER_ARB);
+
+		//gl.glDisableClientState(GL.GL_ARRAY_BUFFER_ARB);
+		//gl.glClientActiveTextureARB(GL.GL_TEXTURE2_ARB);
+		//gl.glDisableClientState(GL.GL_TEXTURE_2D);
+
+	}
+
+    public void renderVertexArrays(
+        VertexArraySet shapeVAS,
+        Appearance shapeApp,
+        GL gl,
+        boolean textured,
+        int textureSwift)
+   {
+            //System.out.println("Once" + this);
+            gl.glBindBufferARB(GL.GL_ARRAY_BUFFER_ARB, 0);
+
+            gl.glVertexPointer(
+                3,
+                GL.GL_FLOAT,
+                0,
+                shapeVAS.vertexArray);
+            gl.glEnableClientState(GL.GL_VERTEX_ARRAY);
+
+            if (shapeVAS.colorArray != null)
+            {
+                //test
+                //if (shape.colorArrayStatic)
+                if (false)
+                {
+                    gl.glBindBufferARB(
+                        GL.GL_ARRAY_BUFFER_ARB,
+                        shapeVAS.colorArrayID);
+                    gl.glColorPointer(3, GL.GL_FLOAT, 0, zeroOffsetBuffer);
+                }
+                else
+                {
+                    gl.glColorPointer(3, GL.GL_FLOAT, 0, shapeVAS.colorArray);
+                }
+                gl.glEnableClientState(GL.GL_COLOR_ARRAY);
+            }
+
+            if (shapeVAS.normalArray != null)
+            {
+                //gl.glEnable(GL.GL_LIGHTING);
+                gl.glNormalPointer(GL.GL_FLOAT, 0, shapeVAS.normalArray);
+                gl.glEnableClientState(GL.GL_NORMAL_ARRAY);
+            }
+            //textured = false;
+            if ((shapeVAS.textureCoordArray != null)
+                && (shapeApp.textureStageState != null)
+                && textured)
+            {
+                gl.glClientActiveTextureARB(
+                    GL.GL_TEXTURE0_ARB + textureSwift);
+
+                //if (shape.textureCoordArrayStatic)
+                if (false)
+                {
+                    gl.glBindBufferARB(
+                        GL.GL_ARRAY_BUFFER_ARB,
+                        shapeVAS.textureCoordArrayID[0]);
+
+                    gl.glTexCoordPointer(
+                        2,
+                        GL.GL_FLOAT,
+                        0,
+                        zeroOffsetBuffer);
+
+                if (shapeApp.textureStageState.length > 1)
+                {
+                    if (true)
+                    {
+                        gl.glBindBufferARB(
+                            GL.GL_ARRAY_BUFFER_ARB,
+                            shapeVAS.textureCoordArrayID[1]);
+
+                        gl.glTexCoordPointer(
+                            2,
+                            GL.GL_FLOAT,
+                            0,
+                            shapeVAS.textureCoordArray[1]);
+                        gl.glEnableClientState(GL.GL_TEXTURE_COORD_ARRAY);
+                    }
+
+                }
+
+                }
+                else
+                {
+                    gl.glTexCoordPointer(
+                        2,
+                        GL.GL_FLOAT,
+                        0,
+                        shapeVAS.textureCoordArray[0]);
+                        
+                gl.glEnableClientState(GL.GL_TEXTURE_COORD_ARRAY);
+                    if (shapeApp.textureStageState.length > 1)
+                    {
+                        gl.glClientActiveTextureARB(
+                            GL.GL_TEXTURE1_ARB + textureSwift);
+
+                        gl.glTexCoordPointer(
+                            2,
+                            GL.GL_FLOAT,
+                            0,
+                            shapeVAS.textureCoordArray[1]);
+                        gl.glEnableClientState(GL.GL_TEXTURE_COORD_ARRAY);
+                    }           
+                }
+
+
+            }
+            //faceIndices.rewind();
+            if (shapeVAS.faceIndicesStatic)
+                //if (false)
+            {
+                gl.glBindBufferARB(
+                    GL.GL_ELEMENT_ARRAY_BUFFER_ARB,
+                    shapeVAS.faceIndicesID);
+                gl.glDrawElements(
+                    GL.GL_TRIANGLES,
+                    shapeVAS.faceIndices.capacity(),
+                    GL.GL_UNSIGNED_INT,
+                    zeroOffsetBuffer);
+            }
+            else
+            {
+                //System.out.println("shapeVAS " + shapeVAS);
+                //System.out.println("shapeVAS.faceIndices " + shapeVAS.faceIndices);
+                gl.glBindBufferARB(GL.GL_ELEMENT_ARRAY_BUFFER_ARB, 0);
+                gl.glDrawElements(
+                    GL.GL_TRIANGLES,
+                    shapeVAS.faceIndices.capacity(),
+                    GL.GL_UNSIGNED_INT,
+                    shapeVAS.faceIndices);
+            }
+            //System.out.println("Dynamic");
+    }
+
+
+	static public void setRenderStateMask(RenderShape rShape)
+	{
+		int bits = 0;
+
+		Appearance app = rShape.appearance;
+
+		if (app.material != null && app.material.lightingEnable)
+			bits |= Appearance.lightMask;
+		if (app.shadeModel == Appearance.SHADE_SMOOTH)
+			bits |= Appearance.shadeModelMask;
+		if (app.textureEnable)
+			bits |= Appearance.textureMask;
+		if (app.material != null)
+			bits |= Appearance.materialMask;
+		if (app.CULL)
+			bits |= Appearance.cullMask;
+//		if (app.colorArrayEnable == true)
+//			bits |= Appearance.colorArrayMask;
+
+		app.stateBitSet = bits;
+		if ( app.textureStageState != null )
+			app.textureCount = app.textureStageState.hashCode();
+		else
+			app.textureCount = 0;
+	}
+
+	public void setRenderState(
+		RenderShape shape,
+		GL gl,
+		boolean textured,
+		int textureSwift)
+	{
+		setRenderStateMask(shape);
+		// check if same matrix state as last shape's
+		if (currentMat != shape.myMatrix)
+		{
+			if (shape.myMatrix != null)
+			{
+				// pop last shapes matrix state
+				gl.glPopMatrix();
+				// push in this shape's matrix state
+				gl.glPushMatrix();
+				gl.glMultMatrixf(shape.myMatrix);
+			}
+			else
+			{
+				// pop last shapes matrix state
+				gl.glPopMatrix();
+				// push in this shape's matrix state
+				gl.glPushMatrix();
+			}
+			//System.out.println("Error: RenderShape null matrix");
+			currentMat = shape.myMatrix;
+			// stats
+			alphaStateSwitchCount++;
+		}
+		else //if (once)
+			{
+			// stats
+			//System.out.println("Found matching transform state...");
+			alphaStateShareCount++;
+		}
+		if (!(lastAppearance == shape.appearance))
+		{
+			if (shape.appearance.hasAlpha)
+			{
+				gl.glEnable(GL.GL_BLEND);
+				gl.glBlendFunc(GL.GL_SRC_ALPHA, GL.GL_ONE_MINUS_SRC_ALPHA);
+				if (debugLevel == 1)
+					System.out.println("On");
+			}
+			else
+			{
+				gl.glDisable(GL.GL_BLEND);
+				if (debugLevel == 1)
+					System.out.println("off");
+			}
+
+			//if ( myTexture == null ) return;
+			int diff =
+				lastAppearance.stateBitSet ^ shape.appearance.stateBitSet;
+			//if (once)
+			//	System.out.println("diff " + diff);
+			if (diff != 0)
+			{
+				//System.out.println("Same state " + once);
+				if (once)
+				{
+					//System.out.println("Same state " + diff);
+					stateChanges++;
+				}
+
+				if ((diff & Appearance.lightMask) == Appearance.lightMask)
+				if (shape.appearance.material != null &&
+					shape.appearance.material.lightingEnable)
+				{
+					gl.glEnable(GL.GL_LIGHTING);
+				}
+				else
+				{
+					gl.glDisable(GL.GL_LIGHTING);
+				}
+				if ((diff & Appearance.shadeModelMask) == Appearance.shadeModelMask)
+				if (shape.appearance.shadeModel == Appearance.SHADE_SMOOTH)
+				{
+					gl.glShadeModel(GL.GL_SMOOTH);
+				}
+				else
+				{
+					gl.glShadeModel(GL.GL_FLAT);
+				}
+
+				if ((diff & Appearance.cullMask) == Appearance.cullMask)
+				if (shape.appearance.CULL)
+				{
+					gl.glEnable(GL.GL_CULL_FACE);
+					gl.glCullFace(shape.appearance.cullFace);
+				}
+				else
+					gl.glDisable(GL.GL_CULL_FACE);
+
+			}
+			//TODO: this needs to be commented out to work - why?
+			//if (( diff & Appearance.textureMask) == Appearance.textureMask )
+			if ((lastTextureStageState != shape.appearance.textureStageState)
+				|| lastTextureEnable != shape.appearance.textureEnable)
+				///if (true)
+			{
+				if (shape.appearance.textureEnable == true
+					&& ((shape.appearance.stateBitSet & Appearance.textureMask)
+						== Appearance.textureMask)
+					&& shape.appearance.textureStageState != null)
+				{
+					gl.glActiveTextureARB(GL.GL_TEXTURE0_ARB + textureSwift);
+					shape.appearance.textureStageState[0].texture.bind(gl);
+					if (shape
+						.appearance
+						.textureStageState[0]
+						.texCoordGeneration
+						!= null)
+					{
+						gl.glTexGeni(
+							GL.GL_S,
+							GL.GL_TEXTURE_GEN_MODE,
+							GL.GL_SPHERE_MAP);
+						gl.glTexGeni(
+							GL.GL_T,
+							GL.GL_TEXTURE_GEN_MODE,
+							GL.GL_SPHERE_MAP);
+						gl.glEnable(GL.GL_TEXTURE_GEN_S);
+						gl.glEnable(GL.GL_TEXTURE_GEN_T);
+					}
+					else
+					{
+						gl.glDisable(GL.GL_TEXTURE_GEN_S);
+						gl.glDisable(GL.GL_TEXTURE_GEN_T);
+					}
+					gl.glEnable(GL.GL_TEXTURE_2D);
+					//gl.glTexParameteri(GL.GL_TEXTURE_2D,GL.GL_GENERATE_MIPMAP,GL.GL_TRUE);
+					//gl.glTexParameteri(GL.GL_TEXTURE_2D,GL.GL_TEXTURE_MIN_FILTER,GL.GL_LINEAR_MIPMAP_LINEAR);
+
+					if (shape.appearance.textureStageState.length > 1)
+					{
+						if (true)
+						{
+							gl.glActiveTextureARB(
+								GL.GL_TEXTURE1_ARB + textureSwift);
+							//xtureManager.bindTexture(myTexture[1]);
+							if (shape.appearance.textureStageState[1] != null)
+								if (shape
+									.appearance
+									.textureStageState[1]
+									.texture
+									!= null)
+									shape
+										.appearance
+										.textureStageState[1]
+										.texture
+										.bind(
+										gl);
+							if (shape
+								.appearance
+								.textureStageState[1]
+								.texCoordGeneration
+								!= null)
+							{
+								gl.glTexGeni(
+									GL.GL_S,
+									GL.GL_TEXTURE_GEN_MODE,
+									GL.GL_SPHERE_MAP);
+								gl.glTexGeni(
+									GL.GL_T,
+									GL.GL_TEXTURE_GEN_MODE,
+									GL.GL_SPHERE_MAP);
+								gl.glEnable(GL.GL_TEXTURE_GEN_S);
+								gl.glEnable(GL.GL_TEXTURE_GEN_T);
+							}
+							else
+							{
+								gl.glDisable(GL.GL_TEXTURE_GEN_S);
+								gl.glDisable(GL.GL_TEXTURE_GEN_T);
+							}
+							gl.glEnable(GL.GL_TEXTURE_2D);
+						}
+					}
+					else
+					{
+						//System.out.println("dis");
+						//gl.glDisable(GL.GL_TEXTURE_2D);
+						gl.glActiveTextureARB(GL.GL_TEXTURE1_ARB);
+						gl.glDisable(GL.GL_TEXTURE_2D);
+					}
+
+					//gl.glActiveTextureARB(GL.GL_TEXTURE0_ARB);
+					//gl.glEnable(GL.GL_TEXTURE_2D);
+					//System.out.println("ena");
+					//gl.glActiveTextureARB(GL.GL_TEXTURE0_ARB);
+					//gl.glEnable(GL.GL_TEXTURE_2D);
+					//gl.glActiveTextureARB(GL.GL_TEXTURE1_ARB);
+					//gl.glEnable(GL.GL_TEXTURE_2D);
+				}
+				else
+				{
+					//System.out.println("dis");
+					//gl.glDisable(GL.GL_TEXTURE_2D);
+					gl.glActiveTextureARB(GL.GL_TEXTURE0_ARB);
+					gl.glDisable(GL.GL_TEXTURE_2D);
+					gl.glActiveTextureARB(GL.GL_TEXTURE1_ARB);
+					gl.glDisable(GL.GL_TEXTURE_2D);
+				}
+				//System.out.println("textureShareCount..." + textureShareCount);
+				textureShareCount = 0;
+			}
+			else
+			{
+				textureShareCount++;
+				//System.out.println("Hold same shared TextureState...");
+			}
+			lastTextureStageState = shape.appearance.textureStageState;
+			lastTextureEnable = shape.appearance.textureEnable;
+			//if ((diff & Appearance.shadeModelMask)
+			//	== Appearance.shadeModelMask)
+
+			//else
+			//{
+			//}
+			if (shape.appearance.material != null)
+			{
+				if (shape.vertexArraySet.colorArray != null
+					&& !shape.appearance.ignoreVertexColors)
+				{
+					// TODO: kills material alpha cause the colors have no alpha compoent!!!
+					gl.glColorMaterial(GL.GL_FRONT, GL.GL_DIFFUSE);
+					gl.glEnable(GL.GL_COLOR_MATERIAL);
+				}
+				else
+				{
+					gl.glDisable(GL.GL_COLOR_MATERIAL);
+				}
+
+				if (shape.appearance.material != null
+					&& shape.appearance.material.lightingEnable)
+				{
+					//System.out.println("setting material alpha " + shape.appearance.material.diffuseColor[3]);
+					gl.glMaterialfv(
+						GL.GL_FRONT,
+						GL.GL_AMBIENT_AND_DIFFUSE,
+						shape.appearance.material.diffuseColor);
+				}
+				else
+				{
+					//gl.glColor3f(shape.appearance.material.diffuseColor[0], shape.appearance.material.diffuseColor[1], shape.appearance.material.diffuseColor[2]);
+					gl.glColor4fv(shape.appearance.material.diffuseColor);
+				}
+
+				//lastVertexArraySet.material.lightingEnable = shape.material.lightingEnable;		
+			}
+			else
+			{
+				//System.out.println("WHOA");
+				//gl.glMaterialfv(GL.GL_FRONT, GL.GL_DIFFUSE, whiteMaterial);
+				gl.glDisable(GL.GL_LIGHTING);
+				//gl.glColor3f(1.0f,1.0f,1.0f);
+			}
+		}
+		else
+		{
+			textureShareCount++;
+			//System.out.println("Hold same shared Appearance...");
+		}
+
+		lastVertexArraySet.colorArray = shape.vertexArraySet.colorArray;
+		lastAppearance = shape.appearance;
+	}
+
+	double start;
+	public static int refresh_rate, count_fps, fps;
+	void print_fps(GL gl, GLU glu)
+	{
+
+		int viewport[] = new int[4];
+
+		if (start == 0)
+			start = System.currentTimeMillis();
+
+		if (System.currentTimeMillis() - start >= 1000)
+		{
+			fps = count_fps;
+			start = 0;
+			count_fps = 0;
+		}
+
+		count_fps++;
+
+		gl.glPushMatrix();
+		gl.glLoadIdentity();
+		gl.glMatrixMode(gl.GL_PROJECTION);
+		gl.glPushMatrix();
+		gl.glLoadIdentity();
+
+		gl.glGetIntegerv(gl.GL_VIEWPORT, viewport);
+		glu.gluOrtho2D(0, viewport[2], viewport[3], 0);
+		gl.glDepthFunc(gl.GL_ALWAYS);
+		gl.glColor3f(1, 1, 1);
+		gl.glRasterPos2f(15, 15);
+
+		glut.glutBitmapString(gl, glut.BITMAP_HELVETICA_18, "FPS: " + fps);
+
+		gl.glDepthFunc(gl.GL_LESS);
+		gl.glPopMatrix();
+		gl.glMatrixMode(gl.GL_MODELVIEW);
+		gl.glPopMatrix();
+	}
+
+	/**
+	 * @return
+	 */
+	public Scene getScene()
+	{
+		return scene;
+	}
+
+	/**
+	 * @param scene
+	 */
+	public void setScene(Scene scene)
+	{
+		this.scene = scene;
+	}
+
+	/**
+	 * @return
+	 */
+	public boolean isGlobalWireFrameState()
+	{
+		return globalWireFrameState;
+	}
+
+	/**
+	 * @param b
+	 */
+	public void setGlobalWireFrameState(boolean b)
+	{
+		globalWireFrameState = b;
+	}
+
+	/**
+	 * @return
+	 */
+	public boolean isGlobalTextureState()
+	{
+		return globalTextureState;
+	}
+
+	/**
+	 * @param b
+	 */
+	public void setGlobalTextureState(boolean b)
+	{
+		globalTextureState = b;
+	}
+
+}
+
+
+class AppearanceComparator implements Comparator
+{
+	public int compare(Object o1, Object o2)
+	{
+		Appearance app1 = (Appearance) ((RenderShape)o1).appearance;
+		Appearance app2 = (Appearance) ((RenderShape)o2).appearance;
+		return (app2.stateBitSet - app1.stateBitSet);
+	}
+
+	public boolean equals(Object obj)
+	{
+		return equals(obj);
+	}
+}
+
+class ZComparator implements Comparator
+{
+	public int compare(Object o1, Object o2)
+	{
+		float obZ1 = ((RenderShape)o1).cameraZ;
+		float obZ2 = ((RenderShape)o2).cameraZ;
+		return ((obZ1 - obZ2) > 0) ? 1 : -1;
+	}
+
+	public boolean equals(Object obj)
+	{
+		return equals(obj);
+	}
+}
+

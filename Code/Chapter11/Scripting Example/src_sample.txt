@@ -1,0 +1,2 @@
+"C:\\Main\\Projects\\Professional Java Game Development\\Java as a Scripting Language\\Examples\\Sample\\ScriptBase.java"
+"C:\\Main\\Projects\\Professional Java Game Development\\Java as a Scripting Language\\Examples\\Sample\\Script1.java"

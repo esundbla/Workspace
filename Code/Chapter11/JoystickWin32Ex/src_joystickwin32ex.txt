@@ -1,0 +1,2 @@
+"C:\\Main\\Projects\\Professional Java Game Development\\Java Native Interface\\ChapterExamples\\JoystickWin32Ex\\Sample.java"
+"C:\\Main\\Projects\\Professional Java Game Development\\Java Native Interface\\ChapterExamples\\JoystickWin32Ex\\JoystickWin32Ex.java"

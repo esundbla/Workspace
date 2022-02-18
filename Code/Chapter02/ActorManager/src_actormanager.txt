@@ -1,0 +1,7 @@
+"D:\\Documents and Settings\\Dustin Clingman\\Desktop\\Milestone 2 Updates\\Chapter 2 (Architecture)\\Code\\Chapter2\\ActorManager\\Updater.java"
+"D:\\Documents and Settings\\Dustin Clingman\\Desktop\\Milestone 2 Updates\\Chapter 2 (Architecture)\\Code\\Chapter2\\ActorManager\\Player.java"
+"D:\\Documents and Settings\\Dustin Clingman\\Desktop\\Milestone 2 Updates\\Chapter 2 (Architecture)\\Code\\Chapter2\\ActorManager\\Loggable.java"
+"D:\\Documents and Settings\\Dustin Clingman\\Desktop\\Milestone 2 Updates\\Chapter 2 (Architecture)\\Code\\Chapter2\\ActorManager\\Enemy.java"
+"D:\\Documents and Settings\\Dustin Clingman\\Desktop\\Milestone 2 Updates\\Chapter 2 (Architecture)\\Code\\Chapter2\\ActorManager\\Drawable.java"
+"D:\\Documents and Settings\\Dustin Clingman\\Desktop\\Milestone 2 Updates\\Chapter 2 (Architecture)\\Code\\Chapter2\\ActorManager\\ActorManager.java"
+"D:\\Documents and Settings\\Dustin Clingman\\Desktop\\Milestone 2 Updates\\Chapter 2 (Architecture)\\Code\\Chapter2\\ActorManager\\Actor.java"

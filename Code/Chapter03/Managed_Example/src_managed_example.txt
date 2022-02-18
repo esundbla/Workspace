@@ -1,0 +1,4 @@
+"D:\\Documents and Settings\\Dustin Clingman\\Desktop\\Milestone 2 Updates\\Chapter 3 (2D)\\code\\Chapter 3\\Managed_Example\\ManagedExample.java"
+"D:\\Documents and Settings\\Dustin Clingman\\Desktop\\Milestone 2 Updates\\Chapter 3 (2D)\\code\\Chapter 3\\FullScreen3\\FullScreenFrame1.java"
+"D:\\Documents and Settings\\Dustin Clingman\\Desktop\\Milestone 2 Updates\\Chapter 3 (2D)\\code\\Chapter 3\\FullScreen3\\FullScreenFrame2.java"
+"D:\\Documents and Settings\\Dustin Clingman\\Desktop\\Milestone 2 Updates\\Chapter 3 (2D)\\code\\Chapter 3\\FullScreen3\\FullScreenFrame3.java"

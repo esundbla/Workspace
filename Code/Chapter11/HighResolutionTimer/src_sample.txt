@@ -1,0 +1,3 @@
+"C:\\Main\\Projects\\Professional Java Game Development\\Java Native Interface\\ChapterExamples\\HighResolutionTimer\\Sample.java"
+"C:\\Main\\Projects\\Professional Java Game Development\\Java Native Interface\\ChapterExamples\\HighResolutionTimer\\QueryPerformanceCounter.java"
+"C:\\Main\\Projects\\Professional Java Game Development\\Java Native Interface\\ChapterExamples\\HighResolutionTimer\\HighResolutionTimer.java"

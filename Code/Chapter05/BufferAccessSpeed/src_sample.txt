@@ -1,0 +1,3 @@
+"C:\\Main\\Projects\\Professional Java Game Development\\IO\\ChapterExamples\\BufferAccessSpeed\\HighResolutionTimer.java"
+"C:\\Main\\Projects\\Professional Java Game Development\\IO\\ChapterExamples\\BufferAccessSpeed\\QueryPerformanceCounter.java"
+"C:\\Main\\Projects\\Professional Java Game Development\\IO\\ChapterExamples\\BufferAccessSpeed\\Sample.java"

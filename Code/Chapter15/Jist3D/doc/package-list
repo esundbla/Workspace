@@ -1,0 +1,9 @@
+com.imi.j3d.loaders.flt
+com.imi.j3d.util
+com.imi.jist3d.examples
+com.imi.jist3d.gui
+com.imi.jist3d.render
+com.imi.jist3d.scenegraph
+com.imi.jist3d.util
+com.imi.util
+vecmath

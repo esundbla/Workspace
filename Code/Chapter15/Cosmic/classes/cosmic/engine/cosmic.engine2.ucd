@@ -1,0 +1,1155 @@
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" id="cosmic1ShawnKendalltest5" metadata="nsuml-1.4" initialized="true" showWireOptions="7">
+  <children xsi:type="editmodel:ClassEditModel" location="519,12142" size="120,75" id="cosmic1ShawnKendalltest2094" runTimeClassModel="cosmic1ShawnKendalltest2110;cosmic1ShawnKendalltest2099;cosmic1ShawnKendalltest2095;cosmic1ShawnKendalltest2107;cosmic1ShawnKendalltest2116;cosmic1ShawnKendalltest2104;cosmic1ShawnKendalltest2102;cosmic1ShawnKendalltest2112">
+    <children xsi:type="editmodel:CompartmentEditModel" size="95,36" viewSorter="Name">
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest2095"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest2099"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" viewSorter="Name"/>
+    <children xsi:type="editmodel:CompartmentEditModel" viewSorter="Name"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" location="1280,12142" size="84,29" id="cosmic1ShawnKendalltest2437" runTimeClassModel="cosmic1ShawnKendalltest2440;cosmic1ShawnKendalltest2472;cosmic1ShawnKendalltest2460;cosmic1ShawnKendalltest2449;cosmic1ShawnKendalltest2438;cosmic1ShawnKendalltest2469;cosmic1ShawnKendalltest2457;cosmic1ShawnKendalltest2446;cosmic1ShawnKendalltest2466;cosmic1ShawnKendalltest2455;cosmic1ShawnKendalltest2444;cosmic1ShawnKendalltest2475;cosmic1ShawnKendalltest2442;cosmic1ShawnKendalltest2463;cosmic1ShawnKendalltest2452">
+    <children xsi:type="editmodel:CompartmentEditModel" viewSorter="Name"/>
+    <children xsi:type="editmodel:CompartmentEditModel" viewSorter="Name"/>
+    <children xsi:type="editmodel:CompartmentEditModel" viewSorter="Name"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" location="299,12142" size="170,183" id="cosmic1ShawnKendalltest2480" runTimeClassModel="cosmic1ShawnKendalltest2494;cosmic1ShawnKendalltest2483;cosmic1ShawnKendalltest2508;cosmic1ShawnKendalltest2481;cosmic1ShawnKendalltest2506;cosmic1ShawnKendalltest2490;cosmic1ShawnKendalltest2504;cosmic1ShawnKendalltest2501;cosmic1ShawnKendalltest2488;cosmic1ShawnKendalltest2498;cosmic1ShawnKendalltest2485">
+    <children xsi:type="editmodel:CompartmentEditModel" size="139,144" viewSorter="Name">
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest2494"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest2498"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest2483"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest2481"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest2485"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest2490"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest2488"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest2501"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" viewSorter="Name"/>
+    <children xsi:type="editmodel:CompartmentEditModel" viewSorter="Name"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" location="1111,12142" size="119,29" id="cosmic1ShawnKendalltest2600" runTimeClassModel="cosmic1ShawnKendalltest2619;cosmic1ShawnKendalltest2617;cosmic1ShawnKendalltest2737;cosmic1ShawnKendalltest2615;cosmic1ShawnKendalltest2658;cosmic1ShawnKendalltest2613;cosmic1ShawnKendalltest2656;cosmic1ShawnKendalltest2777;cosmic1ShawnKendalltest2732;cosmic1ShawnKendalltest2611;cosmic1ShawnKendalltest2654;cosmic1ShawnKendalltest2696;cosmic1ShawnKendalltest2773;cosmic1ShawnKendalltest2652;cosmic1ShawnKendalltest2650;cosmic1ShawnKendalltest2692;cosmic1ShawnKendalltest2609;cosmic1ShawnKendalltest2607;cosmic1ShawnKendalltest2728;cosmic1ShawnKendalltest2605;cosmic1ShawnKendalltest2769;cosmic1ShawnKendalltest2648;cosmic1ShawnKendalltest2801;cosmic1ShawnKendalltest2724;cosmic1ShawnKendalltest2603;cosmic1ShawnKendalltest2646;cosmic1ShawnKendalltest2601;cosmic1ShawnKendalltest2765;cosmic1ShawnKendalltest2688;cosmic1ShawnKendalltest2644;cosmic1ShawnKendalltest2642;cosmic1ShawnKendalltest2761;cosmic1ShawnKendalltest2640;cosmic1ShawnKendalltest2684;cosmic1ShawnKendalltest2682;cosmic1ShawnKendalltest2680;cosmic1ShawnKendalltest2719;cosmic1ShawnKendalltest2638;cosmic1ShawnKendalltest2714;cosmic1ShawnKendalltest2757;cosmic1ShawnKendalltest2636;cosmic1ShawnKendalltest2678;cosmic1ShawnKendalltest2633;cosmic1ShawnKendalltest2753;cosmic1ShawnKendalltest2797;cosmic1ShawnKendalltest2676;cosmic1ShawnKendalltest2631;cosmic1ShawnKendalltest2674;cosmic1ShawnKendalltest2750;cosmic1ShawnKendalltest2793;cosmic1ShawnKendalltest2672;cosmic1ShawnKendalltest2670;cosmic1ShawnKendalltest2709;cosmic1ShawnKendalltest2629;cosmic1ShawnKendalltest2704;cosmic1ShawnKendalltest2627;cosmic1ShawnKendalltest2746;cosmic1ShawnKendalltest2625;cosmic1ShawnKendalltest2668;cosmic1ShawnKendalltest2789;cosmic1ShawnKendalltest2700;cosmic1ShawnKendalltest2623;cosmic1ShawnKendalltest2666;cosmic1ShawnKendalltest2621;cosmic1ShawnKendalltest2742;cosmic1ShawnKendalltest2785;cosmic1ShawnKendalltest2664;cosmic1ShawnKendalltest2662;cosmic1ShawnKendalltest2781;cosmic1ShawnKendalltest2660">
+    <children xsi:type="editmodel:CompartmentEditModel" viewSorter="Name"/>
+    <children xsi:type="editmodel:CompartmentEditModel" viewSorter="Name"/>
+    <children xsi:type="editmodel:CompartmentEditModel" viewSorter="Name"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" location="907,12142" size="154,29" id="cosmic1ShawnKendalltest2939" runTimeClassModel="cosmic1ShawnKendalltest2948;cosmic1ShawnKendalltest2958;cosmic1ShawnKendalltest2946;cosmic1ShawnKendalltest2956;cosmic1ShawnKendalltest2944;cosmic1ShawnKendalltest2954;cosmic1ShawnKendalltest2964;cosmic1ShawnKendalltest2942;cosmic1ShawnKendalltest2952;cosmic1ShawnKendalltest2962;cosmic1ShawnKendalltest2940;cosmic1ShawnKendalltest2950;cosmic1ShawnKendalltest2960">
+    <children xsi:type="editmodel:CompartmentEditModel" viewSorter="Name"/>
+    <children xsi:type="editmodel:CompartmentEditModel" viewSorter="Name"/>
+    <children xsi:type="editmodel:CompartmentEditModel" viewSorter="Name"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" location="689,12142" size="168,29" id="cosmic1ShawnKendalltest3007" runTimeClassModel="cosmic1ShawnKendalltest3008;cosmic1ShawnKendalltest3028;cosmic1ShawnKendalltest3049;cosmic1ShawnKendalltest3027;cosmic1ShawnKendalltest3047;cosmic1ShawnKendalltest3025;cosmic1ShawnKendalltest3068;cosmic1ShawnKendalltest3023;cosmic1ShawnKendalltest3045;cosmic1ShawnKendalltest3022;cosmic1ShawnKendalltest3044;cosmic1ShawnKendalltest3065;cosmic1ShawnKendalltest3043;cosmic1ShawnKendalltest3021;cosmic1ShawnKendalltest3042;cosmic1ShawnKendalltest3041;cosmic1ShawnKendalltest3062;cosmic1ShawnKendalltest3040;cosmic1ShawnKendalltest3019;cosmic1ShawnKendalltest3017;cosmic1ShawnKendalltest3039;cosmic1ShawnKendalltest3038;cosmic1ShawnKendalltest3016;cosmic1ShawnKendalltest3015;cosmic1ShawnKendalltest3014;cosmic1ShawnKendalltest3057;cosmic1ShawnKendalltest3035;cosmic1ShawnKendalltest3013;cosmic1ShawnKendalltest3033;cosmic1ShawnKendalltest3054;cosmic1ShawnKendalltest3032;cosmic1ShawnKendalltest3010;cosmic1ShawnKendalltest3031;cosmic1ShawnKendalltest3052;cosmic1ShawnKendalltest3030">
+    <children xsi:type="editmodel:CompartmentEditModel" viewSorter="Name"/>
+    <children xsi:type="editmodel:CompartmentEditModel" viewSorter="Name"/>
+    <children xsi:type="editmodel:CompartmentEditModel" viewSorter="Name"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" location="50,12142" size="199,183" id="cosmic1ShawnKendalltest3799" runTimeClassModel="cosmic1ShawnKendalltest3808;cosmic1ShawnKendalltest3818;cosmic1ShawnKendalltest3806;cosmic1ShawnKendalltest3826;cosmic1ShawnKendalltest3815;cosmic1ShawnKendalltest3803;cosmic1ShawnKendalltest3813;cosmic1ShawnKendalltest3800;cosmic1ShawnKendalltest3811;cosmic1ShawnKendalltest3810;cosmic1ShawnKendalltest3830">
+    <children xsi:type="editmodel:CompartmentEditModel" size="176,144" viewSorter="Name">
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest3810"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest3800"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest3803"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest3806"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest3815"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest3813"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest3811"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest3808"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" viewSorter="Name"/>
+    <children xsi:type="editmodel:CompartmentEditModel" viewSorter="Name"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" location="50,3952" size="148,29" targetConnections="//@children.43/@sourceConnections.1 //@children.43/@sourceConnections.2" id="cosmic1ShawnKendalltest731" runTimeClassModel="cosmic1ShawnKendalltest3108;cosmic1ShawnKendalltest3106;cosmic1ShawnKendalltest3227;cosmic1ShawnKendalltest3104;cosmic1ShawnKendalltest3148;cosmic1ShawnKendalltest3224;cosmic1ShawnKendalltest3146;cosmic1ShawnKendalltest3102;cosmic1ShawnKendalltest3221;cosmic1ShawnKendalltest3188;cosmic1ShawnKendalltest3144;cosmic1ShawnKendalltest3100;cosmic1ShawnKendalltest3186;cosmic1ShawnKendalltest3142;cosmic1ShawnKendalltest3184;cosmic1ShawnKendalltest3140;cosmic1ShawnKendalltest3182;cosmic1ShawnKendalltest3180;cosmic1ShawnKendalltest3218;cosmic1ShawnKendalltest3215;cosmic1ShawnKendalltest3138;cosmic1ShawnKendalltest3136;cosmic1ShawnKendalltest3212;cosmic1ShawnKendalltest3178;cosmic1ShawnKendalltest3134;cosmic1ShawnKendalltest3132;cosmic1ShawnKendalltest3176;cosmic1ShawnKendalltest3098;cosmic1ShawnKendalltest3130;cosmic1ShawnKendalltest3174;cosmic1ShawnKendalltest3096;cosmic1ShawnKendalltest3172;cosmic1ShawnKendalltest3094;cosmic1ShawnKendalltest3170;cosmic1ShawnKendalltest3093;cosmic1ShawnKendalltest3092;cosmic1ShawnKendalltest3091;cosmic1ShawnKendalltest3090;cosmic1ShawnKendalltest3209;cosmic1ShawnKendalltest3206;cosmic1ShawnKendalltest3128;cosmic1ShawnKendalltest3126;cosmic1ShawnKendalltest3203;cosmic1ShawnKendalltest3168;cosmic1ShawnKendalltest3124;cosmic1ShawnKendalltest3200;cosmic1ShawnKendalltest3122;cosmic1ShawnKendalltest3089;cosmic1ShawnKendalltest3165;cosmic1ShawnKendalltest3120;cosmic1ShawnKendalltest3162;cosmic1ShawnKendalltest3160;cosmic1ShawnKendalltest3118;cosmic1ShawnKendalltest3116;cosmic1ShawnKendalltest3158;cosmic1ShawnKendalltest3114;cosmic1ShawnKendalltest3156;cosmic1ShawnKendalltest3112;cosmic1ShawnKendalltest3154;cosmic1ShawnKendalltest3110;cosmic1ShawnKendalltest3197;cosmic1ShawnKendalltest3152;cosmic1ShawnKendalltest3195;cosmic1ShawnKendalltest3150;cosmic1ShawnKendalltest3192;cosmic1ShawnKendalltest3190">
+    <children xsi:type="editmodel:CompartmentEditModel" viewSorter="Name"/>
+    <children xsi:type="editmodel:CompartmentEditModel" viewSorter="Name"/>
+    <children xsi:type="editmodel:CompartmentEditModel" viewSorter="Name"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" location="116,2545" size="185,93" targetConnections="//@children.8/@sourceConnections.6" id="cosmic1ShawnKendalltest2975" runTimeClassModel="cosmic1ShawnKendalltest2979;cosmic1ShawnKendalltest2989;cosmic1ShawnKendalltest2978;cosmic1ShawnKendalltest2987;cosmic1ShawnKendalltest2998;cosmic1ShawnKendalltest2976;cosmic1ShawnKendalltest2996;cosmic1ShawnKendalltest2985;cosmic1ShawnKendalltest2983;cosmic1ShawnKendalltest2993;cosmic1ShawnKendalltest2981;cosmic1ShawnKendalltest2991;cosmic1ShawnKendalltest2980">
+    <children xsi:type="editmodel:CompartmentEditModel" size="162,54" viewSorter="Name">
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest2978"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest2979"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest2980"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" viewSorter="Name"/>
+    <children xsi:type="editmodel:CompartmentEditModel" viewSorter="Name"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="cosmic1ShawnKendalltest3003" connectionRouterKind="Manhattan" source="//@children.8" target="//@children.35" targetEnd="//@children.8/@sourceConnections.0/@children.1" sourceEnd="//@children.8/@sourceConnections.0/@children.0">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="185,0"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="cosmic1ShawnKendalltest3005" connectionRouterKind="Manhattan" source="//@children.8" target="//@children.37" targetEnd="//@children.8/@sourceConnections.1/@children.1" sourceEnd="//@children.8/@sourceConnections.1/@children.0">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="185,0"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="cosmic1ShawnKendalltest3001" connectionRouterKind="Manhattan" source="//@children.8" target="//@children.38" targetEnd="//@children.8/@sourceConnections.2/@children.1" sourceEnd="//@children.8/@sourceConnections.2/@children.0">
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" id="cosmic1ShawnKendalltest2979" connectionRouterKind="Manhattan" source="//@children.8" target="//@children.37" targetEnd="//@children.8/@sourceConnections.3/@children.0" sourceEnd="//@children.8/@sourceConnections.3/@children.1">
+      <children xsi:type="editmodel:AssociationEndEditModel" id="cosmic1ShawnKendalltest2979" navigable="true" multiplicityLabel="//@children.8/@sourceConnections.3/@children.0/@children.1" roleLabel="//@children.8/@sourceConnections.3/@children.0/@children.0">
+        <children xsi:type="editmodel:LabelEditModel" size="60,14" fontInfo="Arial-8-0"/>
+        <children xsi:type="editmodel:LabelEditModel" size="19,14" fontInfo="Arial-8-0"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="185,0"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" id="cosmic1ShawnKendalltest2978" connectionRouterKind="Manhattan" source="//@children.8" target="//@children.35" targetEnd="//@children.8/@sourceConnections.4/@children.0" sourceEnd="//@children.8/@sourceConnections.4/@children.1">
+      <children xsi:type="editmodel:AssociationEndEditModel" id="cosmic1ShawnKendalltest2978" navigable="true" multiplicityLabel="//@children.8/@sourceConnections.4/@children.0/@children.1" roleLabel="//@children.8/@sourceConnections.4/@children.0/@children.0">
+        <children xsi:type="editmodel:LabelEditModel" size="76,14" fontInfo="Arial-8-0"/>
+        <children xsi:type="editmodel:LabelEditModel" size="19,14" fontInfo="Arial-8-0"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="185,0"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" id="cosmic1ShawnKendalltest2980" connectionRouterKind="Manhattan" source="//@children.8" target="//@children.38" targetEnd="//@children.8/@sourceConnections.5/@children.0" sourceEnd="//@children.8/@sourceConnections.5/@children.1">
+      <children xsi:type="editmodel:AssociationEndEditModel" id="cosmic1ShawnKendalltest2980" navigable="true" multiplicityLabel="//@children.8/@sourceConnections.5/@children.0/@children.1" roleLabel="//@children.8/@sourceConnections.5/@children.0/@children.0">
+        <children xsi:type="editmodel:LabelEditModel" size="54,14" fontInfo="Arial-8-0"/>
+        <children xsi:type="editmodel:LabelEditModel" size="19,14" fontInfo="Arial-8-0"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" id="cosmic1ShawnKendalltest2976" connectionRouterKind="Manhattan" source="//@children.8" target="//@children.8" targetEnd="//@children.8/@sourceConnections.6/@children.0" sourceEnd="//@children.8/@sourceConnections.6/@children.1">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,20" id="cosmic1ShawnKendalltest2976" anchorKind="FixedAtEdge" navigable="true" flags="2" multiplicityLabel="//@children.8/@sourceConnections.6/@children.0/@children.1" roleLabel="//@children.8/@sourceConnections.6/@children.0/@children.0">
+        <children xsi:type="editmodel:LabelEditModel" size="49,14" fontInfo="Arial-8-0"/>
+        <children xsi:type="editmodel:LabelEditModel" size="19,14" fontInfo="Arial-8-0"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="20,0" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" location="3191,50" size="289,633" targetConnections="//@children.9/@sourceConnections.2" id="cosmic1ShawnKendalltest98" runTimeClassModel="cosmic1ShawnKendalltest121;cosmic1ShawnKendalltest241;cosmic1ShawnKendalltest285;cosmic1ShawnKendalltest164;cosmic1ShawnKendalltest162;cosmic1ShawnKendalltest282;cosmic1ShawnKendalltest160;cosmic1ShawnKendalltest99;cosmic1ShawnKendalltest318;cosmic1ShawnKendalltest238;cosmic1ShawnKendalltest315;cosmic1ShawnKendalltest116;cosmic1ShawnKendalltest236;cosmic1ShawnKendalltest279;cosmic1ShawnKendalltest158;cosmic1ShawnKendalltest114;cosmic1ShawnKendalltest234;cosmic1ShawnKendalltest311;cosmic1ShawnKendalltest277;cosmic1ShawnKendalltest156;cosmic1ShawnKendalltest112;cosmic1ShawnKendalltest199;cosmic1ShawnKendalltest232;cosmic1ShawnKendalltest155;cosmic1ShawnKendalltest275;cosmic1ShawnKendalltest110;cosmic1ShawnKendalltest197;cosmic1ShawnKendalltest153;cosmic1ShawnKendalltest273;cosmic1ShawnKendalltest195;cosmic1ShawnKendalltest271;cosmic1ShawnKendalltest150;cosmic1ShawnKendalltest193;cosmic1ShawnKendalltest191;cosmic1ShawnKendalltest308;cosmic1ShawnKendalltest108;cosmic1ShawnKendalltest228;cosmic1ShawnKendalltest303;cosmic1ShawnKendalltest105;cosmic1ShawnKendalltest148;cosmic1ShawnKendalltest268;cosmic1ShawnKendalltest345;cosmic1ShawnKendalltest103;cosmic1ShawnKendalltest224;cosmic1ShawnKendalltest146;cosmic1ShawnKendalltest189;cosmic1ShawnKendalltest145;cosmic1ShawnKendalltest101;cosmic1ShawnKendalltest265;cosmic1ShawnKendalltest221;cosmic1ShawnKendalltest341;cosmic1ShawnKendalltest143;cosmic1ShawnKendalltest187;cosmic1ShawnKendalltest141;cosmic1ShawnKendalltest185;cosmic1ShawnKendalltest261;cosmic1ShawnKendalltest183;cosmic1ShawnKendalltest181;cosmic1ShawnKendalltest218;cosmic1ShawnKendalltest338;cosmic1ShawnKendalltest216;cosmic1ShawnKendalltest138;cosmic1ShawnKendalltest213;cosmic1ShawnKendalltest334;cosmic1ShawnKendalltest257;cosmic1ShawnKendalltest136;cosmic1ShawnKendalltest211;cosmic1ShawnKendalltest298;cosmic1ShawnKendalltest254;cosmic1ShawnKendalltest177;cosmic1ShawnKendalltest133;cosmic1ShawnKendalltest330;cosmic1ShawnKendalltest251;cosmic1ShawnKendalltest174;cosmic1ShawnKendalltest130;cosmic1ShawnKendalltest294;cosmic1ShawnKendalltest170;cosmic1ShawnKendalltest291;cosmic1ShawnKendalltest209;cosmic1ShawnKendalltest327;cosmic1ShawnKendalltest206;cosmic1ShawnKendalltest128;cosmic1ShawnKendalltest248;cosmic1ShawnKendalltest204;cosmic1ShawnKendalltest324;cosmic1ShawnKendalltest126;cosmic1ShawnKendalltest246;cosmic1ShawnKendalltest125;cosmic1ShawnKendalltest202;cosmic1ShawnKendalltest321;cosmic1ShawnKendalltest288;cosmic1ShawnKendalltest167;cosmic1ShawnKendalltest123;cosmic1ShawnKendalltest243;cosmic1ShawnKendalltest122">
+    <children xsi:type="editmodel:CompartmentEditModel" size="266,594" viewSorter="Name">
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest185"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest114"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest126"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest136"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest187"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest155"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest191"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest116"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest164"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest110"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest177"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest128"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest143"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest130"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest121"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest145"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest181"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest170"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest153"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest122"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest174"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest108"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest112"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest167"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest150"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest138"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest125"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest141"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest146"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest148"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest189"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest123"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest183"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" viewSorter="Name"/>
+    <children xsi:type="editmodel:CompartmentEditModel" viewSorter="Name"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="cosmic1ShawnKendalltest386" connectionRouterKind="Manhattan" source="//@children.9" target="//@children.15" targetEnd="//@children.9/@sourceConnections.0/@children.1" sourceEnd="//@children.9/@sourceConnections.0/@children.0">
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" id="cosmic1ShawnKendalltest125" connectionRouterKind="Manhattan" source="//@children.9" target="//@children.15" targetEnd="//@children.9/@sourceConnections.1/@children.0" sourceEnd="//@children.9/@sourceConnections.1/@children.1">
+      <children xsi:type="editmodel:AssociationEndEditModel" id="cosmic1ShawnKendalltest125" navigable="true" multiplicityLabel="//@children.9/@sourceConnections.1/@children.0/@children.1" roleLabel="//@children.9/@sourceConnections.1/@children.0/@children.0">
+        <children xsi:type="editmodel:LabelEditModel" size="84,14" fontInfo="Arial-8-0"/>
+        <children xsi:type="editmodel:LabelEditModel" size="19,14" fontInfo="Arial-8-0"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" id="cosmic1ShawnKendalltest99" connectionRouterKind="Manhattan" source="//@children.9" target="//@children.9" targetEnd="//@children.9/@sourceConnections.2/@children.0" sourceEnd="//@children.9/@sourceConnections.2/@children.1">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,20" id="cosmic1ShawnKendalltest99" anchorKind="FixedAtEdge" navigable="true" flags="2" multiplicityLabel="//@children.9/@sourceConnections.2/@children.0/@children.1" roleLabel="//@children.9/@sourceConnections.2/@children.0/@children.0">
+        <children xsi:type="editmodel:LabelEditModel" size="49,14" fontInfo="Arial-8-0"/>
+        <children xsi:type="editmodel:LabelEditModel" size="19,14" fontInfo="Arial-8-0"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="20,0" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="cosmic1ShawnKendalltest384" connectionRouterKind="Manhattan" source="//@children.9" target="//@children.32" targetEnd="//@children.9/@sourceConnections.3/@children.1" sourceEnd="//@children.9/@sourceConnections.3/@children.0">
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" location="5450,9391" size="192,291" targetConnections="//@children.19/@sourceConnections.8" id="cosmic1ShawnKendalltest2287" runTimeClassModel="cosmic1ShawnKendalltest3308;cosmic1ShawnKendalltest3306;cosmic1ShawnKendalltest3328;cosmic1ShawnKendalltest3326;cosmic1ShawnKendalltest3348;cosmic1ShawnKendalltest3304;cosmic1ShawnKendalltest3369;cosmic1ShawnKendalltest3302;cosmic1ShawnKendalltest3301;cosmic1ShawnKendalltest3323;cosmic1ShawnKendalltest3344;cosmic1ShawnKendalltest3321;cosmic1ShawnKendalltest3364;cosmic1ShawnKendalltest3385;cosmic1ShawnKendalltest3340;cosmic1ShawnKendalltest3319;cosmic1ShawnKendalltest3317;cosmic1ShawnKendalltest3315;cosmic1ShawnKendalltest3358;cosmic1ShawnKendalltest3313;cosmic1ShawnKendalltest3379;cosmic1ShawnKendalltest3335;cosmic1ShawnKendalltest3333;cosmic1ShawnKendalltest3310;cosmic1ShawnKendalltest3299;cosmic1ShawnKendalltest3353;cosmic1ShawnKendalltest3331;cosmic1ShawnKendalltest3374;cosmic1ShawnKendalltest3350;cosmic1ShawnKendalltest3295;cosmic1ShawnKendalltest3390;cosmic1ShawnKendalltest3291">
+    <children xsi:type="editmodel:CompartmentEditModel" size="169,252" viewSorter="Name">
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest3291"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest3304"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest3302"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest3321"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest3299"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest3301"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest3319"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest3306"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest3308"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest3310"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest3313"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest3315"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest3317"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest3295"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" viewSorter="Name"/>
+    <children xsi:type="editmodel:CompartmentEditModel" viewSorter="Name"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="cosmic1ShawnKendalltest3414" connectionRouterKind="Manhattan" source="//@children.10" target="//@children.11" targetEnd="//@children.10/@sourceConnections.0/@children.1" sourceEnd="//@children.10/@sourceConnections.0/@children.0">
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" location="6630,11927" size="180,165" targetConnections="//@children.10/@sourceConnections.0" id="cosmic1ShawnKendalltest6" runTimeClassModel="cosmic1ShawnKendalltest30;cosmic1ShawnKendalltest19;cosmic1ShawnKendalltest7;cosmic1ShawnKendalltest15;cosmic1ShawnKendalltest25;cosmic1ShawnKendalltest35;cosmic1ShawnKendalltest23;cosmic1ShawnKendalltest11;cosmic1ShawnKendalltest21">
+    <children xsi:type="editmodel:CompartmentEditModel" size="157,126" viewSorter="Name">
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest25"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest19"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest11"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest21"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest23"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest15"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest7"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" viewSorter="Name"/>
+    <children xsi:type="editmodel:CompartmentEditModel" viewSorter="Name"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" location="2490,5671" size="123,75" targetConnections="//@children.19/@sourceConnections.0 //@children.30/@sourceConnections.6" id="cosmic1ShawnKendalltest70" runTimeClassModel="cosmic1ShawnKendalltest75;cosmic1ShawnKendalltest84;cosmic1ShawnKendalltest73;cosmic1ShawnKendalltest71;cosmic1ShawnKendalltest81;cosmic1ShawnKendalltest91;cosmic1ShawnKendalltest88;cosmic1ShawnKendalltest77">
+    <children xsi:type="editmodel:CompartmentEditModel" size="100,36" viewSorter="Name">
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest71"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest73"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" viewSorter="Name"/>
+    <children xsi:type="editmodel:CompartmentEditModel" viewSorter="Name"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" location="6620,2249" size="138,29" targetConnections="//@children.35/@sourceConnections.1 //@children.35/@sourceConnections.6 //@children.28/@sourceConnections.2 //@children.28/@sourceConnections.4" id="cosmic1ShawnKendalltest1040" runTimeClassModel="cosmic1ShawnKendalltest3418;cosmic1ShawnKendalltest3427;cosmic1ShawnKendalltest3422;cosmic1ShawnKendalltest3431;cosmic1ShawnKendalltest3420">
+    <children xsi:type="editmodel:CompartmentEditModel" viewSorter="Name"/>
+    <children xsi:type="editmodel:CompartmentEditModel" viewSorter="Name"/>
+    <children xsi:type="editmodel:CompartmentEditModel" viewSorter="Name"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="cosmic1ShawnKendalltest3439" connectionRouterKind="Manhattan" source="//@children.13" target="//@children.17" targetEnd="//@children.13/@sourceConnections.0/@children.1" sourceEnd="//@children.13/@sourceConnections.0/@children.0">
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="cosmic1ShawnKendalltest3437" connectionRouterKind="Manhattan" source="//@children.13" target="//@children.14" targetEnd="//@children.13/@sourceConnections.1/@children.1" sourceEnd="//@children.13/@sourceConnections.1/@children.0">
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+  </children>
+  <children xsi:type="editmodel:InterfaceEditModel" location="9434,2511" size="143,43" targetConnections="//@children.13/@sourceConnections.1" id="cosmic1ShawnKendalltest3423" runTimeClassModel="cosmic1ShawnKendalltest3441">
+    <children xsi:type="editmodel:CompartmentEditModel" viewSorter="Name"/>
+    <children xsi:type="editmodel:CompartmentEditModel" viewSorter="Name"/>
+    <children xsi:type="editmodel:CompartmentEditModel" viewSorter="Name"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="cosmic1ShawnKendalltest3445" connectionRouterKind="Manhattan" source="//@children.14" target="//@children.17" targetEnd="//@children.14/@sourceConnections.0/@children.1" sourceEnd="//@children.14/@sourceConnections.0/@children.0">
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" location="4864,233" size="159,75" targetConnections="//@children.9/@sourceConnections.0 //@children.9/@sourceConnections.1" id="cosmic1ShawnKendalltest44" runTimeClassModel="cosmic1ShawnKendalltest52;cosmic1ShawnKendalltest60;cosmic1ShawnKendalltest49;cosmic1ShawnKendalltest45;cosmic1ShawnKendalltest54">
+    <children xsi:type="editmodel:CompartmentEditModel" size="136,36" viewSorter="Name">
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest49"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest45"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" viewSorter="Name"/>
+    <children xsi:type="editmodel:CompartmentEditModel" viewSorter="Name"/>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" id="cosmic1ShawnKendalltest49" connectionRouterKind="Manhattan" source="//@children.15" target="//@children.32" targetEnd="//@children.15/@sourceConnections.0/@children.0" sourceEnd="//@children.15/@sourceConnections.0/@children.1">
+      <children xsi:type="editmodel:AssociationEndEditModel" id="cosmic1ShawnKendalltest49" navigable="true" multiplicityLabel="//@children.15/@sourceConnections.0/@children.0/@children.1" roleLabel="//@children.15/@sourceConnections.0/@children.0/@children.0">
+        <children xsi:type="editmodel:LabelEditModel" size="61,14" fontInfo="Arial-8-0"/>
+        <children xsi:type="editmodel:LabelEditModel" size="19,14" fontInfo="Arial-8-0"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="cosmic1ShawnKendalltest66" connectionRouterKind="Manhattan" source="//@children.15" target="//@children.32" targetEnd="//@children.15/@sourceConnections.1/@children.1" sourceEnd="//@children.15/@sourceConnections.1/@children.0">
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" location="1834,394" size="132,129" targetConnections="//@children.41/@sourceConnections.0 //@children.41/@sourceConnections.2 //@children.41/@sourceConnections.3 //@children.41/@sourceConnections.5 //@children.41/@sourceConnections.6 //@children.41/@sourceConnections.7 //@children.41/@sourceConnections.8" id="cosmic1ShawnKendalltest396" runTimeClassModel="cosmic1ShawnKendalltest483;cosmic1ShawnKendalltest519;cosmic1ShawnKendalltest439;cosmic1ShawnKendalltest515;cosmic1ShawnKendalltest435;cosmic1ShawnKendalltest556;cosmic1ShawnKendalltest511;cosmic1ShawnKendalltest597;cosmic1ShawnKendalltest476;cosmic1ShawnKendalltest431;cosmic1ShawnKendalltest552;cosmic1ShawnKendalltest593;cosmic1ShawnKendalltest472;cosmic1ShawnKendalltest508;cosmic1ShawnKendalltest428;cosmic1ShawnKendalltest549;cosmic1ShawnKendalltest504;cosmic1ShawnKendalltest469;cosmic1ShawnKendalltest424;cosmic1ShawnKendalltest545;cosmic1ShawnKendalltest500;cosmic1ShawnKendalltest465;cosmic1ShawnKendalltest586;cosmic1ShawnKendalltest541;cosmic1ShawnKendalltest420;cosmic1ShawnKendalltest582;cosmic1ShawnKendalltest461;cosmic1ShawnKendalltest417;cosmic1ShawnKendalltest538;cosmic1ShawnKendalltest579;cosmic1ShawnKendalltest458;cosmic1ShawnKendalltest413;cosmic1ShawnKendalltest534;cosmic1ShawnKendalltest499;cosmic1ShawnKendalltest454;cosmic1ShawnKendalltest575;cosmic1ShawnKendalltest530;cosmic1ShawnKendalltest495;cosmic1ShawnKendalltest571;cosmic1ShawnKendalltest450;cosmic1ShawnKendalltest491;cosmic1ShawnKendalltest607;cosmic1ShawnKendalltest527;cosmic1ShawnKendalltest568;cosmic1ShawnKendalltest447;cosmic1ShawnKendalltest523;cosmic1ShawnKendalltest402;cosmic1ShawnKendalltest488;cosmic1ShawnKendalltest443;cosmic1ShawnKendalltest564;cosmic1ShawnKendalltest484;cosmic1ShawnKendalltest560;cosmic1ShawnKendalltest480;cosmic1ShawnKendalltest516;cosmic1ShawnKendalltest436;cosmic1ShawnKendalltest557;cosmic1ShawnKendalltest512;cosmic1ShawnKendalltest477;cosmic1ShawnKendalltest432;cosmic1ShawnKendalltest553;cosmic1ShawnKendalltest397;cosmic1ShawnKendalltest473;cosmic1ShawnKendalltest590;cosmic1ShawnKendalltest509;cosmic1ShawnKendalltest429;cosmic1ShawnKendalltest505;cosmic1ShawnKendalltest546;cosmic1ShawnKendalltest425;cosmic1ShawnKendalltest501;cosmic1ShawnKendalltest466;cosmic1ShawnKendalltest587;cosmic1ShawnKendalltest542;cosmic1ShawnKendalltest421;cosmic1ShawnKendalltest462;cosmic1ShawnKendalltest583;cosmic1ShawnKendalltest539;cosmic1ShawnKendalltest418;cosmic1ShawnKendalltest459;cosmic1ShawnKendalltest535;cosmic1ShawnKendalltest414;cosmic1ShawnKendalltest576;cosmic1ShawnKendalltest455;cosmic1ShawnKendalltest531;cosmic1ShawnKendalltest410;cosmic1ShawnKendalltest496;cosmic1ShawnKendalltest572;cosmic1ShawnKendalltest451;cosmic1ShawnKendalltest492;cosmic1ShawnKendalltest407;cosmic1ShawnKendalltest528;cosmic1ShawnKendalltest569;cosmic1ShawnKendalltest448;cosmic1ShawnKendalltest524;cosmic1ShawnKendalltest600;cosmic1ShawnKendalltest489;cosmic1ShawnKendalltest444;cosmic1ShawnKendalltest565;cosmic1ShawnKendalltest520;cosmic1ShawnKendalltest485;cosmic1ShawnKendalltest561;cosmic1ShawnKendalltest440;cosmic1ShawnKendalltest481;cosmic1ShawnKendalltest517;cosmic1ShawnKendalltest558;cosmic1ShawnKendalltest437;cosmic1ShawnKendalltest513;cosmic1ShawnKendalltest478;cosmic1ShawnKendalltest554;cosmic1ShawnKendalltest433;cosmic1ShawnKendalltest398;cosmic1ShawnKendalltest595;cosmic1ShawnKendalltest474;cosmic1ShawnKendalltest550;cosmic1ShawnKendalltest470;cosmic1ShawnKendalltest591;cosmic1ShawnKendalltest506;cosmic1ShawnKendalltest426;cosmic1ShawnKendalltest547;cosmic1ShawnKendalltest502;cosmic1ShawnKendalltest588;cosmic1ShawnKendalltest467;cosmic1ShawnKendalltest543;cosmic1ShawnKendalltest422;cosmic1ShawnKendalltest584;cosmic1ShawnKendalltest463;cosmic1ShawnKendalltest580;cosmic1ShawnKendalltest419;cosmic1ShawnKendalltest536;cosmic1ShawnKendalltest415;cosmic1ShawnKendalltest456;cosmic1ShawnKendalltest577;cosmic1ShawnKendalltest411;cosmic1ShawnKendalltest532;cosmic1ShawnKendalltest497;cosmic1ShawnKendalltest452;cosmic1ShawnKendalltest573;cosmic1ShawnKendalltest493;cosmic1ShawnKendalltest609;cosmic1ShawnKendalltest529;cosmic1ShawnKendalltest408;cosmic1ShawnKendalltest449;cosmic1ShawnKendalltest404;cosmic1ShawnKendalltest525;cosmic1ShawnKendalltest566;cosmic1ShawnKendalltest445;cosmic1ShawnKendalltest521;cosmic1ShawnKendalltest400;cosmic1ShawnKendalltest486;cosmic1ShawnKendalltest441;cosmic1ShawnKendalltest562;cosmic1ShawnKendalltest482;cosmic1ShawnKendalltest518;cosmic1ShawnKendalltest438;cosmic1ShawnKendalltest559;cosmic1ShawnKendalltest514;cosmic1ShawnKendalltest479;cosmic1ShawnKendalltest434;cosmic1ShawnKendalltest555;cosmic1ShawnKendalltest510;cosmic1ShawnKendalltest399;cosmic1ShawnKendalltest475;cosmic1ShawnKendalltest430;cosmic1ShawnKendalltest551;cosmic1ShawnKendalltest592;cosmic1ShawnKendalltest471;cosmic1ShawnKendalltest507;cosmic1ShawnKendalltest427;cosmic1ShawnKendalltest548;cosmic1ShawnKendalltest503;cosmic1ShawnKendalltest468;cosmic1ShawnKendalltest589;cosmic1ShawnKendalltest544;cosmic1ShawnKendalltest423;cosmic1ShawnKendalltest464;cosmic1ShawnKendalltest585;cosmic1ShawnKendalltest540;cosmic1ShawnKendalltest581;cosmic1ShawnKendalltest460;cosmic1ShawnKendalltest416;cosmic1ShawnKendalltest537;cosmic1ShawnKendalltest457;cosmic1ShawnKendalltest578;cosmic1ShawnKendalltest533;cosmic1ShawnKendalltest412;cosmic1ShawnKendalltest498;cosmic1ShawnKendalltest453;cosmic1ShawnKendalltest574;cosmic1ShawnKendalltest494;cosmic1ShawnKendalltest570;cosmic1ShawnKendalltest490;cosmic1ShawnKendalltest409;cosmic1ShawnKendalltest526;cosmic1ShawnKendalltest446;cosmic1ShawnKendalltest567;cosmic1ShawnKendalltest401;cosmic1ShawnKendalltest522;cosmic1ShawnKendalltest487;cosmic1ShawnKendalltest442;cosmic1ShawnKendalltest563">
+    <children xsi:type="editmodel:CompartmentEditModel" size="81,90" viewSorter="Name">
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest397"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest399"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest398"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest400"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest401"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" viewSorter="Name"/>
+    <children xsi:type="editmodel:CompartmentEditModel" viewSorter="Name"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" location="6665,3896" size="127,93" targetConnections="//@children.13/@sourceConnections.0 //@children.14/@sourceConnections.0" id="cosmic1ShawnKendalltest3428" runTimeClassModel="cosmic1ShawnKendalltest3463;cosmic1ShawnKendalltest3451;cosmic1ShawnKendalltest3472;cosmic1ShawnKendalltest3470;cosmic1ShawnKendalltest3449;cosmic1ShawnKendalltest3458;cosmic1ShawnKendalltest3447;cosmic1ShawnKendalltest3468;cosmic1ShawnKendalltest3456;cosmic1ShawnKendalltest3455;cosmic1ShawnKendalltest3453">
+    <children xsi:type="editmodel:CompartmentEditModel" size="98,54" viewSorter="Name">
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest3451"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest3453"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest3455"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" viewSorter="Name"/>
+    <children xsi:type="editmodel:CompartmentEditModel" viewSorter="Name"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="cosmic1ShawnKendalltest3477" connectionRouterKind="Manhattan" source="//@children.17" target="//@children.30" targetEnd="//@children.17/@sourceConnections.0/@children.1" sourceEnd="//@children.17/@sourceConnections.0/@children.0">
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" id="cosmic1ShawnKendalltest3453" connectionRouterKind="Manhattan" source="//@children.17" target="//@children.30" targetEnd="//@children.17/@sourceConnections.1/@children.0" sourceEnd="//@children.17/@sourceConnections.1/@children.1">
+      <children xsi:type="editmodel:AssociationEndEditModel" id="cosmic1ShawnKendalltest3453" navigable="true" multiplicityLabel="//@children.17/@sourceConnections.1/@children.0/@children.1" roleLabel="//@children.17/@sourceConnections.1/@children.0/@children.0">
+        <children xsi:type="editmodel:LabelEditModel" size="34,14" fontInfo="Arial-8-0"/>
+        <children xsi:type="editmodel:LabelEditModel" size="19,14" fontInfo="Arial-8-0"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" location="5011,5430" size="147,75" targetConnections="//@children.30/@sourceConnections.4 //@children.30/@sourceConnections.7 //@children.19/@sourceConnections.3 //@children.19/@sourceConnections.4 //@children.19/@sourceConnections.7" id="cosmic1ShawnKendalltest1606" runTimeClassModel="cosmic1ShawnKendalltest2416;cosmic1ShawnKendalltest2427;cosmic1ShawnKendalltest2414;cosmic1ShawnKendalltest2423;cosmic1ShawnKendalltest2412;cosmic1ShawnKendalltest2410;cosmic1ShawnKendalltest2420;cosmic1ShawnKendalltest2430">
+    <children xsi:type="editmodel:CompartmentEditModel" size="89,36" viewSorter="Name">
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest2410"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest2412"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" viewSorter="Name"/>
+    <children xsi:type="editmodel:CompartmentEditModel" viewSorter="Name"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" location="3717,6936" size="154,29" id="cosmic1ShawnKendalltest2129" runTimeClassModel="cosmic1ShawnKendalltest2219;cosmic1ShawnKendalltest2338;cosmic1ShawnKendalltest2138;cosmic1ShawnKendalltest2259;cosmic1ShawnKendalltest2213;cosmic1ShawnKendalltest2136;cosmic1ShawnKendalltest2334;cosmic1ShawnKendalltest2179;cosmic1ShawnKendalltest2134;cosmic1ShawnKendalltest2299;cosmic1ShawnKendalltest2255;cosmic1ShawnKendalltest2210;cosmic1ShawnKendalltest2132;cosmic1ShawnKendalltest2130;cosmic1ShawnKendalltest2251;cosmic1ShawnKendalltest2174;cosmic1ShawnKendalltest2294;cosmic1ShawnKendalltest2170;cosmic1ShawnKendalltest2207;cosmic1ShawnKendalltest2328;cosmic1ShawnKendalltest2325;cosmic1ShawnKendalltest2203;cosmic1ShawnKendalltest2289;cosmic1ShawnKendalltest2322;cosmic1ShawnKendalltest2245;cosmic1ShawnKendalltest2164;cosmic1ShawnKendalltest2283;cosmic1ShawnKendalltest2160;cosmic1ShawnKendalltest2318;cosmic1ShawnKendalltest2239;cosmic1ShawnKendalltest2236;cosmic1ShawnKendalltest2158;cosmic1ShawnKendalltest2278;cosmic1ShawnKendalltest2310;cosmic1ShawnKendalltest2156;cosmic1ShawnKendalltest2199;cosmic1ShawnKendalltest2353;cosmic1ShawnKendalltest2154;cosmic1ShawnKendalltest2274;cosmic1ShawnKendalltest2152;cosmic1ShawnKendalltest2150;cosmic1ShawnKendalltest2194;cosmic1ShawnKendalltest2270;cosmic1ShawnKendalltest2305;cosmic1ShawnKendalltest2228;cosmic1ShawnKendalltest2349;cosmic1ShawnKendalltest2148;cosmic1ShawnKendalltest2224;cosmic1ShawnKendalltest2344;cosmic1ShawnKendalltest2146;cosmic1ShawnKendalltest2266;cosmic1ShawnKendalltest2144;cosmic1ShawnKendalltest2188;cosmic1ShawnKendalltest2341;cosmic1ShawnKendalltest2263;cosmic1ShawnKendalltest2140;cosmic1ShawnKendalltest2184">
+    <children xsi:type="editmodel:CompartmentEditModel" viewSorter="Name"/>
+    <children xsi:type="editmodel:CompartmentEditModel" viewSorter="Name"/>
+    <children xsi:type="editmodel:CompartmentEditModel" viewSorter="Name"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="cosmic1ShawnKendalltest2380" connectionRouterKind="Manhattan" source="//@children.19" target="//@children.12" targetEnd="//@children.19/@sourceConnections.0/@children.1" sourceEnd="//@children.19/@sourceConnections.0/@children.0">
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="cosmic1ShawnKendalltest2398" connectionRouterKind="Manhattan" source="//@children.19" target="//@children.30" targetEnd="//@children.19/@sourceConnections.1/@children.1" sourceEnd="//@children.19/@sourceConnections.1/@children.0">
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" id="cosmic1ShawnKendalltest2140" connectionRouterKind="Manhattan" source="//@children.19" target="//@children.30" targetEnd="//@children.19/@sourceConnections.2/@children.0" sourceEnd="//@children.19/@sourceConnections.2/@children.1">
+      <children xsi:type="editmodel:AssociationEndEditModel" id="cosmic1ShawnKendalltest2140" navigable="true" multiplicityLabel="//@children.19/@sourceConnections.2/@children.0/@children.1" roleLabel="//@children.19/@sourceConnections.2/@children.0/@children.0">
+        <children xsi:type="editmodel:LabelEditModel" size="51,14" fontInfo="Arial-8-0"/>
+        <children xsi:type="editmodel:LabelEditModel" size="5,14" fontInfo="Arial-8-0"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" id="cosmic1ShawnKendalltest2136" connectionRouterKind="Manhattan" source="//@children.19" target="//@children.18" targetEnd="//@children.19/@sourceConnections.3/@children.0" sourceEnd="//@children.19/@sourceConnections.3/@children.1">
+      <children xsi:type="editmodel:AssociationEndEditModel" id="cosmic1ShawnKendalltest2136" navigable="true" multiplicityLabel="//@children.19/@sourceConnections.3/@children.0/@children.1" roleLabel="//@children.19/@sourceConnections.3/@children.0/@children.0">
+        <children xsi:type="editmodel:LabelEditModel" size="57,14" fontInfo="Arial-8-0"/>
+        <children xsi:type="editmodel:LabelEditModel" size="19,14" fontInfo="Arial-8-0"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" id="cosmic1ShawnKendalltest2138" connectionRouterKind="Manhattan" source="//@children.19" target="//@children.18" targetEnd="//@children.19/@sourceConnections.4/@children.0" sourceEnd="//@children.19/@sourceConnections.4/@children.1">
+      <children xsi:type="editmodel:AssociationEndEditModel" id="cosmic1ShawnKendalltest2138" navigable="true" multiplicityLabel="//@children.19/@sourceConnections.4/@children.0/@children.1" roleLabel="//@children.19/@sourceConnections.4/@children.0/@children.0">
+        <children xsi:type="editmodel:LabelEditModel" size="57,14" fontInfo="Arial-8-0"/>
+        <children xsi:type="editmodel:LabelEditModel" size="19,14" fontInfo="Arial-8-0"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="cosmic1ShawnKendalltest2358" connectionRouterKind="Manhattan" source="//@children.19" target="//@children.24" targetEnd="//@children.19/@sourceConnections.5/@children.1" sourceEnd="//@children.19/@sourceConnections.5/@children.0">
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="cosmic1ShawnKendalltest2396" connectionRouterKind="Manhattan" source="//@children.19" target="//@children.23" targetEnd="//@children.19/@sourceConnections.6/@children.1" sourceEnd="//@children.19/@sourceConnections.6/@children.0">
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="cosmic1ShawnKendalltest2384" connectionRouterKind="Manhattan" source="//@children.19" target="//@children.18" targetEnd="//@children.19/@sourceConnections.7/@children.1" sourceEnd="//@children.19/@sourceConnections.7/@children.0">
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="cosmic1ShawnKendalltest2362" connectionRouterKind="Manhattan" source="//@children.19" target="//@children.10" targetEnd="//@children.19/@sourceConnections.8/@children.1" sourceEnd="//@children.19/@sourceConnections.8/@children.0">
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" location="751,1301" size="215,129" targetConnections="//@children.36/@sourceConnections.5 //@children.36/@sourceConnections.7" id="cosmic1ShawnKendalltest908" runTimeClassModel="cosmic1ShawnKendalltest2538;cosmic1ShawnKendalltest2559;cosmic1ShawnKendalltest2536;cosmic1ShawnKendalltest2578;cosmic1ShawnKendalltest2556;cosmic1ShawnKendalltest2534;cosmic1ShawnKendalltest2533;cosmic1ShawnKendalltest2554;cosmic1ShawnKendalltest2575;cosmic1ShawnKendalltest2530;cosmic1ShawnKendalltest2552;cosmic1ShawnKendalltest2573;cosmic1ShawnKendalltest2550;cosmic1ShawnKendalltest2571;cosmic1ShawnKendalltest2527;cosmic1ShawnKendalltest2548;cosmic1ShawnKendalltest2569;cosmic1ShawnKendalltest2546;cosmic1ShawnKendalltest2524;cosmic1ShawnKendalltest2567;cosmic1ShawnKendalltest2544;cosmic1ShawnKendalltest2588;cosmic1ShawnKendalltest2565;cosmic1ShawnKendalltest2542;cosmic1ShawnKendalltest2585;cosmic1ShawnKendalltest2562;cosmic1ShawnKendalltest2540;cosmic1ShawnKendalltest2583;cosmic1ShawnKendalltest2580">
+    <children xsi:type="editmodel:CompartmentEditModel" size="192,90" viewSorter="Name">
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest2530"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest2524"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest2533"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest2527"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest2534"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" viewSorter="Name"/>
+    <children xsi:type="editmodel:CompartmentEditModel" viewSorter="Name"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" location="5033,1750" size="127,93" targetConnections="//@children.30/@sourceConnections.5 //@children.30/@sourceConnections.8" id="cosmic1ShawnKendalltest1535" runTimeClassModel="cosmic1ShawnKendalltest3508;cosmic1ShawnKendalltest3506;cosmic1ShawnKendalltest3548;cosmic1ShawnKendalltest3504;cosmic1ShawnKendalltest3502;cosmic1ShawnKendalltest3546;cosmic1ShawnKendalltest3500;cosmic1ShawnKendalltest3544;cosmic1ShawnKendalltest3588;cosmic1ShawnKendalltest3586;cosmic1ShawnKendalltest3542;cosmic1ShawnKendalltest3584;cosmic1ShawnKendalltest3540;cosmic1ShawnKendalltest3582;cosmic1ShawnKendalltest3580;cosmic1ShawnKendalltest3619;cosmic1ShawnKendalltest3538;cosmic1ShawnKendalltest3614;cosmic1ShawnKendalltest3536;cosmic1ShawnKendalltest3612;cosmic1ShawnKendalltest3578;cosmic1ShawnKendalltest3534;cosmic1ShawnKendalltest3610;cosmic1ShawnKendalltest3576;cosmic1ShawnKendalltest3532;cosmic1ShawnKendalltest3498;cosmic1ShawnKendalltest3574;cosmic1ShawnKendalltest3530;cosmic1ShawnKendalltest3496;cosmic1ShawnKendalltest3572;cosmic1ShawnKendalltest3494;cosmic1ShawnKendalltest3570;cosmic1ShawnKendalltest3492;cosmic1ShawnKendalltest3490;cosmic1ShawnKendalltest3608;cosmic1ShawnKendalltest3606;cosmic1ShawnKendalltest3528;cosmic1ShawnKendalltest3604;cosmic1ShawnKendalltest3526;cosmic1ShawnKendalltest3602;cosmic1ShawnKendalltest3568;cosmic1ShawnKendalltest3524;cosmic1ShawnKendalltest3600;cosmic1ShawnKendalltest3566;cosmic1ShawnKendalltest3522;cosmic1ShawnKendalltest3488;cosmic1ShawnKendalltest3520;cosmic1ShawnKendalltest3564;cosmic1ShawnKendalltest3486;cosmic1ShawnKendalltest3562;cosmic1ShawnKendalltest3484;cosmic1ShawnKendalltest3560;cosmic1ShawnKendalltest3483;cosmic1ShawnKendalltest3482;cosmic1ShawnKendalltest3481;cosmic1ShawnKendalltest3518;cosmic1ShawnKendalltest3516;cosmic1ShawnKendalltest3558;cosmic1ShawnKendalltest3514;cosmic1ShawnKendalltest3512;cosmic1ShawnKendalltest3556;cosmic1ShawnKendalltest3479;cosmic1ShawnKendalltest3598;cosmic1ShawnKendalltest3510;cosmic1ShawnKendalltest3554;cosmic1ShawnKendalltest3552;cosmic1ShawnKendalltest3596;cosmic1ShawnKendalltest3594;cosmic1ShawnKendalltest3550;cosmic1ShawnKendalltest3592;cosmic1ShawnKendalltest3590">
+    <children xsi:type="editmodel:CompartmentEditModel" size="104,54" viewSorter="Name">
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest3482"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest3483"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest3481"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" viewSorter="Name"/>
+    <children xsi:type="editmodel:CompartmentEditModel" viewSorter="Name"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" location="786,5167" size="105,29" id="cosmic1ShawnKendalltest3625" runTimeClassModel="cosmic1ShawnKendalltest3707;cosmic1ShawnKendalltest3727;cosmic1ShawnKendalltest3628;cosmic1ShawnKendalltest3703;cosmic1ShawnKendalltest3626;cosmic1ShawnKendalltest3746;cosmic1ShawnKendalltest3647;cosmic1ShawnKendalltest3669;cosmic1ShawnKendalltest3723;cosmic1ShawnKendalltest3766;cosmic1ShawnKendalltest3645;cosmic1ShawnKendalltest3688;cosmic1ShawnKendalltest3665;cosmic1ShawnKendalltest3742;cosmic1ShawnKendalltest3763;cosmic1ShawnKendalltest3642;cosmic1ShawnKendalltest3685;cosmic1ShawnKendalltest3661;cosmic1ShawnKendalltest3683;cosmic1ShawnKendalltest3719;cosmic1ShawnKendalltest3738;cosmic1ShawnKendalltest3715;cosmic1ShawnKendalltest3759;cosmic1ShawnKendalltest3638;cosmic1ShawnKendalltest3636;cosmic1ShawnKendalltest3657;cosmic1ShawnKendalltest3734;cosmic1ShawnKendalltest3678;cosmic1ShawnKendalltest3634;cosmic1ShawnKendalltest3711;cosmic1ShawnKendalltest3754;cosmic1ShawnKendalltest3699;cosmic1ShawnKendalltest3731;cosmic1ShawnKendalltest3632;cosmic1ShawnKendalltest3675;cosmic1ShawnKendalltest3653;cosmic1ShawnKendalltest3630;cosmic1ShawnKendalltest3673;cosmic1ShawnKendalltest3695;cosmic1ShawnKendalltest3750;cosmic1ShawnKendalltest3650;cosmic1ShawnKendalltest3692">
+    <children xsi:type="editmodel:CompartmentEditModel" viewSorter="Name"/>
+    <children xsi:type="editmodel:CompartmentEditModel" viewSorter="Name"/>
+    <children xsi:type="editmodel:CompartmentEditModel" viewSorter="Name"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="cosmic1ShawnKendalltest3773" connectionRouterKind="Manhattan" source="//@children.22" target="//@children.30" targetEnd="//@children.22/@sourceConnections.0/@children.1" sourceEnd="//@children.22/@sourceConnections.0/@children.0">
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" location="1548,9417" size="151,111" targetConnections="//@children.19/@sourceConnections.6" id="cosmic1ShawnKendalltest2220" runTimeClassModel="cosmic1ShawnKendalltest3264;cosmic1ShawnKendalltest3273;cosmic1ShawnKendalltest3262;cosmic1ShawnKendalltest3282;cosmic1ShawnKendalltest3258;cosmic1ShawnKendalltest3268;cosmic1ShawnKendalltest3278;cosmic1ShawnKendalltest3266">
+    <children xsi:type="editmodel:CompartmentEditModel" size="105,72" viewSorter="Name">
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest3264"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest3266"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest3262"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest3258"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" viewSorter="Name"/>
+    <children xsi:type="editmodel:CompartmentEditModel" viewSorter="Name"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" targetConnections="//@children.24/@sourceConnections.0" connectionRouterKind="GeneralizationManhattan" source="//@children.23" target="//@children.25" targetEnd="//@children.23/@sourceConnections.0/@children.1" sourceEnd="//@children.23/@sourceConnections.0/@children.0">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="75,0" anchorKind="FixedAtEdge"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="65,93" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" location="1729,9417" size="137,57" targetConnections="//@children.19/@sourceConnections.5" id="cosmic1ShawnKendalltest2205" runTimeClassModel="cosmic1ShawnKendalltest3253">
+    <children xsi:type="editmodel:CompartmentEditModel" size="109,18" viewSorter="Name">
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest3253"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" viewSorter="Name"/>
+    <children xsi:type="editmodel:CompartmentEditModel" viewSorter="Name"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" connectionRouterKind="Manual" source="//@children.24" target="//@children.23/@sourceConnections.0" targetEnd="//@children.24/@sourceConnections.0/@children.1" sourceEnd="//@children.24/@sourceConnections.0/@children.0">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="68,0" anchorKind="FixedAtEdge"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" location="1645,9274" size="131,93" targetConnections="//@children.23/@sourceConnections.0" id="cosmic1ShawnKendalltest3244" runTimeClassModel="cosmic1ShawnKendalltest3248;cosmic1ShawnKendalltest3246;cosmic1ShawnKendalltest3245">
+    <children xsi:type="editmodel:CompartmentEditModel" size="79,54" viewSorter="Name">
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest3248"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest3246"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest3245"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" viewSorter="Name"/>
+    <children xsi:type="editmodel:CompartmentEditModel" viewSorter="Name"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" location="4943,3603" size="156,29" targetConnections="//@children.30/@sourceConnections.0 //@children.30/@sourceConnections.3" id="cosmic1ShawnKendalltest841" runTimeClassModel="cosmic1ShawnKendalltest880;cosmic1ShawnKendalltest859;cosmic1ShawnKendalltest848;cosmic1ShawnKendalltest846;cosmic1ShawnKendalltest868;cosmic1ShawnKendalltest857;cosmic1ShawnKendalltest845;cosmic1ShawnKendalltest844;cosmic1ShawnKendalltest887;cosmic1ShawnKendalltest865;cosmic1ShawnKendalltest876;cosmic1ShawnKendalltest842;cosmic1ShawnKendalltest852;cosmic1ShawnKendalltest885;cosmic1ShawnKendalltest862;cosmic1ShawnKendalltest873;cosmic1ShawnKendalltest850;cosmic1ShawnKendalltest883;cosmic1ShawnKendalltest870">
+    <children xsi:type="editmodel:CompartmentEditModel" viewSorter="Name"/>
+    <children xsi:type="editmodel:CompartmentEditModel" viewSorter="Name"/>
+    <children xsi:type="editmodel:CompartmentEditModel" viewSorter="Name"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" connectionRouterKind="Manual" source="//@children.26" target="//@children.28/@sourceConnections.1" targetEnd="//@children.26/@sourceConnections.0/@children.1" sourceEnd="//@children.26/@sourceConnections.0/@children.0">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="78,0" anchorKind="FixedAtEdge"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" id="cosmic1ShawnKendalltest850" connectionRouterKind="Manhattan" source="//@children.26" target="//@children.30" targetEnd="//@children.26/@sourceConnections.1/@children.0" sourceEnd="//@children.26/@sourceConnections.1/@children.1">
+      <children xsi:type="editmodel:AssociationEndEditModel" id="cosmic1ShawnKendalltest850" navigable="true" flags="2" multiplicityLabel="//@children.26/@sourceConnections.1/@children.0/@children.1" roleLabel="//@children.26/@sourceConnections.1/@children.0/@children.0">
+        <children xsi:type="editmodel:LabelEditModel" size="48,14" fontInfo="Arial-8-0"/>
+        <children xsi:type="editmodel:LabelEditModel" size="19,14" fontInfo="Arial-8-0"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" id="cosmic1ShawnKendalltest852" connectionRouterKind="Manhattan" source="//@children.26" target="//@children.27" targetEnd="//@children.26/@sourceConnections.2/@children.0" sourceEnd="//@children.26/@sourceConnections.2/@children.1">
+      <children xsi:type="editmodel:AssociationEndEditModel" id="cosmic1ShawnKendalltest852" navigable="true" flags="2" multiplicityLabel="//@children.26/@sourceConnections.2/@children.0/@children.1" roleLabel="//@children.26/@sourceConnections.2/@children.0/@children.0">
+        <children xsi:type="editmodel:LabelEditModel" size="56,14" fontInfo="Arial-8-0"/>
+        <children xsi:type="editmodel:LabelEditModel" size="5,14" fontInfo="Arial-8-0"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="cosmic1ShawnKendalltest896" connectionRouterKind="Manhattan" source="//@children.26" target="//@children.27" targetEnd="//@children.26/@sourceConnections.3/@children.1" sourceEnd="//@children.26/@sourceConnections.3/@children.0">
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="cosmic1ShawnKendalltest892" connectionRouterKind="Manhattan" source="//@children.26" target="//@children.30" targetEnd="//@children.26/@sourceConnections.4/@children.1" sourceEnd="//@children.26/@sourceConnections.4/@children.0">
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" location="3991,3603" size="135,75" targetConnections="//@children.26/@sourceConnections.2 //@children.26/@sourceConnections.3 //@children.30/@sourceConnections.1" id="cosmic1ShawnKendalltest855" runTimeClassModel="cosmic1ShawnKendalltest989;cosmic1ShawnKendalltest1008;cosmic1ShawnKendalltest987;cosmic1ShawnKendalltest997;cosmic1ShawnKendalltest1005;cosmic1ShawnKendalltest1015;cosmic1ShawnKendalltest995;cosmic1ShawnKendalltest1003;cosmic1ShawnKendalltest1013;cosmic1ShawnKendalltest993;cosmic1ShawnKendalltest1011;cosmic1ShawnKendalltest1000;cosmic1ShawnKendalltest991">
+    <children xsi:type="editmodel:CompartmentEditModel" size="96,36" viewSorter="Name">
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest989"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest987"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" viewSorter="Name"/>
+    <children xsi:type="editmodel:CompartmentEditModel" viewSorter="Name"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" connectionRouterKind="Manual" source="//@children.27" target="//@children.28/@sourceConnections.1" targetEnd="//@children.27/@sourceConnections.0/@children.1" sourceEnd="//@children.27/@sourceConnections.0/@children.0">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="67,0" anchorKind="FixedAtEdge"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" id="cosmic1ShawnKendalltest987" connectionRouterKind="Manhattan" source="//@children.27" target="//@children.30" targetEnd="//@children.27/@sourceConnections.1/@children.0" sourceEnd="//@children.27/@sourceConnections.1/@children.1">
+      <children xsi:type="editmodel:AssociationEndEditModel" id="cosmic1ShawnKendalltest987" navigable="true" flags="1" multiplicityLabel="//@children.27/@sourceConnections.1/@children.0/@children.1" roleLabel="//@children.27/@sourceConnections.1/@children.0/@children.0">
+        <children xsi:type="editmodel:LabelEditModel" size="50,14" fontInfo="Arial-8-0"/>
+        <children xsi:type="editmodel:LabelEditModel" size="19,14" fontInfo="Arial-8-0"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="cosmic1ShawnKendalltest1020" connectionRouterKind="Manhattan" source="//@children.27" target="//@children.30" targetEnd="//@children.27/@sourceConnections.2/@children.1" sourceEnd="//@children.27/@sourceConnections.2/@children.0">
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" location="3793,3603" size="168,93" targetConnections="//@children.38/@sourceConnections.1" id="cosmic1ShawnKendalltest1247" runTimeClassModel="cosmic1ShawnKendalltest1306;cosmic1ShawnKendalltest1249;cosmic1ShawnKendalltest1248;cosmic1ShawnKendalltest1268;cosmic1ShawnKendalltest1301;cosmic1ShawnKendalltest1288;cosmic1ShawnKendalltest1265;cosmic1ShawnKendalltest1285;cosmic1ShawnKendalltest1262;cosmic1ShawnKendalltest1282;cosmic1ShawnKendalltest1260;cosmic1ShawnKendalltest1280;cosmic1ShawnKendalltest1258;cosmic1ShawnKendalltest1256;cosmic1ShawnKendalltest1310;cosmic1ShawnKendalltest1299;cosmic1ShawnKendalltest1277;cosmic1ShawnKendalltest1254;cosmic1ShawnKendalltest1296;cosmic1ShawnKendalltest1252;cosmic1ShawnKendalltest1272;cosmic1ShawnKendalltest1250;cosmic1ShawnKendalltest1293;cosmic1ShawnKendalltest1270;cosmic1ShawnKendalltest1290">
+    <children xsi:type="editmodel:CompartmentEditModel" size="145,54" viewSorter="Name">
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest1256"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest1254"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest1248"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" viewSorter="Name"/>
+    <children xsi:type="editmodel:CompartmentEditModel" viewSorter="Name"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="cosmic1ShawnKendalltest1315" connectionRouterKind="Manhattan" source="//@children.28" target="//@children.40" targetEnd="//@children.28/@sourceConnections.0/@children.1" sourceEnd="//@children.28/@sourceConnections.0/@children.0">
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" targetConnections="//@children.26/@sourceConnections.0 //@children.35/@sourceConnections.0 //@children.36/@sourceConnections.1 //@children.37/@sourceConnections.2 //@children.29/@sourceConnections.0 //@children.27/@sourceConnections.0" connectionRouterKind="GeneralizationManhattan" source="//@children.28" target="//@children.39" targetEnd="//@children.28/@sourceConnections.1/@children.1" sourceEnd="//@children.28/@sourceConnections.1/@children.0">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="84,0" anchorKind="FixedAtEdge"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="81,29" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" id="cosmic1ShawnKendalltest1258" connectionRouterKind="Manhattan" source="//@children.28" target="//@children.13" targetEnd="//@children.28/@sourceConnections.2/@children.0" sourceEnd="//@children.28/@sourceConnections.2/@children.1">
+      <children xsi:type="editmodel:AssociationEndEditModel" id="cosmic1ShawnKendalltest1258" navigable="true" flags="4" multiplicityLabel="//@children.28/@sourceConnections.2/@children.0/@children.1" roleLabel="//@children.28/@sourceConnections.2/@children.0/@children.0">
+        <children xsi:type="editmodel:LabelEditModel" size="80,14" fontInfo="Arial-8-0"/>
+        <children xsi:type="editmodel:LabelEditModel" size="19,14" fontInfo="Arial-8-0"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" id="cosmic1ShawnKendalltest1252" connectionRouterKind="Manhattan" source="//@children.28" target="//@children.40" targetEnd="//@children.28/@sourceConnections.3/@children.0" sourceEnd="//@children.28/@sourceConnections.3/@children.1">
+      <children xsi:type="editmodel:AssociationEndEditModel" id="cosmic1ShawnKendalltest1252" navigable="true" flags="4" multiplicityLabel="//@children.28/@sourceConnections.3/@children.0/@children.1" roleLabel="//@children.28/@sourceConnections.3/@children.0/@children.0">
+        <children xsi:type="editmodel:LabelEditModel" size="82,14" fontInfo="Arial-8-0"/>
+        <children xsi:type="editmodel:LabelEditModel" size="19,14" fontInfo="Arial-8-0"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="cosmic1ShawnKendalltest1321" connectionRouterKind="Manhattan" source="//@children.28" target="//@children.13" targetEnd="//@children.28/@sourceConnections.4/@children.1" sourceEnd="//@children.28/@sourceConnections.4/@children.0">
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" location="4156,3603" size="139,40" targetConnections="//@children.29/@sourceConnections.1" id="cosmic1ShawnKendalltest797" runTimeClassModel="cosmic1ShawnKendalltest809;cosmic1ShawnKendalltest808;cosmic1ShawnKendalltest818;cosmic1ShawnKendalltest807;cosmic1ShawnKendalltest828;cosmic1ShawnKendalltest816;cosmic1ShawnKendalltest805;cosmic1ShawnKendalltest804;cosmic1ShawnKendalltest826;cosmic1ShawnKendalltest803;cosmic1ShawnKendalltest814;cosmic1ShawnKendalltest824;cosmic1ShawnKendalltest802;cosmic1ShawnKendalltest801;cosmic1ShawnKendalltest812;cosmic1ShawnKendalltest811;cosmic1ShawnKendalltest821;cosmic1ShawnKendalltest832;cosmic1ShawnKendalltest799;cosmic1ShawnKendalltest810;cosmic1ShawnKendalltest798;cosmic1ShawnKendalltest830">
+    <children xsi:type="editmodel:CompartmentEditModel" viewSorter="Name"/>
+    <children xsi:type="editmodel:CompartmentEditModel" viewSorter="Name"/>
+    <children xsi:type="editmodel:CompartmentEditModel" viewSorter="Name"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" connectionRouterKind="Manual" source="//@children.29" target="//@children.28/@sourceConnections.1" targetEnd="//@children.29/@sourceConnections.0/@children.1" sourceEnd="//@children.29/@sourceConnections.0/@children.0">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="69,0" anchorKind="FixedAtEdge"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" id="cosmic1ShawnKendalltest798" connectionRouterKind="Manhattan" source="//@children.29" target="//@children.29" targetEnd="//@children.29/@sourceConnections.1/@children.0" sourceEnd="//@children.29/@sourceConnections.1/@children.1">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,20" id="cosmic1ShawnKendalltest798" anchorKind="FixedAtEdge" navigable="true" flags="2" multiplicityLabel="//@children.29/@sourceConnections.1/@children.0/@children.1" roleLabel="//@children.29/@sourceConnections.1/@children.0/@children.0">
+        <children xsi:type="editmodel:LabelEditModel" size="49,14" fontInfo="Arial-8-0"/>
+        <children xsi:type="editmodel:LabelEditModel" size="19,14" fontInfo="Arial-8-0"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="20,0" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" id="cosmic1ShawnKendalltest801" connectionRouterKind="Manhattan" source="//@children.29" target="//@children.30" targetEnd="//@children.29/@sourceConnections.2/@children.0" sourceEnd="//@children.29/@sourceConnections.2/@children.1">
+      <children xsi:type="editmodel:AssociationEndEditModel" id="cosmic1ShawnKendalltest801" navigable="true" flags="2" multiplicityLabel="//@children.29/@sourceConnections.2/@children.0/@children.1" roleLabel="//@children.29/@sourceConnections.2/@children.0/@children.0">
+        <children xsi:type="editmodel:LabelEditModel" size="68,14" fontInfo="Arial-8-0"/>
+        <children xsi:type="editmodel:LabelEditModel" size="19,14" fontInfo="Arial-8-0"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" id="cosmic1ShawnKendalltest812" connectionRouterKind="Manhattan" source="//@children.29" target="//@children.41" targetEnd="//@children.29/@sourceConnections.3/@children.0" sourceEnd="//@children.29/@sourceConnections.3/@children.1">
+      <children xsi:type="editmodel:AssociationEndEditModel" id="cosmic1ShawnKendalltest812" navigable="true" flags="2" multiplicityLabel="//@children.29/@sourceConnections.3/@children.0/@children.1" roleLabel="//@children.29/@sourceConnections.3/@children.0/@children.0">
+        <children xsi:type="editmodel:LabelEditModel" size="96,14" fontInfo="Arial-8-0"/>
+        <children xsi:type="editmodel:LabelEditModel" size="19,14" fontInfo="Arial-8-0"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" id="cosmic1ShawnKendalltest810" connectionRouterKind="Manhattan" source="//@children.29" target="//@children.34" targetEnd="//@children.29/@sourceConnections.4/@children.0" sourceEnd="//@children.29/@sourceConnections.4/@children.1">
+      <children xsi:type="editmodel:AssociationEndEditModel" id="cosmic1ShawnKendalltest810" navigable="true" flags="2" multiplicityLabel="//@children.29/@sourceConnections.4/@children.0/@children.1" roleLabel="//@children.29/@sourceConnections.4/@children.0/@children.0">
+        <children xsi:type="editmodel:LabelEditModel" size="14,14" fontInfo="Arial-8-0"/>
+        <children xsi:type="editmodel:LabelEditModel" size="19,14" fontInfo="Arial-8-0"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" id="cosmic1ShawnKendalltest811" connectionRouterKind="Manhattan" source="//@children.29" target="//@children.34" targetEnd="//@children.29/@sourceConnections.5/@children.0" sourceEnd="//@children.29/@sourceConnections.5/@children.1">
+      <children xsi:type="editmodel:AssociationEndEditModel" id="cosmic1ShawnKendalltest811" navigable="true" flags="2" multiplicityLabel="//@children.29/@sourceConnections.5/@children.0/@children.1" roleLabel="//@children.29/@sourceConnections.5/@children.0/@children.0">
+        <children xsi:type="editmodel:LabelEditModel" size="34,14" fontInfo="Arial-8-0"/>
+        <children xsi:type="editmodel:LabelEditModel" size="19,14" fontInfo="Arial-8-0"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" id="cosmic1ShawnKendalltest799" connectionRouterKind="Manhattan" source="//@children.29" target="//@children.30" targetEnd="//@children.29/@sourceConnections.6/@children.0" sourceEnd="//@children.29/@sourceConnections.6/@children.1">
+      <children xsi:type="editmodel:AssociationEndEditModel" id="cosmic1ShawnKendalltest799" navigable="true" flags="2" multiplicityLabel="//@children.29/@sourceConnections.6/@children.0/@children.1" roleLabel="//@children.29/@sourceConnections.6/@children.0/@children.0">
+        <children xsi:type="editmodel:LabelEditModel" size="62,14" fontInfo="Arial-8-0"/>
+        <children xsi:type="editmodel:LabelEditModel" size="19,14" fontInfo="Arial-8-0"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="cosmic1ShawnKendalltest835" connectionRouterKind="Manhattan" source="//@children.29" target="//@children.30" targetEnd="//@children.29/@sourceConnections.7/@children.1" sourceEnd="//@children.29/@sourceConnections.7/@children.0">
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="cosmic1ShawnKendalltest837" connectionRouterKind="Manhattan" source="//@children.29" target="//@children.34" targetEnd="//@children.29/@sourceConnections.8/@children.1" sourceEnd="//@children.29/@sourceConnections.8/@children.0">
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="cosmic1ShawnKendalltest839" connectionRouterKind="Manhattan" source="//@children.29" target="//@children.41" targetEnd="//@children.29/@sourceConnections.9/@children.1" sourceEnd="//@children.29/@sourceConnections.9/@children.0">
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" location="3509,3603" size="254,741" targetConnections="//@children.29/@sourceConnections.2 //@children.29/@sourceConnections.6 //@children.29/@sourceConnections.7 //@children.26/@sourceConnections.1 //@children.26/@sourceConnections.4 //@children.27/@sourceConnections.1 //@children.27/@sourceConnections.2 //@children.35/@sourceConnections.2 //@children.35/@sourceConnections.3 //@children.35/@sourceConnections.5 //@children.33/@sourceConnections.0 //@children.33/@sourceConnections.1 //@children.19/@sourceConnections.1 //@children.17/@sourceConnections.0 //@children.22/@sourceConnections.0 //@children.33/@sourceConnections.2 //@children.33/@sourceConnections.3 //@children.33/@sourceConnections.4 //@children.33/@sourceConnections.5 //@children.19/@sourceConnections.2 //@children.17/@sourceConnections.1" id="cosmic1ShawnKendalltest800" runTimeClassModel="cosmic1ShawnKendalltest1729;cosmic1ShawnKendalltest1528;cosmic1ShawnKendalltest1569;cosmic1ShawnKendalltest1723;cosmic1ShawnKendalltest1766;cosmic1ShawnKendalltest1721;cosmic1ShawnKendalltest1600;cosmic1ShawnKendalltest1567;cosmic1ShawnKendalltest1688;cosmic1ShawnKendalltest1643;cosmic1ShawnKendalltest1565;cosmic1ShawnKendalltest1641;cosmic1ShawnKendalltest1563;cosmic1ShawnKendalltest1682;cosmic1ShawnKendalltest1561;cosmic1ShawnKendalltest1716;cosmic1ShawnKendalltest1636;cosmic1ShawnKendalltest1679;cosmic1ShawnKendalltest1634;cosmic1ShawnKendalltest1677;cosmic1ShawnKendalltest1632;cosmic1ShawnKendalltest1599;cosmic1ShawnKendalltest1753;cosmic1ShawnKendalltest1675;cosmic1ShawnKendalltest1630;cosmic1ShawnKendalltest1597;cosmic1ShawnKendalltest1595;cosmic1ShawnKendalltest1593;cosmic1ShawnKendalltest1748;cosmic1ShawnKendalltest1549;cosmic1ShawnKendalltest1703;cosmic1ShawnKendalltest1701;cosmic1ShawnKendalltest1547;cosmic1ShawnKendalltest1668;cosmic1ShawnKendalltest1545;cosmic1ShawnKendalltest1787;cosmic1ShawnKendalltest1588;cosmic1ShawnKendalltest1543;cosmic1ShawnKendalltest1586;cosmic1ShawnKendalltest1541;cosmic1ShawnKendalltest1662;cosmic1ShawnKendalltest1584;cosmic1ShawnKendalltest1660;cosmic1ShawnKendalltest1781;cosmic1ShawnKendalltest1618;cosmic1ShawnKendalltest1579;cosmic1ShawnKendalltest1577;cosmic1ShawnKendalltest1731;cosmic1ShawnKendalltest1774;cosmic1ShawnKendalltest1532;cosmic1ShawnKendalltest1653;cosmic1ShawnKendalltest1575;cosmic1ShawnKendalltest1696;cosmic1ShawnKendalltest1530;cosmic1ShawnKendalltest1573;cosmic1ShawnKendalltest1694;cosmic1ShawnKendalltest1571;cosmic1ShawnKendalltest1692;cosmic1ShawnKendalltest1690;cosmic1ShawnKendalltest1607;cosmic1ShawnKendalltest1605;cosmic1ShawnKendalltest1726;cosmic1ShawnKendalltest1648;cosmic1ShawnKendalltest1769;cosmic1ShawnKendalltest1603;cosmic1ShawnKendalltest1646;cosmic1ShawnKendalltest1601;cosmic1ShawnKendalltest1685;cosmic1ShawnKendalltest1761;cosmic1ShawnKendalltest1719;cosmic1ShawnKendalltest1639;cosmic1ShawnKendalltest1713;cosmic1ShawnKendalltest1559;cosmic1ShawnKendalltest1711;cosmic1ShawnKendalltest1557;cosmic1ShawnKendalltest1555;cosmic1ShawnKendalltest1598;cosmic1ShawnKendalltest1553;cosmic1ShawnKendalltest1596;cosmic1ShawnKendalltest1551;cosmic1ShawnKendalltest1793;cosmic1ShawnKendalltest1672;cosmic1ShawnKendalltest1594;cosmic1ShawnKendalltest1791;cosmic1ShawnKendalltest1670;cosmic1ShawnKendalltest1592;cosmic1ShawnKendalltest1590;cosmic1ShawnKendalltest1708;cosmic1ShawnKendalltest1706;cosmic1ShawnKendalltest1628;cosmic1ShawnKendalltest1626;cosmic1ShawnKendalltest1624;cosmic1ShawnKendalltest1743;cosmic1ShawnKendalltest1622;cosmic1ShawnKendalltest1665;cosmic1ShawnKendalltest1620;cosmic1ShawnKendalltest1784;cosmic1ShawnKendalltest1583;cosmic1ShawnKendalltest1581;cosmic1ShawnKendalltest1617;cosmic1ShawnKendalltest1738;cosmic1ShawnKendalltest1615;cosmic1ShawnKendalltest1537;cosmic1ShawnKendalltest1613;cosmic1ShawnKendalltest1734;cosmic1ShawnKendalltest1777;cosmic1ShawnKendalltest1611;cosmic1ShawnKendalltest1699;cosmic1ShawnKendalltest1650">
+    <children xsi:type="editmodel:CompartmentEditModel" size="231,702" viewSorter="Name">
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest1583"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest1532"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest1530"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest1528"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest1537"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest1630"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest1596"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest1605"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest1607"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest1613"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest1590"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest1581"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest1639"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest1611"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest1641"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest1603"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest1622"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest1620"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest1593"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest1598"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest1597"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest1626"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest1618"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest1617"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest1628"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest1594"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest1600"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest1586"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest1588"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest1577"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest1592"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest1599"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest1584"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest1575"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest1579"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest1624"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest1615"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest1595"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest1601"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" viewSorter="Name"/>
+    <children xsi:type="editmodel:CompartmentEditModel" viewSorter="Name"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="cosmic1ShawnKendalltest1800" connectionRouterKind="Manhattan" source="//@children.30" target="//@children.26" targetEnd="//@children.30/@sourceConnections.0/@children.1" sourceEnd="//@children.30/@sourceConnections.0/@children.0">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="188,0"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="cosmic1ShawnKendalltest1798" connectionRouterKind="Manhattan" source="//@children.30" target="//@children.27" targetEnd="//@children.30/@sourceConnections.1/@children.1" sourceEnd="//@children.30/@sourceConnections.1/@children.0">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="188,0"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" connectionRouterKind="Manual" source="//@children.30" target="//@children.42" targetEnd="//@children.30/@sourceConnections.2/@children.1" sourceEnd="//@children.30/@sourceConnections.2/@children.0">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="199,0"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" id="cosmic1ShawnKendalltest1617" connectionRouterKind="Manhattan" source="//@children.30" target="//@children.26" targetEnd="//@children.30/@sourceConnections.3/@children.0" sourceEnd="//@children.30/@sourceConnections.3/@children.1">
+      <children xsi:type="editmodel:AssociationEndEditModel" id="cosmic1ShawnKendalltest1617" navigable="true" multiplicityLabel="//@children.30/@sourceConnections.3/@children.0/@children.1" roleLabel="//@children.30/@sourceConnections.3/@children.0/@children.0">
+        <children xsi:type="editmodel:LabelEditModel" size="107,14" fontInfo="Arial-8-0"/>
+        <children xsi:type="editmodel:LabelEditModel" size="19,14" fontInfo="Arial-8-0"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="188,0"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" id="cosmic1ShawnKendalltest1605" connectionRouterKind="Manhattan" source="//@children.30" target="//@children.18" targetEnd="//@children.30/@sourceConnections.4/@children.0" sourceEnd="//@children.30/@sourceConnections.4/@children.1">
+      <children xsi:type="editmodel:AssociationEndEditModel" id="cosmic1ShawnKendalltest1605" navigable="true" flags="1" multiplicityLabel="//@children.30/@sourceConnections.4/@children.0/@children.1" roleLabel="//@children.30/@sourceConnections.4/@children.0/@children.0">
+        <children xsi:type="editmodel:LabelEditModel" size="35,14" fontInfo="Arial-8-0"/>
+        <children xsi:type="editmodel:LabelEditModel" size="19,14" fontInfo="Arial-8-0"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" id="cosmic1ShawnKendalltest1532" connectionRouterKind="Manhattan" source="//@children.30" target="//@children.21" targetEnd="//@children.30/@sourceConnections.5/@children.0" sourceEnd="//@children.30/@sourceConnections.5/@children.1">
+      <children xsi:type="editmodel:AssociationEndEditModel" id="cosmic1ShawnKendalltest1532" navigable="true" flags="1" multiplicityLabel="//@children.30/@sourceConnections.5/@children.0/@children.1" roleLabel="//@children.30/@sourceConnections.5/@children.0/@children.0">
+        <children xsi:type="editmodel:LabelEditModel" size="65,14" fontInfo="Arial-8-0"/>
+        <children xsi:type="editmodel:LabelEditModel" size="5,14" fontInfo="Arial-8-0"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" id="cosmic1ShawnKendalltest1607" connectionRouterKind="Manhattan" source="//@children.30" target="//@children.12" targetEnd="//@children.30/@sourceConnections.6/@children.0" sourceEnd="//@children.30/@sourceConnections.6/@children.1">
+      <children xsi:type="editmodel:AssociationEndEditModel" id="cosmic1ShawnKendalltest1607" navigable="true" flags="1" multiplicityLabel="//@children.30/@sourceConnections.6/@children.0/@children.1" roleLabel="//@children.30/@sourceConnections.6/@children.0/@children.0">
+        <children xsi:type="editmodel:LabelEditModel" size="89,14" fontInfo="Arial-8-0"/>
+        <children xsi:type="editmodel:LabelEditModel" size="5,14" fontInfo="Arial-8-0"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="cosmic1ShawnKendalltest1808" connectionRouterKind="Manhattan" source="//@children.30" target="//@children.18" targetEnd="//@children.30/@sourceConnections.7/@children.1" sourceEnd="//@children.30/@sourceConnections.7/@children.0">
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="cosmic1ShawnKendalltest1806" connectionRouterKind="Manhattan" source="//@children.30" target="//@children.21" targetEnd="//@children.30/@sourceConnections.8/@children.1" sourceEnd="//@children.30/@sourceConnections.8/@children.0">
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" location="3271,3352" size="179,201" targetConnections="//@children.43/@sourceConnections.0 //@children.34/@sourceConnections.1 //@children.34/@sourceConnections.2" id="cosmic1ShawnKendalltest623" runTimeClassModel="cosmic1ShawnKendalltest680;cosmic1ShawnKendalltest719;cosmic1ShawnKendalltest717;cosmic1ShawnKendalltest639;cosmic1ShawnKendalltest715;cosmic1ShawnKendalltest659;cosmic1ShawnKendalltest637;cosmic1ShawnKendalltest713;cosmic1ShawnKendalltest635;cosmic1ShawnKendalltest657;cosmic1ShawnKendalltest678;cosmic1ShawnKendalltest711;cosmic1ShawnKendalltest699;cosmic1ShawnKendalltest655;cosmic1ShawnKendalltest633;cosmic1ShawnKendalltest676;cosmic1ShawnKendalltest697;cosmic1ShawnKendalltest653;cosmic1ShawnKendalltest631;cosmic1ShawnKendalltest674;cosmic1ShawnKendalltest652;cosmic1ShawnKendalltest651;cosmic1ShawnKendalltest671;cosmic1ShawnKendalltest693;cosmic1ShawnKendalltest691;cosmic1ShawnKendalltest709;cosmic1ShawnKendalltest706;cosmic1ShawnKendalltest628;cosmic1ShawnKendalltest649;cosmic1ShawnKendalltest703;cosmic1ShawnKendalltest626;cosmic1ShawnKendalltest648;cosmic1ShawnKendalltest647;cosmic1ShawnKendalltest701;cosmic1ShawnKendalltest624;cosmic1ShawnKendalltest668;cosmic1ShawnKendalltest645;cosmic1ShawnKendalltest688;cosmic1ShawnKendalltest666;cosmic1ShawnKendalltest643;cosmic1ShawnKendalltest664;cosmic1ShawnKendalltest641;cosmic1ShawnKendalltest685;cosmic1ShawnKendalltest662;cosmic1ShawnKendalltest683">
+    <children xsi:type="editmodel:CompartmentEditModel" size="156,162" viewSorter="Name">
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest652"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest626"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest649"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest647"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest651"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest624"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest628"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest653"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest648"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" viewSorter="Name"/>
+    <children xsi:type="editmodel:CompartmentEditModel" viewSorter="Name"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" targetConnections="//@children.34/@sourceConnections.0 //@children.42/@sourceConnections.0 //@children.39/@sourceConnections.0" id="cosmic1ShawnKendalltest4007" connectionRouterKind="GeneralizationManhattan" source="//@children.31" target="//@children.40" targetEnd="//@children.31/@sourceConnections.0/@children.1" sourceEnd="//@children.31/@sourceConnections.0/@children.0">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="89,0" anchorKind="FixedAtEdge"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="44,43" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" id="cosmic1ShawnKendalltest4006" connectionRouterKind="Manual" source="//@children.31" target="//@children.44" targetEnd="//@children.31/@sourceConnections.1/@children.1" sourceEnd="//@children.31/@sourceConnections.1/@children.0">
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="cosmic1ShawnKendalltest727" connectionRouterKind="Manhattan" source="//@children.31" target="//@children.34" targetEnd="//@children.31/@sourceConnections.2/@children.1" sourceEnd="//@children.31/@sourceConnections.2/@children.0">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="179,0"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+  </children>
+  <children xsi:type="editmodel:InterfaceEditModel" location="3935,3259" size="108,43" targetConnections="//@children.15/@sourceConnections.0 //@children.15/@sourceConnections.1 //@children.9/@sourceConnections.3 //@children.39/@sourceConnections.1 //@children.38/@sourceConnections.2 //@children.38/@sourceConnections.4" id="cosmic1ShawnKendalltest50" runTimeClassModel="cosmic1ShawnKendalltest2835;cosmic1ShawnKendalltest2833;cosmic1ShawnKendalltest2831">
+    <children xsi:type="editmodel:CompartmentEditModel" viewSorter="Name"/>
+    <children xsi:type="editmodel:CompartmentEditModel" viewSorter="Name"/>
+    <children xsi:type="editmodel:CompartmentEditModel" viewSorter="Name"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" location="3546,4394" size="179,885" targetConnections="//@children.36/@sourceConnections.2 //@children.36/@sourceConnections.6" id="cosmic1ShawnKendalltest922" runTimeClassModel="cosmic1ShawnKendalltest1848;cosmic1ShawnKendalltest1846;cosmic1ShawnKendalltest1889;cosmic1ShawnKendalltest1965;cosmic1ShawnKendalltest1844;cosmic1ShawnKendalltest1887;cosmic1ShawnKendalltest1963;cosmic1ShawnKendalltest1842;cosmic1ShawnKendalltest1885;cosmic1ShawnKendalltest1840;cosmic1ShawnKendalltest1961;cosmic1ShawnKendalltest2059;cosmic1ShawnKendalltest1883;cosmic1ShawnKendalltest2014;cosmic1ShawnKendalltest2057;cosmic1ShawnKendalltest1881;cosmic1ShawnKendalltest2053;cosmic1ShawnKendalltest2051;cosmic1ShawnKendalltest1919;cosmic1ShawnKendalltest1917;cosmic1ShawnKendalltest1915;cosmic1ShawnKendalltest1913;cosmic1ShawnKendalltest1878;cosmic1ShawnKendalltest1911;cosmic1ShawnKendalltest1954;cosmic1ShawnKendalltest1876;cosmic1ShawnKendalltest1874;cosmic1ShawnKendalltest2005;cosmic1ShawnKendalltest1950;cosmic1ShawnKendalltest1872;cosmic1ShawnKendalltest2003;cosmic1ShawnKendalltest1870;cosmic1ShawnKendalltest1991;cosmic1ShawnKendalltest2001;cosmic1ShawnKendalltest1908;cosmic1ShawnKendalltest1906;cosmic1ShawnKendalltest1949;cosmic1ShawnKendalltest1828;cosmic1ShawnKendalltest1904;cosmic1ShawnKendalltest1947;cosmic1ShawnKendalltest1902;cosmic1ShawnKendalltest1900;cosmic1ShawnKendalltest1943;cosmic1ShawnKendalltest1941;cosmic1ShawnKendalltest1984;cosmic1ShawnKendalltest2039;cosmic1ShawnKendalltest2037;cosmic1ShawnKendalltest2035;cosmic1ShawnKendalltest2033;cosmic1ShawnKendalltest2076;cosmic1ShawnKendalltest2031;cosmic1ShawnKendalltest2074;cosmic1ShawnKendalltest2072;cosmic1ShawnKendalltest1938;cosmic1ShawnKendalltest1936;cosmic1ShawnKendalltest1858;cosmic1ShawnKendalltest1934;cosmic1ShawnKendalltest1856;cosmic1ShawnKendalltest1899;cosmic1ShawnKendalltest1932;cosmic1ShawnKendalltest1975;cosmic1ShawnKendalltest1854;cosmic1ShawnKendalltest1897;cosmic1ShawnKendalltest1930;cosmic1ShawnKendalltest1973;cosmic1ShawnKendalltest1852;cosmic1ShawnKendalltest1895;cosmic1ShawnKendalltest1971;cosmic1ShawnKendalltest2026;cosmic1ShawnKendalltest1850;cosmic1ShawnKendalltest2069;cosmic1ShawnKendalltest1893;cosmic1ShawnKendalltest1891;cosmic1ShawnKendalltest2067;cosmic1ShawnKendalltest2065;cosmic1ShawnKendalltest2063;cosmic1ShawnKendalltest2061;cosmic1ShawnKendalltest1929;cosmic1ShawnKendalltest1927;cosmic1ShawnKendalltest1925;cosmic1ShawnKendalltest1968;cosmic1ShawnKendalltest1923;cosmic1ShawnKendalltest1921;cosmic1ShawnKendalltest2017;cosmic1ShawnKendalltest2011;cosmic1ShawnKendalltest1838;cosmic1ShawnKendalltest1959;cosmic1ShawnKendalltest1914;cosmic1ShawnKendalltest1957;cosmic1ShawnKendalltest1836;cosmic1ShawnKendalltest1879;cosmic1ShawnKendalltest1912;cosmic1ShawnKendalltest1834;cosmic1ShawnKendalltest1910;cosmic1ShawnKendalltest2008;cosmic1ShawnKendalltest1832;cosmic1ShawnKendalltest1953;cosmic1ShawnKendalltest1996;cosmic1ShawnKendalltest1830;cosmic1ShawnKendalltest1951;cosmic1ShawnKendalltest2049;cosmic1ShawnKendalltest2047;cosmic1ShawnKendalltest2045;cosmic1ShawnKendalltest2043;cosmic1ShawnKendalltest2041;cosmic1ShawnKendalltest1909;cosmic1ShawnKendalltest1907;cosmic1ShawnKendalltest1829;cosmic1ShawnKendalltest1905;cosmic1ShawnKendalltest1948;cosmic1ShawnKendalltest1903;cosmic1ShawnKendalltest1989;cosmic1ShawnKendalltest1868;cosmic1ShawnKendalltest1901;cosmic1ShawnKendalltest1944;cosmic1ShawnKendalltest1866;cosmic1ShawnKendalltest1987;cosmic1ShawnKendalltest1942;cosmic1ShawnKendalltest1864;cosmic1ShawnKendalltest1940;cosmic1ShawnKendalltest1862;cosmic1ShawnKendalltest1860;cosmic1ShawnKendalltest1939;cosmic1ShawnKendalltest1937;cosmic1ShawnKendalltest1935;cosmic1ShawnKendalltest1978;cosmic1ShawnKendalltest1933;cosmic1ShawnKendalltest1931;cosmic1ShawnKendalltest1898;cosmic1ShawnKendalltest2029;cosmic1ShawnKendalltest1896;cosmic1ShawnKendalltest2023;cosmic1ShawnKendalltest2021">
+    <children xsi:type="editmodel:CompartmentEditModel" size="156,846" viewSorter="Name">
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest1850"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest1856"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest1868"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest1881"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest1883"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest1930"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest1872"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest1933"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest1895"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest1939"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest1858"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest1899"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest1937"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest1932"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest1903"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest1852"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest1961"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest1929"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest1828"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest1900"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest1829"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest1854"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest1844"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest1846"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest1848"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest1838"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest1840"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest1842"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest1934"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest1931"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest1898"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest1936"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest1891"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest1897"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest1935"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest1860"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest1862"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest1893"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest1896"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest1938"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest1834"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest1830"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest1832"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest1836"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest1870"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest1864"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest1866"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" viewSorter="Name"/>
+    <children xsi:type="editmodel:CompartmentEditModel" viewSorter="Name"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" connectionRouterKind="Manual" source="//@children.33" target="//@children.30" targetEnd="//@children.33/@sourceConnections.0/@children.1" sourceEnd="//@children.33/@sourceConnections.0/@children.0">
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="cosmic1ShawnKendalltest2084" connectionRouterKind="Manhattan" source="//@children.33" target="//@children.30" targetEnd="//@children.33/@sourceConnections.1/@children.1" sourceEnd="//@children.33/@sourceConnections.1/@children.0">
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" id="cosmic1ShawnKendalltest1895" connectionRouterKind="Manhattan" source="//@children.33" target="//@children.30" targetEnd="//@children.33/@sourceConnections.2/@children.0" sourceEnd="//@children.33/@sourceConnections.2/@children.1">
+      <children xsi:type="editmodel:AssociationEndEditModel" id="cosmic1ShawnKendalltest1895" navigable="true" flags="1" multiplicityLabel="//@children.33/@sourceConnections.2/@children.0/@children.1" roleLabel="//@children.33/@sourceConnections.2/@children.0/@children.0">
+        <children xsi:type="editmodel:LabelEditModel" size="72,14" fontInfo="Arial-8-0"/>
+        <children xsi:type="editmodel:LabelEditModel" size="19,14" fontInfo="Arial-8-0"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" id="cosmic1ShawnKendalltest1896" connectionRouterKind="Manhattan" source="//@children.33" target="//@children.30" targetEnd="//@children.33/@sourceConnections.3/@children.0" sourceEnd="//@children.33/@sourceConnections.3/@children.1">
+      <children xsi:type="editmodel:AssociationEndEditModel" id="cosmic1ShawnKendalltest1896" navigable="true" flags="1" multiplicityLabel="//@children.33/@sourceConnections.3/@children.0/@children.1" roleLabel="//@children.33/@sourceConnections.3/@children.0/@children.0">
+        <children xsi:type="editmodel:LabelEditModel" size="89,14" fontInfo="Arial-8-0"/>
+        <children xsi:type="editmodel:LabelEditModel" size="19,14" fontInfo="Arial-8-0"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" id="cosmic1ShawnKendalltest1893" connectionRouterKind="Manhattan" source="//@children.33" target="//@children.30" targetEnd="//@children.33/@sourceConnections.4/@children.0" sourceEnd="//@children.33/@sourceConnections.4/@children.1">
+      <children xsi:type="editmodel:AssociationEndEditModel" id="cosmic1ShawnKendalltest1893" navigable="true" flags="1" multiplicityLabel="//@children.33/@sourceConnections.4/@children.0/@children.1" roleLabel="//@children.33/@sourceConnections.4/@children.0/@children.0">
+        <children xsi:type="editmodel:LabelEditModel" size="64,14" fontInfo="Arial-8-0"/>
+        <children xsi:type="editmodel:LabelEditModel" size="19,14" fontInfo="Arial-8-0"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" id="cosmic1ShawnKendalltest1829" connectionRouterKind="Manhattan" source="//@children.33" target="//@children.30" targetEnd="//@children.33/@sourceConnections.5/@children.0" sourceEnd="//@children.33/@sourceConnections.5/@children.1">
+      <children xsi:type="editmodel:AssociationEndEditModel" id="cosmic1ShawnKendalltest1829" navigable="true" flags="1" multiplicityLabel="//@children.33/@sourceConnections.5/@children.0/@children.1" roleLabel="//@children.33/@sourceConnections.5/@children.0/@children.0">
+        <children xsi:type="editmodel:LabelEditModel" size="50,14" fontInfo="Arial-8-0"/>
+        <children xsi:type="editmodel:LabelEditModel" size="19,14" fontInfo="Arial-8-0"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" location="3480,3352" size="161,201" targetConnections="//@children.31/@sourceConnections.2 //@children.29/@sourceConnections.4 //@children.29/@sourceConnections.5 //@children.29/@sourceConnections.8" id="cosmic1ShawnKendalltest695" runTimeClassModel="cosmic1ShawnKendalltest1408;cosmic1ShawnKendalltest1429;cosmic1ShawnKendalltest1406;cosmic1ShawnKendalltest1426;cosmic1ShawnKendalltest1404;cosmic1ShawnKendalltest1448;cosmic1ShawnKendalltest1469;cosmic1ShawnKendalltest1489;cosmic1ShawnKendalltest1445;cosmic1ShawnKendalltest1466;cosmic1ShawnKendalltest1400;cosmic1ShawnKendalltest1389;cosmic1ShawnKendalltest1422;cosmic1ShawnKendalltest1487;cosmic1ShawnKendalltest1442;cosmic1ShawnKendalltest1387;cosmic1ShawnKendalltest1485;cosmic1ShawnKendalltest1440;cosmic1ShawnKendalltest1462;cosmic1ShawnKendalltest1385;cosmic1ShawnKendalltest1483;cosmic1ShawnKendalltest1383;cosmic1ShawnKendalltest1382;cosmic1ShawnKendalltest1481;cosmic1ShawnKendalltest1380;cosmic1ShawnKendalltest1419;cosmic1ShawnKendalltest1417;cosmic1ShawnKendalltest1459;cosmic1ShawnKendalltest1415;cosmic1ShawnKendalltest1437;cosmic1ShawnKendalltest1435;cosmic1ShawnKendalltest1479;cosmic1ShawnKendalltest1412;cosmic1ShawnKendalltest1455;cosmic1ShawnKendalltest1476;cosmic1ShawnKendalltest1410;cosmic1ShawnKendalltest1452;cosmic1ShawnKendalltest1473;cosmic1ShawnKendalltest1396;cosmic1ShawnKendalltest1393;cosmic1ShawnKendalltest1491">
+    <children xsi:type="editmodel:CompartmentEditModel" size="138,162" viewSorter="Name">
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest1389"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest1404"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest1396"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest1393"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest1406"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest1400"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest1380"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest1383"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest1382"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" viewSorter="Name"/>
+    <children xsi:type="editmodel:CompartmentEditModel" viewSorter="Name"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" connectionRouterKind="Manual" source="//@children.34" target="//@children.31/@sourceConnections.0" targetEnd="//@children.34/@sourceConnections.0/@children.1" sourceEnd="//@children.34/@sourceConnections.0/@children.0">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="80,0" anchorKind="FixedAtEdge"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="cosmic1ShawnKendalltest1498" connectionRouterKind="Manhattan" source="//@children.34" target="//@children.31" targetEnd="//@children.34/@sourceConnections.1/@children.1" sourceEnd="//@children.34/@sourceConnections.1/@children.0">
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" id="cosmic1ShawnKendalltest1383" connectionRouterKind="Manhattan" source="//@children.34" target="//@children.31" targetEnd="//@children.34/@sourceConnections.2/@children.0" sourceEnd="//@children.34/@sourceConnections.2/@children.1">
+      <children xsi:type="editmodel:AssociationEndEditModel" id="cosmic1ShawnKendalltest1383" navigable="true" multiplicityLabel="//@children.34/@sourceConnections.2/@children.0/@children.1" roleLabel="//@children.34/@sourceConnections.2/@children.0/@children.0">
+        <children xsi:type="editmodel:LabelEditModel" size="55,14" fontInfo="Arial-8-0"/>
+        <children xsi:type="editmodel:LabelEditModel" size="19,14" fontInfo="Arial-8-0"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" location="4721,3603" size="192,399" targetConnections="//@children.35/@sourceConnections.4 //@children.8/@sourceConnections.0 //@children.8/@sourceConnections.4" id="cosmic1ShawnKendalltest1022" runTimeClassModel="cosmic1ShawnKendalltest1129;cosmic1ShawnKendalltest1127;cosmic1ShawnKendalltest1048;cosmic1ShawnKendalltest1169;cosmic1ShawnKendalltest1047;cosmic1ShawnKendalltest1124;cosmic1ShawnKendalltest1046;cosmic1ShawnKendalltest1089;cosmic1ShawnKendalltest1166;cosmic1ShawnKendalltest1044;cosmic1ShawnKendalltest1121;cosmic1ShawnKendalltest1163;cosmic1ShawnKendalltest1042;cosmic1ShawnKendalltest1085;cosmic1ShawnKendalltest1161;cosmic1ShawnKendalltest1083;cosmic1ShawnKendalltest1081;cosmic1ShawnKendalltest1118;cosmic1ShawnKendalltest1039;cosmic1ShawnKendalltest1159;cosmic1ShawnKendalltest1115;cosmic1ShawnKendalltest1079;cosmic1ShawnKendalltest1112;cosmic1ShawnKendalltest1156;cosmic1ShawnKendalltest1034;cosmic1ShawnKendalltest1077;cosmic1ShawnKendalltest1154;cosmic1ShawnKendalltest1110;cosmic1ShawnKendalltest1032;cosmic1ShawnKendalltest1075;cosmic1ShawnKendalltest1030;cosmic1ShawnKendalltest1151;cosmic1ShawnKendalltest1073;cosmic1ShawnKendalltest1071;cosmic1ShawnKendalltest1107;cosmic1ShawnKendalltest1149;cosmic1ShawnKendalltest1028;cosmic1ShawnKendalltest1105;cosmic1ShawnKendalltest1102;cosmic1ShawnKendalltest1025;cosmic1ShawnKendalltest1069;cosmic1ShawnKendalltest1146;cosmic1ShawnKendalltest1144;cosmic1ShawnKendalltest1023;cosmic1ShawnKendalltest1067;cosmic1ShawnKendalltest1065;cosmic1ShawnKendalltest1141;cosmic1ShawnKendalltest1063;cosmic1ShawnKendalltest1061;cosmic1ShawnKendalltest1138;cosmic1ShawnKendalltest1059;cosmic1ShawnKendalltest1136;cosmic1ShawnKendalltest1058;cosmic1ShawnKendalltest1057;cosmic1ShawnKendalltest1056;cosmic1ShawnKendalltest1133;cosmic1ShawnKendalltest1176;cosmic1ShawnKendalltest1099;cosmic1ShawnKendalltest1131;cosmic1ShawnKendalltest1054;cosmic1ShawnKendalltest1052;cosmic1ShawnKendalltest1096;cosmic1ShawnKendalltest1172;cosmic1ShawnKendalltest1093;cosmic1ShawnKendalltest1091">
+    <children xsi:type="editmodel:CompartmentEditModel" size="169,360" viewSorter="Name">
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest1039"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest1034"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest1063"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest1047"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest1056"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest1057"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest1058"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest1054"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest1046"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest1075"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest1052"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest1071"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest1044"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest1067"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest1069"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest1030"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest1032"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest1025"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest1028"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest1048"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" viewSorter="Name"/>
+    <children xsi:type="editmodel:CompartmentEditModel" viewSorter="Name"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" connectionRouterKind="Manual" source="//@children.35" target="//@children.28/@sourceConnections.1" targetEnd="//@children.35/@sourceConnections.0/@children.1" sourceEnd="//@children.35/@sourceConnections.0/@children.0">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="96,0" anchorKind="FixedAtEdge"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" id="cosmic1ShawnKendalltest1039" connectionRouterKind="Manhattan" source="//@children.35" target="//@children.13" targetEnd="//@children.35/@sourceConnections.1/@children.0" sourceEnd="//@children.35/@sourceConnections.1/@children.1">
+      <children xsi:type="editmodel:AssociationEndEditModel" id="cosmic1ShawnKendalltest1039" navigable="true" multiplicityLabel="//@children.35/@sourceConnections.1/@children.0/@children.1" roleLabel="//@children.35/@sourceConnections.1/@children.0/@children.0">
+        <children xsi:type="editmodel:LabelEditModel" size="78,14" fontInfo="Arial-8-0"/>
+        <children xsi:type="editmodel:LabelEditModel" size="19,14" fontInfo="Arial-8-0"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" id="cosmic1ShawnKendalltest1032" connectionRouterKind="Manhattan" source="//@children.35" target="//@children.30" targetEnd="//@children.35/@sourceConnections.2/@children.0" sourceEnd="//@children.35/@sourceConnections.2/@children.1">
+      <children xsi:type="editmodel:AssociationEndEditModel" id="cosmic1ShawnKendalltest1032" navigable="true" multiplicityLabel="//@children.35/@sourceConnections.2/@children.0/@children.1" roleLabel="//@children.35/@sourceConnections.2/@children.0/@children.0">
+        <children xsi:type="editmodel:LabelEditModel" size="62,14" fontInfo="Arial-8-0"/>
+        <children xsi:type="editmodel:LabelEditModel" size="19,14" fontInfo="Arial-8-0"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" id="cosmic1ShawnKendalltest1030" connectionRouterKind="Manhattan" source="//@children.35" target="//@children.30" targetEnd="//@children.35/@sourceConnections.3/@children.0" sourceEnd="//@children.35/@sourceConnections.3/@children.1">
+      <children xsi:type="editmodel:AssociationEndEditModel" id="cosmic1ShawnKendalltest1030" navigable="true" multiplicityLabel="//@children.35/@sourceConnections.3/@children.0/@children.1" roleLabel="//@children.35/@sourceConnections.3/@children.0/@children.0">
+        <children xsi:type="editmodel:LabelEditModel" size="56,14" fontInfo="Arial-8-0"/>
+        <children xsi:type="editmodel:LabelEditModel" size="19,14" fontInfo="Arial-8-0"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" id="cosmic1ShawnKendalltest1023" connectionRouterKind="Manhattan" source="//@children.35" target="//@children.35" targetEnd="//@children.35/@sourceConnections.4/@children.0" sourceEnd="//@children.35/@sourceConnections.4/@children.1">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,20" id="cosmic1ShawnKendalltest1023" anchorKind="FixedAtEdge" navigable="true" flags="2" multiplicityLabel="//@children.35/@sourceConnections.4/@children.0/@children.1" roleLabel="//@children.35/@sourceConnections.4/@children.0/@children.0">
+        <children xsi:type="editmodel:LabelEditModel" size="90,14" fontInfo="Arial-8-0"/>
+        <children xsi:type="editmodel:LabelEditModel" size="19,14" fontInfo="Arial-8-0"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="20,0" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="cosmic1ShawnKendalltest1183" connectionRouterKind="Manhattan" source="//@children.35" target="//@children.30" targetEnd="//@children.35/@sourceConnections.5/@children.1" sourceEnd="//@children.35/@sourceConnections.5/@children.0">
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="cosmic1ShawnKendalltest1189" connectionRouterKind="Manhattan" source="//@children.35" target="//@children.13" targetEnd="//@children.35/@sourceConnections.6/@children.1" sourceEnd="//@children.35/@sourceConnections.6/@children.0">
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" location="4513,3603" size="178,165" targetConnections="//@children.36/@sourceConnections.4" id="cosmic1ShawnKendalltest902" runTimeClassModel="cosmic1ShawnKendalltest918;cosmic1ShawnKendalltest916;cosmic1ShawnKendalltest959;cosmic1ShawnKendalltest937;cosmic1ShawnKendalltest914;cosmic1ShawnKendalltest912;cosmic1ShawnKendalltest934;cosmic1ShawnKendalltest911;cosmic1ShawnKendalltest955;cosmic1ShawnKendalltest910;cosmic1ShawnKendalltest930;cosmic1ShawnKendalltest952;cosmic1ShawnKendalltest972;cosmic1ShawnKendalltest970;cosmic1ShawnKendalltest907;cosmic1ShawnKendalltest928;cosmic1ShawnKendalltest905;cosmic1ShawnKendalltest949;cosmic1ShawnKendalltest926;cosmic1ShawnKendalltest903;cosmic1ShawnKendalltest924;cosmic1ShawnKendalltest946;cosmic1ShawnKendalltest967;cosmic1ShawnKendalltest965;cosmic1ShawnKendalltest921;cosmic1ShawnKendalltest943;cosmic1ShawnKendalltest920;cosmic1ShawnKendalltest962;cosmic1ShawnKendalltest940">
+    <children xsi:type="editmodel:CompartmentEditModel" size="155,126" viewSorter="Name">
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest914"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest910"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest916"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest921"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest911"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest907"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest905"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" viewSorter="Name"/>
+    <children xsi:type="editmodel:CompartmentEditModel" viewSorter="Name"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="cosmic1ShawnKendalltest977" connectionRouterKind="Manhattan" source="//@children.36" target="//@children.40" targetEnd="//@children.36/@sourceConnections.0/@children.1" sourceEnd="//@children.36/@sourceConnections.0/@children.0">
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" connectionRouterKind="Manual" source="//@children.36" target="//@children.28/@sourceConnections.1" targetEnd="//@children.36/@sourceConnections.1/@children.1" sourceEnd="//@children.36/@sourceConnections.1/@children.0">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="89,0" anchorKind="FixedAtEdge"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" id="cosmic1ShawnKendalltest921" connectionRouterKind="Manhattan" source="//@children.36" target="//@children.33" targetEnd="//@children.36/@sourceConnections.2/@children.0" sourceEnd="//@children.36/@sourceConnections.2/@children.1">
+      <children xsi:type="editmodel:AssociationEndEditModel" id="cosmic1ShawnKendalltest921" navigable="true" flags="1" multiplicityLabel="//@children.36/@sourceConnections.2/@children.0/@children.1" roleLabel="//@children.36/@sourceConnections.2/@children.0/@children.0">
+        <children xsi:type="editmodel:LabelEditModel" size="83,14" fontInfo="Arial-8-0"/>
+        <children xsi:type="editmodel:LabelEditModel" size="19,14" fontInfo="Arial-8-0"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" id="cosmic1ShawnKendalltest916" connectionRouterKind="Manhattan" source="//@children.36" target="//@children.40" targetEnd="//@children.36/@sourceConnections.3/@children.0" sourceEnd="//@children.36/@sourceConnections.3/@children.1">
+      <children xsi:type="editmodel:AssociationEndEditModel" id="cosmic1ShawnKendalltest916" navigable="true" flags="1" multiplicityLabel="//@children.36/@sourceConnections.3/@children.0/@children.1" roleLabel="//@children.36/@sourceConnections.3/@children.0/@children.0">
+        <children xsi:type="editmodel:LabelEditModel" size="82,14" fontInfo="Arial-8-0"/>
+        <children xsi:type="editmodel:LabelEditModel" size="19,14" fontInfo="Arial-8-0"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" id="cosmic1ShawnKendalltest903" connectionRouterKind="Manhattan" source="//@children.36" target="//@children.36" targetEnd="//@children.36/@sourceConnections.4/@children.0" sourceEnd="//@children.36/@sourceConnections.4/@children.1">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,20" id="cosmic1ShawnKendalltest903" anchorKind="FixedAtEdge" navigable="true" changeability="2" flags="2" multiplicityLabel="//@children.36/@sourceConnections.4/@children.0/@children.1" roleLabel="//@children.36/@sourceConnections.4/@children.0/@children.0">
+        <children xsi:type="editmodel:LabelEditModel" size="49,14" fontInfo="Arial-8-0"/>
+        <children xsi:type="editmodel:LabelEditModel" size="19,14" fontInfo="Arial-8-0"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="20,0" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" id="cosmic1ShawnKendalltest907" connectionRouterKind="Manhattan" source="//@children.36" target="//@children.20" targetEnd="//@children.36/@sourceConnections.5/@children.0" sourceEnd="//@children.36/@sourceConnections.5/@children.1">
+      <children xsi:type="editmodel:AssociationEndEditModel" id="cosmic1ShawnKendalltest907" navigable="true" flags="1" multiplicityLabel="//@children.36/@sourceConnections.5/@children.0/@children.1" roleLabel="//@children.36/@sourceConnections.5/@children.0/@children.0">
+        <children xsi:type="editmodel:LabelEditModel" size="44,14" fontInfo="Arial-8-0"/>
+        <children xsi:type="editmodel:LabelEditModel" size="19,14" fontInfo="Arial-8-0"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="cosmic1ShawnKendalltest985" connectionRouterKind="Manhattan" source="//@children.36" target="//@children.33" targetEnd="//@children.36/@sourceConnections.6/@children.1" sourceEnd="//@children.36/@sourceConnections.6/@children.0">
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="cosmic1ShawnKendalltest981" connectionRouterKind="Manhattan" source="//@children.36" target="//@children.20" targetEnd="//@children.36/@sourceConnections.7/@children.1" sourceEnd="//@children.36/@sourceConnections.7/@children.0">
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" location="4325,3603" size="158,165" targetConnections="//@children.37/@sourceConnections.5 //@children.8/@sourceConnections.1 //@children.8/@sourceConnections.3" id="cosmic1ShawnKendalltest1201" runTimeClassModel="cosmic1ShawnKendalltest1209;cosmic1ShawnKendalltest1219;cosmic1ShawnKendalltest1208;cosmic1ShawnKendalltest1228;cosmic1ShawnKendalltest1206;cosmic1ShawnKendalltest1217;cosmic1ShawnKendalltest1226;cosmic1ShawnKendalltest1215;cosmic1ShawnKendalltest1204;cosmic1ShawnKendalltest1237;cosmic1ShawnKendalltest1214;cosmic1ShawnKendalltest1224;cosmic1ShawnKendalltest1202;cosmic1ShawnKendalltest1235;cosmic1ShawnKendalltest1212;cosmic1ShawnKendalltest1233;cosmic1ShawnKendalltest1222;cosmic1ShawnKendalltest1210;cosmic1ShawnKendalltest1220;cosmic1ShawnKendalltest1230;cosmic1ShawnKendalltest1240">
+    <children xsi:type="editmodel:CompartmentEditModel" size="135,126" viewSorter="Name">
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest1219"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest1215"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest1212"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest1210"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest1208"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest1209"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest1214"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" viewSorter="Name"/>
+    <children xsi:type="editmodel:CompartmentEditModel" viewSorter="Name"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="cosmic1ShawnKendalltest1243" connectionRouterKind="Manhattan" source="//@children.37" target="//@children.40" targetEnd="//@children.37/@sourceConnections.0/@children.1" sourceEnd="//@children.37/@sourceConnections.0/@children.0">
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="cosmic1ShawnKendalltest1245" connectionRouterKind="Manhattan" source="//@children.37" target="//@children.43" targetEnd="//@children.37/@sourceConnections.1/@children.1" sourceEnd="//@children.37/@sourceConnections.1/@children.0">
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" connectionRouterKind="Manual" source="//@children.37" target="//@children.28/@sourceConnections.1" targetEnd="//@children.37/@sourceConnections.2/@children.1" sourceEnd="//@children.37/@sourceConnections.2/@children.0">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="79,0" anchorKind="FixedAtEdge"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" id="cosmic1ShawnKendalltest1208" connectionRouterKind="Manhattan" source="//@children.37" target="//@children.43" targetEnd="//@children.37/@sourceConnections.3/@children.0" sourceEnd="//@children.37/@sourceConnections.3/@children.1">
+      <children xsi:type="editmodel:AssociationEndEditModel" id="cosmic1ShawnKendalltest1208" navigable="true" flags="1" multiplicityLabel="//@children.37/@sourceConnections.3/@children.0/@children.1" roleLabel="//@children.37/@sourceConnections.3/@children.0/@children.0">
+        <children xsi:type="editmodel:LabelEditModel" size="61,14" fontInfo="Arial-8-0"/>
+        <children xsi:type="editmodel:LabelEditModel" size="19,14" fontInfo="Arial-8-0"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" id="cosmic1ShawnKendalltest1209" connectionRouterKind="Manhattan" source="//@children.37" target="//@children.43" targetEnd="//@children.37/@sourceConnections.4/@children.0" sourceEnd="//@children.37/@sourceConnections.4/@children.1">
+      <children xsi:type="editmodel:AssociationEndEditModel" id="cosmic1ShawnKendalltest1209" navigable="true" flags="1" multiplicityLabel="//@children.37/@sourceConnections.4/@children.0/@children.1" roleLabel="//@children.37/@sourceConnections.4/@children.0/@children.0">
+        <children xsi:type="editmodel:LabelEditModel" size="67,14" fontInfo="Arial-8-0"/>
+        <children xsi:type="editmodel:LabelEditModel" size="19,14" fontInfo="Arial-8-0"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" id="cosmic1ShawnKendalltest1202" connectionRouterKind="Manhattan" source="//@children.37" target="//@children.37" targetEnd="//@children.37/@sourceConnections.5/@children.0" sourceEnd="//@children.37/@sourceConnections.5/@children.1">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,20" id="cosmic1ShawnKendalltest1202" anchorKind="FixedAtEdge" navigable="true" changeability="2" flags="2" multiplicityLabel="//@children.37/@sourceConnections.5/@children.0/@children.1" roleLabel="//@children.37/@sourceConnections.5/@children.0/@children.0">
+        <children xsi:type="editmodel:LabelEditModel" size="49,14" fontInfo="Arial-8-0"/>
+        <children xsi:type="editmodel:LabelEditModel" size="19,14" fontInfo="Arial-8-0"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="20,0" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" id="cosmic1ShawnKendalltest1219" connectionRouterKind="Manhattan" source="//@children.37" target="//@children.40" targetEnd="//@children.37/@sourceConnections.6/@children.0" sourceEnd="//@children.37/@sourceConnections.6/@children.1">
+      <children xsi:type="editmodel:AssociationEndEditModel" id="cosmic1ShawnKendalltest1219" navigable="true" multiplicityLabel="//@children.37/@sourceConnections.6/@children.0/@children.1" roleLabel="//@children.37/@sourceConnections.6/@children.0/@children.0">
+        <children xsi:type="editmodel:LabelEditModel" size="80,14" fontInfo="Arial-8-0"/>
+        <children xsi:type="editmodel:LabelEditModel" size="19,14" fontInfo="Arial-8-0"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" location="3787,4394" size="180,165" targetConnections="//@children.38/@sourceConnections.3 //@children.8/@sourceConnections.2 //@children.8/@sourceConnections.5" id="cosmic1ShawnKendalltest1327" runTimeClassModel="cosmic1ShawnKendalltest1328;cosmic1ShawnKendalltest1338;cosmic1ShawnKendalltest1348;cosmic1ShawnKendalltest1369;cosmic1ShawnKendalltest1336;cosmic1ShawnKendalltest1346;cosmic1ShawnKendalltest1357;cosmic1ShawnKendalltest1334;cosmic1ShawnKendalltest1367;cosmic1ShawnKendalltest1344;cosmic1ShawnKendalltest1354;cosmic1ShawnKendalltest1332;cosmic1ShawnKendalltest1365;cosmic1ShawnKendalltest1342;cosmic1ShawnKendalltest1330;cosmic1ShawnKendalltest1363;cosmic1ShawnKendalltest1340;cosmic1ShawnKendalltest1351;cosmic1ShawnKendalltest1371;cosmic1ShawnKendalltest1360">
+    <children xsi:type="editmodel:CompartmentEditModel" size="157,126" viewSorter="Name">
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest1330"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest1334"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest1332"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest1336"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest1344"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest1340"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest1342"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" viewSorter="Name"/>
+    <children xsi:type="editmodel:CompartmentEditModel" viewSorter="Name"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="cosmic1ShawnKendalltest1378" connectionRouterKind="Manhattan" source="//@children.38" target="//@children.39" targetEnd="//@children.38/@sourceConnections.0/@children.1" sourceEnd="//@children.38/@sourceConnections.0/@children.0">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="180,0"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" connectionRouterKind="Manual" source="//@children.38" target="//@children.28" targetEnd="//@children.38/@sourceConnections.1/@children.1" sourceEnd="//@children.38/@sourceConnections.1/@children.0">
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" id="cosmic1ShawnKendalltest1334" connectionRouterKind="Manhattan" source="//@children.38" target="//@children.32" targetEnd="//@children.38/@sourceConnections.2/@children.0" sourceEnd="//@children.38/@sourceConnections.2/@children.1">
+      <children xsi:type="editmodel:AssociationEndEditModel" id="cosmic1ShawnKendalltest1334" navigable="true" flags="1" multiplicityLabel="//@children.38/@sourceConnections.2/@children.0/@children.1" roleLabel="//@children.38/@sourceConnections.2/@children.0/@children.0">
+        <children xsi:type="editmodel:LabelEditModel" size="93,14" fontInfo="Arial-8-0"/>
+        <children xsi:type="editmodel:LabelEditModel" size="19,14" fontInfo="Arial-8-0"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" id="cosmic1ShawnKendalltest1328" connectionRouterKind="Manhattan" source="//@children.38" target="//@children.38" targetEnd="//@children.38/@sourceConnections.3/@children.0" sourceEnd="//@children.38/@sourceConnections.3/@children.1">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,20" id="cosmic1ShawnKendalltest1328" anchorKind="FixedAtEdge" navigable="true" flags="2" multiplicityLabel="//@children.38/@sourceConnections.3/@children.0/@children.1" roleLabel="//@children.38/@sourceConnections.3/@children.0/@children.0">
+        <children xsi:type="editmodel:LabelEditModel" size="49,14" fontInfo="Arial-8-0"/>
+        <children xsi:type="editmodel:LabelEditModel" size="19,14" fontInfo="Arial-8-0"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="20,0" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="cosmic1ShawnKendalltest1374" connectionRouterKind="Manhattan" source="//@children.38" target="//@children.32" targetEnd="//@children.38/@sourceConnections.4/@children.1" sourceEnd="//@children.38/@sourceConnections.4/@children.0">
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" location="3907,3352" size="162,29" targetConnections="//@children.28/@sourceConnections.1 //@children.38/@sourceConnections.0" id="cosmic1ShawnKendalltest771" runTimeClassModel="cosmic1ShawnKendalltest781;cosmic1ShawnKendalltest792;cosmic1ShawnKendalltest790;cosmic1ShawnKendalltest778;cosmic1ShawnKendalltest788;cosmic1ShawnKendalltest776;cosmic1ShawnKendalltest785;cosmic1ShawnKendalltest774;cosmic1ShawnKendalltest783;cosmic1ShawnKendalltest772">
+    <children xsi:type="editmodel:CompartmentEditModel" viewSorter="Name"/>
+    <children xsi:type="editmodel:CompartmentEditModel" viewSorter="Name"/>
+    <children xsi:type="editmodel:CompartmentEditModel" viewSorter="Name"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" id="cosmic1ShawnKendalltest4035" connectionRouterKind="Manual" source="//@children.39" target="//@children.31/@sourceConnections.0" targetEnd="//@children.39/@sourceConnections.0/@children.1" sourceEnd="//@children.39/@sourceConnections.0/@children.0">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="81,0" anchorKind="FixedAtEdge"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" targetConnections="//@children.42/@sourceConnections.1 //@children.41/@sourceConnections.1" id="cosmic1ShawnKendalltest4034" connectionRouterKind="GeneralizationManhattan" source="//@children.39" target="//@children.32" targetEnd="//@children.39/@sourceConnections.1/@children.1" sourceEnd="//@children.39/@sourceConnections.1/@children.0">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="81,0" anchorKind="FixedAtEdge"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="54,43" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+  </children>
+  <children xsi:type="editmodel:InterfaceEditModel" location="3626,3259" size="88,43" targetConnections="//@children.31/@sourceConnections.0 //@children.36/@sourceConnections.0 //@children.37/@sourceConnections.0 //@children.28/@sourceConnections.0 //@children.36/@sourceConnections.3 //@children.37/@sourceConnections.6 //@children.28/@sourceConnections.3" id="cosmic1ShawnKendalltest613" runTimeClassModel="cosmic1ShawnKendalltest618;cosmic1ShawnKendalltest615">
+    <children xsi:type="editmodel:CompartmentEditModel" viewSorter="Name"/>
+    <children xsi:type="editmodel:CompartmentEditModel" viewSorter="Name"/>
+    <children xsi:type="editmodel:CompartmentEditModel" viewSorter="Name"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" location="4099,3352" size="212,183" targetConnections="//@children.29/@sourceConnections.3 //@children.29/@sourceConnections.9 //@children.41/@sourceConnections.4" id="cosmic1ShawnKendalltest813" runTimeClassModel="cosmic1ShawnKendalltest2918;cosmic1ShawnKendalltest2916;cosmic1ShawnKendalltest2839;cosmic1ShawnKendalltest2913;cosmic1ShawnKendalltest2858;cosmic1ShawnKendalltest2879;cosmic1ShawnKendalltest2911;cosmic1ShawnKendalltest2856;cosmic1ShawnKendalltest2877;cosmic1ShawnKendalltest2854;cosmic1ShawnKendalltest2898;cosmic1ShawnKendalltest2875;cosmic1ShawnKendalltest2852;cosmic1ShawnKendalltest2896;cosmic1ShawnKendalltest2873;cosmic1ShawnKendalltest2851;cosmic1ShawnKendalltest2850;cosmic1ShawnKendalltest2893;cosmic1ShawnKendalltest2870;cosmic1ShawnKendalltest2891;cosmic1ShawnKendalltest2909;cosmic1ShawnKendalltest2907;cosmic1ShawnKendalltest2904;cosmic1ShawnKendalltest2925;cosmic1ShawnKendalltest2869;cosmic1ShawnKendalltest2847;cosmic1ShawnKendalltest2901;cosmic1ShawnKendalltest2922;cosmic1ShawnKendalltest2867;cosmic1ShawnKendalltest2888;cosmic1ShawnKendalltest2866;cosmic1ShawnKendalltest2843;cosmic1ShawnKendalltest2886;cosmic1ShawnKendalltest2841;cosmic1ShawnKendalltest2884;cosmic1ShawnKendalltest2862;cosmic1ShawnKendalltest2882;cosmic1ShawnKendalltest2860;cosmic1ShawnKendalltest2880">
+    <children xsi:type="editmodel:CompartmentEditModel" size="189,144" viewSorter="Name">
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest2841"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest2856"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest2847"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest2839"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest2843"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest2852"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest2850"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest2851"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" viewSorter="Name"/>
+    <children xsi:type="editmodel:CompartmentEditModel" viewSorter="Name"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="cosmic1ShawnKendalltest2931" connectionRouterKind="Manhattan" source="//@children.41" target="//@children.16" targetEnd="//@children.41/@sourceConnections.0/@children.1" sourceEnd="//@children.41/@sourceConnections.0/@children.0">
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" connectionRouterKind="Manual" source="//@children.41" target="//@children.39/@sourceConnections.1" targetEnd="//@children.41/@sourceConnections.1/@children.1" sourceEnd="//@children.41/@sourceConnections.1/@children.0">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="106,0" anchorKind="FixedAtEdge"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" id="cosmic1ShawnKendalltest2847" connectionRouterKind="Manhattan" source="//@children.41" target="//@children.16" targetEnd="//@children.41/@sourceConnections.2/@children.0" sourceEnd="//@children.41/@sourceConnections.2/@children.1">
+      <children xsi:type="editmodel:AssociationEndEditModel" id="cosmic1ShawnKendalltest2847" navigable="true" flags="1" multiplicityLabel="//@children.41/@sourceConnections.2/@children.0/@children.1" roleLabel="//@children.41/@sourceConnections.2/@children.0/@children.0">
+        <children xsi:type="editmodel:LabelEditModel" size="60,14" fontInfo="Arial-8-0"/>
+        <children xsi:type="editmodel:LabelEditModel" size="5,14" fontInfo="Arial-8-0"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" id="cosmic1ShawnKendalltest2851" connectionRouterKind="Manhattan" source="//@children.41" target="//@children.16" targetEnd="//@children.41/@sourceConnections.3/@children.0" sourceEnd="//@children.41/@sourceConnections.3/@children.1">
+      <children xsi:type="editmodel:AssociationEndEditModel" id="cosmic1ShawnKendalltest2851" navigable="true" flags="1" multiplicityLabel="//@children.41/@sourceConnections.3/@children.0/@children.1" roleLabel="//@children.41/@sourceConnections.3/@children.0/@children.0">
+        <children xsi:type="editmodel:LabelEditModel" size="107,14" fontInfo="Arial-8-0"/>
+        <children xsi:type="editmodel:LabelEditModel" size="19,14" fontInfo="Arial-8-0"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" id="cosmic1ShawnKendalltest2860" connectionRouterKind="Manhattan" source="//@children.41" target="//@children.41" targetEnd="//@children.41/@sourceConnections.4/@children.0" sourceEnd="//@children.41/@sourceConnections.4/@children.1">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,20" id="cosmic1ShawnKendalltest2860" anchorKind="FixedAtEdge" navigable="true" flags="2" multiplicityLabel="//@children.41/@sourceConnections.4/@children.0/@children.1" roleLabel="//@children.41/@sourceConnections.4/@children.0/@children.0">
+        <children xsi:type="editmodel:LabelEditModel" size="49,14" fontInfo="Arial-8-0"/>
+        <children xsi:type="editmodel:LabelEditModel" size="19,14" fontInfo="Arial-8-0"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="20,0" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" id="cosmic1ShawnKendalltest2866" connectionRouterKind="Manhattan" source="//@children.41" target="//@children.16" targetEnd="//@children.41/@sourceConnections.5/@children.0" sourceEnd="//@children.41/@sourceConnections.5/@children.1">
+      <children xsi:type="editmodel:AssociationEndEditModel" id="cosmic1ShawnKendalltest2866" navigable="true" flags="2" multiplicityLabel="//@children.41/@sourceConnections.5/@children.0/@children.1" roleLabel="//@children.41/@sourceConnections.5/@children.0/@children.0">
+        <children xsi:type="editmodel:LabelEditModel" size="84,14" fontInfo="Arial-8-0"/>
+        <children xsi:type="editmodel:LabelEditModel" size="19,14" fontInfo="Arial-8-0"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" id="cosmic1ShawnKendalltest2850" connectionRouterKind="Manhattan" source="//@children.41" target="//@children.16" targetEnd="//@children.41/@sourceConnections.6/@children.0" sourceEnd="//@children.41/@sourceConnections.6/@children.1">
+      <children xsi:type="editmodel:AssociationEndEditModel" id="cosmic1ShawnKendalltest2850" navigable="true" flags="1" multiplicityLabel="//@children.41/@sourceConnections.6/@children.0/@children.1" roleLabel="//@children.41/@sourceConnections.6/@children.0/@children.0">
+        <children xsi:type="editmodel:LabelEditModel" size="69,14" fontInfo="Arial-8-0"/>
+        <children xsi:type="editmodel:LabelEditModel" size="19,14" fontInfo="Arial-8-0"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" id="cosmic1ShawnKendalltest2867" connectionRouterKind="Manhattan" source="//@children.41" target="//@children.16" targetEnd="//@children.41/@sourceConnections.7/@children.0" sourceEnd="//@children.41/@sourceConnections.7/@children.1">
+      <children xsi:type="editmodel:AssociationEndEditModel" id="cosmic1ShawnKendalltest2867" navigable="true" flags="2" multiplicityLabel="//@children.41/@sourceConnections.7/@children.0/@children.1" roleLabel="//@children.41/@sourceConnections.7/@children.0/@children.0">
+        <children xsi:type="editmodel:LabelEditModel" size="206,14" fontInfo="Arial-8-0"/>
+        <children xsi:type="editmodel:LabelEditModel" size="19,14" fontInfo="Arial-8-0"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" id="cosmic1ShawnKendalltest2852" connectionRouterKind="Manhattan" source="//@children.41" target="//@children.16" targetEnd="//@children.41/@sourceConnections.8/@children.0" sourceEnd="//@children.41/@sourceConnections.8/@children.1">
+      <children xsi:type="editmodel:AssociationEndEditModel" id="cosmic1ShawnKendalltest2852" navigable="true" flags="1" multiplicityLabel="//@children.41/@sourceConnections.8/@children.0/@children.1" roleLabel="//@children.41/@sourceConnections.8/@children.0/@children.0">
+        <children xsi:type="editmodel:LabelEditModel" size="86,14" fontInfo="Arial-8-0"/>
+        <children xsi:type="editmodel:LabelEditModel" size="19,14" fontInfo="Arial-8-0"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" location="3671,3352" size="206,75" targetConnections="//@children.30/@sourceConnections.2" id="cosmic1ShawnKendalltest1500" runTimeClassModel="cosmic1ShawnKendalltest1509;cosmic1ShawnKendalltest1518;cosmic1ShawnKendalltest1507;cosmic1ShawnKendalltest1516;cosmic1ShawnKendalltest1505;cosmic1ShawnKendalltest1514;cosmic1ShawnKendalltest1503;cosmic1ShawnKendalltest1512;cosmic1ShawnKendalltest1501;cosmic1ShawnKendalltest1521">
+    <children xsi:type="editmodel:CompartmentEditModel" size="183,36" viewSorter="Name">
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest1503"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest1501"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" viewSorter="Name"/>
+    <children xsi:type="editmodel:CompartmentEditModel" viewSorter="Name"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" id="cosmic1ShawnKendalltest4195" connectionRouterKind="Manual" source="//@children.42" target="//@children.31/@sourceConnections.0" targetEnd="//@children.42/@sourceConnections.0/@children.1" sourceEnd="//@children.42/@sourceConnections.0/@children.0">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="103,0" anchorKind="FixedAtEdge"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" id="cosmic1ShawnKendalltest4196" connectionRouterKind="Manual" source="//@children.42" target="//@children.39/@sourceConnections.1" targetEnd="//@children.42/@sourceConnections.1/@children.1" sourceEnd="//@children.42/@sourceConnections.1/@children.0">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="103,0" anchorKind="FixedAtEdge"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" location="3271,3603" size="208,75" targetConnections="//@children.37/@sourceConnections.1 //@children.37/@sourceConnections.3 //@children.37/@sourceConnections.4" id="cosmic1ShawnKendalltest729" runTimeClassModel="cosmic1ShawnKendalltest749;cosmic1ShawnKendalltest759;cosmic1ShawnKendalltest737;cosmic1ShawnKendalltest747;cosmic1ShawnKendalltest757;cosmic1ShawnKendalltest735;cosmic1ShawnKendalltest745;cosmic1ShawnKendalltest755;cosmic1ShawnKendalltest733;cosmic1ShawnKendalltest743;cosmic1ShawnKendalltest753;cosmic1ShawnKendalltest741;cosmic1ShawnKendalltest763;cosmic1ShawnKendalltest730;cosmic1ShawnKendalltest751;cosmic1ShawnKendalltest761">
+    <children xsi:type="editmodel:CompartmentEditModel" size="185,36" viewSorter="Name">
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest735"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="cosmic1ShawnKendalltest730"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" viewSorter="Name"/>
+    <children xsi:type="editmodel:CompartmentEditModel" viewSorter="Name"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" connectionRouterKind="Manual" source="//@children.43" target="//@children.31" targetEnd="//@children.43/@sourceConnections.0/@children.1" sourceEnd="//@children.43/@sourceConnections.0/@children.0">
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" id="cosmic1ShawnKendalltest730" connectionRouterKind="Manhattan" source="//@children.43" target="//@children.7" targetEnd="//@children.43/@sourceConnections.1/@children.0" sourceEnd="//@children.43/@sourceConnections.1/@children.1">
+      <children xsi:type="editmodel:AssociationEndEditModel" id="cosmic1ShawnKendalltest730" navigable="true" multiplicityLabel="//@children.43/@sourceConnections.1/@children.0/@children.1" roleLabel="//@children.43/@sourceConnections.1/@children.0/@children.0">
+        <children xsi:type="editmodel:LabelEditModel" size="86,14" fontInfo="Arial-8-0"/>
+        <children xsi:type="editmodel:LabelEditModel" size="19,14" fontInfo="Arial-8-0"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="cosmic1ShawnKendalltest769" connectionRouterKind="Manhattan" source="//@children.43" target="//@children.7" targetEnd="//@children.43/@sourceConnections.2/@children.1" sourceEnd="//@children.43/@sourceConnections.2/@children.0">
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+  </children>
+  <children xsi:type="editmodel:InterfaceEditModel" location="3301,3259" size="118,43" targetConnections="//@children.31/@sourceConnections.1" id="cosmic1ShawnKendalltest3232" runTimeClassModel="cosmic1ShawnKendalltest3241;cosmic1ShawnKendalltest3239;cosmic1ShawnKendalltest3236;cosmic1ShawnKendalltest3234">
+    <children xsi:type="editmodel:CompartmentEditModel" viewSorter="Name"/>
+    <children xsi:type="editmodel:CompartmentEditModel" viewSorter="Name"/>
+    <children xsi:type="editmodel:CompartmentEditModel" viewSorter="Name"/>
+  </children>
+</editmodel:ClassDiagramEditModel>

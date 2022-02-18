@@ -1,0 +1,2 @@
+C:\j2sdk1.4.2\bin\java -Xms128M -Xmx256M -Djava.library.path=..\common\ -classpath .\classes\;..\common\JOGL.jar; com.imi.jist3d.examples.BasicViewer "..\Models\Scenes\Junkyard\Junkyard.rtg" "..\Models\Characters\Puppy4.x" -skybox
+pause

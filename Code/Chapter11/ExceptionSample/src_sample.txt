@@ -1,0 +1,1 @@
+"C:\\Main\\Projects\\Professional Java Game Development\\Chapter__Java Native Interface\\ChapterExamples\\ExceptionSample\\Sample.java"
